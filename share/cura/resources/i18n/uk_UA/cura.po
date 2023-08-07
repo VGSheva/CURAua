@@ -1,0 +1,5475 @@
+# Cura
+# Copyright (C) 2022 UltiMaker.
+# This file is distributed under the same license as the Cura package.
+# Ultimaker <plugins@ultimaker.com>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-04 12:02+0000\n"
+"PO-Revision-Date: 2023-08-03 13:05+0300\n"
+"Last-Translator: VGSheva <admin@ozp.biz>\n"
+"Language-Team: \n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Poedit 3.3.2\n"
+
+#, python-format
+msgctxt "@info 'width', 'depth' and 'height' are variable names that must NOT be translated; just translate the format of ##x##x## mm."
+msgid "%(width).1f x %(depth).1f x %(height).1f mm"
+msgstr "%(width).1f x %(depth).1f x %(height).1f мм"
+
+msgctxt "@action:label"
+msgid "%1 & material"
+msgstr "%1 та матеріал"
+
+msgctxt "@action:label"
+msgid "%1 out of %2"
+msgstr "%1 з %2"
+
+msgctxt "@action:label"
+msgid "%1 override"
+msgid_plural "%1 overrides"
+msgstr[0] "%1 перекрито"
+msgstr[1] "%1 перекрыто"
+msgstr[2] "%1 перекрыто"
+
+msgctxt "@action:label"
+msgid "%1, %2 override"
+msgid_plural "%1, %2 overrides"
+msgstr[0] "%1, %2 перекрито"
+msgstr[1] "%1, %2 перекрыто"
+msgstr[2] "%1, %2 перекрыто"
+
+msgctxt "@label g for grams"
+msgid "%1g"
+msgstr "%1 г"
+
+msgctxt "@label m for meter"
+msgid "%1m"
+msgstr "%1 м"
+
+msgctxt "@action:inmenu menubar:printer"
+msgid "&Add Printer..."
+msgstr "&Добавити принтер..."
+
+msgctxt "@action:inmenu menubar:view"
+msgid "&Camera position"
+msgstr "&Положення камери"
+
+msgctxt "@action:inmenu menubar:profile"
+msgid "&Create profile from current settings/overrides..."
+msgstr "&Створити профіль з поточних налаштувань/перевизначень..."
+
+msgctxt "@action:inmenu menubar:profile"
+msgid "&Discard current changes"
+msgstr "&Відкинути поточні параметри"
+
+msgctxt "@title:menu menubar:toplevel"
+msgid "&Edit"
+msgstr "&Редагувати"
+
+msgctxt "@title:menu menubar:file"
+msgid "&Export..."
+msgstr "&Експорт..."
+
+msgctxt "@title:menu menubar:toplevel"
+msgid "&File"
+msgstr "&Файл"
+
+msgctxt "@action:inmenu menubar:edit"
+msgid "&Group Models"
+msgstr "&Згрупувати моделі"
+
+msgctxt "@title:menu menubar:toplevel"
+msgid "&Help"
+msgstr "&Справка"
+
+msgctxt "@title:menu"
+msgid "&Material"
+msgstr "&Матеріал"
+
+msgctxt "@action:inmenu menubar:edit"
+msgid "&Merge Models"
+msgstr "&Об'єднати моделі"
+
+msgctxt "@action:inmenu"
+msgid "&Multiply Model..."
+msgstr "&Дублювати модель..."
+
+msgctxt "@action:inmenu menubar:file"
+msgid "&New Project..."
+msgstr "&Новий проект..."
+
+msgctxt "@action:inmenu menubar:file"
+msgid "&Open File(s)..."
+msgstr "&Відкрити файл(и)..."
+
+msgctxt "@title:menu menubar:settings"
+msgid "&Printer"
+msgstr "&Принтер"
+
+msgctxt "@action:inmenu menubar:file"
+msgid "&Quit"
+msgstr "&Вихід"
+
+msgctxt "@action:inmenu menubar:edit"
+msgid "&Redo"
+msgstr "&Повернення"
+
+msgctxt "@title:menu menubar:file"
+msgid "&Save Project..."
+msgstr "&Зберегти проект..."
+
+msgctxt "@title:menu menubar:toplevel"
+msgid "&Settings"
+msgstr "&Параметри"
+
+msgctxt "@action:inmenu menubar:edit"
+msgid "&Undo"
+msgstr "&Відміна"
+
+msgctxt "@action:inmenu menubar:profile"
+msgid "&Update profile with current settings/overrides"
+msgstr "&Оновити профіль поточними параметрами"
+
+msgctxt "@title:menu menubar:toplevel"
+msgid "&View"
+msgstr "&Вид"
+
+msgctxt "@label"
+msgid "*You will need to restart the application for these changes to have effect."
+msgstr "*Для застосування цих змін вам потрібно перезапустити програму."
+
+msgctxt "@text"
+msgid ""
+"- Add material profiles and plug-ins from the Marketplace\n"
+"- Back-up and sync your material profiles and plug-ins\n"
+"- Share ideas and get help from 48,000+ users in the UltiMaker community"
+msgstr ""
+"- Додайте налаштування матеріалів та плагіни з Marketplace\n"
+"  - Виконуйте резервне копіювання та синхронізацію своїх налаштувань матеріалів та плагінів\n"
+"  - Діліться ідеями та отримуйте допомогу від 48 000 користувачів у спільноті Ultimaker"
+
+msgctxt "@heading"
+msgid "-- incomplete --"
+msgstr "-- неповний --"
+
+#, python-brace-format
+msgctxt "info:{0} gets replaced by a number of printers"
+msgid "... and {0} other"
+msgid_plural "... and {0} others"
+msgstr[0] "... та ще {0} другий"
+msgstr[1] "... и еще {0} других"
+msgstr[2] "... и еще {0} других"
+
+msgctxt "@action:label"
+msgid "1mm Transmittance (%)"
+msgstr "Прохідність через 1 мм (%)"
+
+msgctxt "@info:title"
+msgid "3D Model Assistant"
+msgstr "Помічник по 3D-моделям"
+
+msgctxt "@action:inmenu menubar:view"
+msgid "3D View"
+msgstr "Тривимірний вигляд"
+
+msgctxt "@info:tooltip"
+msgid "3D View"
+msgstr "3D вид"
+
+msgctxt "@item:inlistbox"
+msgid "3MF File"
+msgstr "Файл 3MF"
+
+msgctxt "name"
+msgid "3MF Reader"
+msgstr "Читання 3MF"
+
+msgctxt "name"
+msgid "3MF Writer"
+msgstr "Запис 3MF"
+
+msgctxt "@error:zip"
+msgid "3MF Writer plug-in is corrupt."
+msgstr "Модуль, що підключається, для запису 3MF пошкоджений."
+
+msgctxt "@item:inlistbox"
+msgid "3MF file"
+msgstr "3MF файл"
+
+msgctxt "@info, %1 is the name of the custom profile"
+msgid "<b>%1</b> custom profile is active and you overwrote some settings."
+msgstr "Активний <b>%1</b> власний профіль, і ви переписали деякі налаштування."
+
+msgctxt "@info, %1 is the name of the custom profile"
+msgid "<b>%1</b> custom profile is overriding some settings."
+msgstr "Власний профіль <b>%1</b> перевизначає деякі налаштування."
+
+msgctxt "@label %i will be replaced with a profile name"
+msgid "<b>Only user changed settings will be saved in the custom profile.</b><br/>For materials that support it, the new custom profile will inherit properties from <b>%1</b>."
+msgstr "<b>В пользовательском профиле будут сохранены только измененные пользователем настройки.</b><br/>Для поддерживающих его материалов новый пользовательский профиль будет наследовать свойства от <b>%1</b>."
+
+#, python-brace-format
+msgctxt "@label OpenGL renderer"
+msgid "<li>OpenGL Renderer: {renderer}</li>"
+msgstr "<li>Засіб візуалізації OpenGL: {renderer}</li>"
+
+#, python-brace-format
+msgctxt "@label OpenGL vendor"
+msgid "<li>OpenGL Vendor: {vendor}</li>"
+msgstr "<li>Постачальник OpenGL: {vendor}</li>"
+
+#, python-brace-format
+msgctxt "@label OpenGL version"
+msgid "<li>OpenGL Version: {version}</li>"
+msgstr "<li>Версія OpenGL: {version}</li>"
+
+msgctxt "@label crash message"
+msgid ""
+"<p><b>A fatal error has occurred in Cura. Please send us this Crash Report to fix the problem</p></b>\n"
+"            <p>Please use the \"Send report\" button to post a bug report automatically to our servers</p>\n"
+"        "
+msgstr ""
+"<p><b>У Cura виникла критична помилка. Надішліть нам цей звіт про збій для усунення проблеми</p></b>\n"
+"             <p>Натисніть кнопку «Надіслати звіт», щоб автоматично опублікувати звіт про помилку на наших серверах</p>        "
+
+msgctxt "@label crash message"
+msgid ""
+"<p><b>Oops, UltiMaker Cura has encountered something that doesn't seem right.</p></b>\n"
+"                    <p>We encountered an unrecoverable error during start up. It was possibly caused by some incorrect configuration files. We suggest to backup and reset your configuration.</p>\n"
+"                    <p>Backups can be found in the configuration folder.</p>\n"
+"                    <p>Please send us this Crash Report to fix the problem.</p>\n"
+"                "
+msgstr ""
+"<p><b>У UltiMaker Cura виявлено помилку.</p></b>\n"
+"                     <p>Під час запуску виявлено непереборну помилку. Можливо, це викликано деякими файлами конфігурації з неправильними даними. Рекомендується створити резервну копію конфігурації та скинути її.</p>\n"
+"                     <p>Резервні копії зберігаються в папці конфігурації.</p>\n"
+"                     <p>Надайте нам цей звіт про збій для усунення проблеми.</p>                "
+
+#, python-brace-format
+msgctxt "@info:status"
+msgid ""
+"<p>One or more 3D models may not print optimally due to the model size and material configuration:</p>\n"
+"<p>{model_names}</p>\n"
+"<p>Find out how to ensure the best possible print quality and reliability.</p>\n"
+"<p><a href=\"https://ultimaker.com/3D-model-assistant\">View print quality guide</a></p>"
+msgstr ""
+"<p>Одна або кілька 3D-моделей можуть не надрукуватися оптимальним чином через розмір моделі та конфігурацію матеріалу:</p>\n"
+"<p>{model_names}</p>\n"
+"<p>Дізнайтеся, як забезпечити максимально можливу якість та високу надійність друку.</p>\n"
+"<p><a href=\"https://ultimaker.com/3D-model-assistant\">Ознайомитись з посібником з якості друку</a></p>"
+
+msgctxt "@label"
+msgid "A USB print is in progress, closing Cura will stop this print. Are you sure?"
+msgstr "Виконується друк через USB, закриття Cura зупинить цей друк. Ви впевнені?"
+
+msgctxt "info:status"
+msgid "A cloud connection is not available for a printer"
+msgid_plural "A cloud connection is not available for some printers"
+msgstr[0] "Підключення до хмари недоступне для принтера"
+msgstr[1] "Подключение к облаку недоступно для некоторых принтеров"
+msgstr[2] "Подключение к облаку недоступно для некоторых принтеров"
+
+msgctxt "@message"
+msgid "A print is still in progress. Cura cannot start another print via USB until the previous print has completed."
+msgstr "Друк ще виконується. Cura не може почати інший друк через USB, доки попередній друк не буде завершено."
+
+msgctxt "@item:inlistbox"
+msgid "AMF File"
+msgstr "Файл AMF"
+
+msgctxt "name"
+msgid "AMF Reader"
+msgstr "Засіб читання AMF"
+
+msgctxt "@label"
+msgid "Abort"
+msgstr "Перервати"
+
+msgctxt "@label"
+msgid "Abort Print"
+msgstr "Перервати друк"
+
+msgctxt "@window:title"
+msgid "Abort print"
+msgstr "Перервати друк"
+
+msgctxt "@label:status"
+msgid "Aborted"
+msgstr "Перервано"
+
+msgctxt "@label"
+msgid "Aborting..."
+msgstr "Переривається..."
+
+msgctxt "@label:status"
+msgid "Aborting..."
+msgstr "Переривається..."
+
+msgctxt "@title:window The argument is the application name."
+msgid "About %1"
+msgstr "Про програму %1"
+
+msgctxt "@action:inmenu menubar:help"
+msgid "About..."
+msgstr "Про Cura..."
+
+msgctxt "@button"
+msgid "Accept"
+msgstr "Прийняти"
+
+msgctxt "description"
+msgid "Accepts G-Code and sends them to a printer. Plugin can also update firmware."
+msgstr "Приймає G-Code та відправляє його на принтер. Плагін також може оновлювати прошивку."
+
+msgctxt "@label"
+msgid "Account synced"
+msgstr "Обліковий запис синхронізовано"
+
+msgctxt "@label:status"
+msgid "Action required"
+msgstr "Необхідна дія"
+
+msgctxt "@action:button"
+msgid "Activate"
+msgstr "Активувати"
+
+msgctxt "@label"
+msgid "Active print"
+msgstr "Іде друк"
+
+msgctxt "@action:button"
+msgid "Add"
+msgstr "Додати"
+
+msgctxt "@button"
+msgid "Add"
+msgstr "Додати"
+
+msgctxt "@action:button"
+msgid "Add New"
+msgstr "Додати новий"
+
+msgctxt "@title:window"
+msgid "Add Printer"
+msgstr "Додавання принтера"
+
+msgctxt "@button"
+msgid "Add UltiMaker printer via Digital Factory"
+msgstr "Додати принтер UltiMaker через Digital Factory"
+
+msgctxt "@label"
+msgid "Add a Cloud printer"
+msgstr "Додати хмарний принтер"
+
+msgctxt "@label"
+msgid "Add a networked printer"
+msgstr "Додати мережевий принтер"
+
+msgctxt "@label"
+msgid "Add a non-networked printer"
+msgstr "Додати принтер, не підключений до мережі"
+
+msgctxt "@action"
+msgid "Add a script"
+msgstr "Додати скрипт"
+
+msgctxt "@option:check"
+msgid "Add icon to system tray *"
+msgstr "Додати іконку в системний трей*"
+
+msgctxt "@button"
+msgid "Add local printer"
+msgstr "Додати локальний принтер"
+
+msgctxt "@option:check"
+msgid "Add machine prefix to job name"
+msgstr "Додати префікс принтера до імені завдання"
+
+msgctxt "@text"
+msgid "Add material settings and plugins from the Marketplace"
+msgstr "Додайте налаштування матеріалів та плагіни з Marketplace"
+
+msgctxt "@action:inmenu Marketplace is a brand name of UltiMaker's, so don't translate."
+msgid "Add more materials from Marketplace"
+msgstr "Додайте більше матеріалів з Магазину"
+
+msgctxt "@button"
+msgid "Add printer"
+msgstr "Додати принтер"
+
+msgctxt "@label"
+msgid "Add printer"
+msgstr "Додавання принтера"
+
+msgctxt "@label"
+msgid "Add printer by IP"
+msgstr "Додати принтер по IP-адресою"
+
+msgctxt "@label"
+msgid "Add printer by IP address"
+msgstr "Додати принтер по IP-адресою"
+
+msgctxt "@button"
+msgid "Add printer manually"
+msgstr "Додати принтер вручну"
+
+#, python-brace-format
+msgctxt "info:status Filled in with printer name and printer model."
+msgid "Adding printer {name} ({model}) from your account"
+msgstr "Додавання принтера {name} ({model}) з вашого облікового запису"
+
+msgctxt "@label"
+msgid "Address"
+msgstr "Адреса"
+
+msgctxt "@label"
+msgid "Adhesion"
+msgstr "Прилипання"
+
+msgctxt "@label"
+msgid "Adhesion Information"
+msgstr "Інформація про адгезію"
+
+msgctxt "@label"
+msgid "Adjusts the density of infill of the print."
+msgstr "Відрегулюйте щільність заповнення під час друку."
+
+msgctxt "support_type description"
+msgid "Adjusts the placement of the support structures. The placement can be set to touching build plate or everywhere. When set to everywhere the support structures will also be printed on the model."
+msgstr "Налаштовує розміщення структур підтримки. Розміщення може бути вибрано з торканням столу або скрізь. Для останнього випадку структури підтримки друкуються навіть на моделі."
+
+msgctxt "@label Header for list of settings."
+msgid "Affected By"
+msgstr "Залежить від"
+
+msgctxt "@label Header for list of settings."
+msgid "Affects"
+msgstr "Впливає на"
+
+msgctxt "@button"
+msgid "Agree"
+msgstr "Приймаю"
+
+msgctxt "@item:inlistbox"
+msgid "All Files (*)"
+msgstr "Усі файли (*)"
+
+#, python-brace-format
+msgctxt "@item:inlistbox"
+msgid "All Supported Types ({0})"
+msgstr "Усі типи, що підтримуються ({0})"
+
+msgctxt "@text:window"
+msgid "Allow sending anonymous data"
+msgstr "Дозволити надсилання анонімних даних"
+
+msgctxt "description"
+msgid "Allows loading and displaying G-code files."
+msgstr "Дозволяє завантажувати та відображати файли G-code."
+
+msgctxt "@option:discardOrKeep"
+msgid "Always ask me this"
+msgstr "Завжди запитувати мене"
+
+msgctxt "@option:openProject"
+msgid "Always ask me this"
+msgstr "Завжди запитувати мене"
+
+msgctxt "@option:discardOrKeep"
+msgid "Always discard changed settings"
+msgstr "Завжди скидати змінені налаштування"
+
+msgctxt "@option:openProject"
+msgid "Always import models"
+msgstr "Завжди импортувати моделі"
+
+msgctxt "@option:openProject"
+msgid "Always open as a project"
+msgstr "Завжди відкривати як проект"
+
+msgctxt "@option:discardOrKeep"
+msgid "Always transfer changed settings to new profile"
+msgstr "Завжди передавати змінені налаштування новому профілю"
+
+msgctxt "@info:tooltip"
+msgid "An model may appear extremely small if its unit is for example in meters rather than millimeters. Should these models be scaled up?"
+msgstr "Модель може бути дуже маленькою, якщо її розмірність задана в метрах, а не міліметрах. Чи слід масштабувати такі моделі?"
+
+msgctxt "@label"
+msgid "Annealing"
+msgstr "Відпал"
+
+msgctxt "@label"
+msgid "Anonymous"
+msgstr "Анонімно"
+
+msgctxt "@label Description for application component"
+msgid "Application framework"
+msgstr "Фреймворк додатку"
+
+msgctxt "@label"
+msgid "Apply Extruder offsets to GCode"
+msgstr "Застосувати зміщення екструдера до GCode"
+
+msgctxt "@info:title"
+msgid "Are you ready for cloud printing?"
+msgstr "Ви готові до хмарного друку?"
+
+msgctxt "@label %1 is the name of a print job."
+msgid "Are you sure you want to abort %1?"
+msgstr "Ви впевнені, що хочете перервати %1?"
+
+msgctxt "@label"
+msgid "Are you sure you want to abort the print?"
+msgstr "Ви впевнені, що хочете перервати друк?"
+
+msgctxt "@label %1 is the name of a print job."
+msgid "Are you sure you want to delete %1?"
+msgstr "Ви впевнені, що хочете видалити %1?"
+
+msgctxt "@dialog:info"
+msgid "Are you sure you want to delete this backup? This cannot be undone."
+msgstr "Ви впевнені, що хочете видалити вказану резервну копію? Ця дія неможливо скасувати."
+
+msgctxt "@label %1 is the application name"
+msgid "Are you sure you want to exit %1?"
+msgstr "Ви впевнені, що хочете вийти з %1?"
+
+msgctxt "@label %1 is the name of a print job."
+msgid "Are you sure you want to move %1 to the top of the queue?"
+msgstr "Ви впевнені, що хочете перемістити %1 на початок черги?"
+
+#, python-brace-format
+msgctxt "@message {printer_name} is replaced with the name of the printer"
+msgid "Are you sure you want to remove {printer_name} temporarily?"
+msgstr "Ви впевнені, що хочете тимчасово видалити {printer_name}?"
+
+msgctxt "@info:question"
+msgid "Are you sure you want to start a new project? This will clear the build plate and any unsaved settings."
+msgstr "Ви впевнені, що хочете почати новий проект? Ця дія очистить панель збірки та всі незбережені налаштування."
+
+msgctxt "@label (%1 is object name)"
+msgid "Are you sure you wish to remove %1? This cannot be undone!"
+msgstr "Ви впевнені, що хочете видалити %1? Це не можна буде скасувати!"
+
+#, python-brace-format
+msgctxt "@label {0} is the name of a printer that's about to be deleted."
+msgid "Are you sure you wish to remove {0}? This cannot be undone!"
+msgstr "Чи дійсно видалити {0}? Цю дію неможливо буде скасувати!"
+
+msgctxt "@action:inmenu menubar:edit"
+msgid "Arrange All Models"
+msgstr "Вирівняти всі моделі"
+
+msgctxt "@action:inmenu menubar:edit"
+msgid "Arrange Selection"
+msgstr "Вирівняти вибрані"
+
+msgctxt "@label:button"
+msgid "Ask a question"
+msgstr "Задайте питання"
+
+msgctxt "@checkbox:description"
+msgid "Auto Backup"
+msgstr "Автоматичне резервне копіювання"
+
+msgctxt "@checkbox:description"
+msgid "Automatically create a backup each day that Cura is started."
+msgstr "Автоматично створювати резервну копію щодня після запуску Cura."
+
+msgctxt "@option:check"
+msgid "Automatically drop models to the build plate"
+msgstr "Автоматично опускати моделі на стіл"
+
+msgctxt "@action:button"
+msgid "Automatically upgrade Firmware"
+msgstr "Автоматичне оновлення прошивки"
+
+msgctxt "@label"
+msgid "Available networked printers"
+msgstr "Доступні мережні принтери"
+
+msgctxt "@item:inlistbox"
+msgid "BMP Image"
+msgstr "BMP зображення"
+
+msgctxt "@button"
+msgid "Back"
+msgstr "Назад"
+
+msgctxt "@button:tooltip"
+msgid "Back"
+msgstr "Назад"
+
+msgctxt "@info:title"
+msgid "Backup"
+msgstr "Резервне копіювання"
+
+msgctxt "@button"
+msgid "Backup Now"
+msgstr "Створити резервну копію"
+
+msgctxt "@action:button"
+msgid "Backup and Reset Configuration"
+msgstr "Резервне копіювання та скидання конфігурації"
+
+msgctxt "description"
+msgid "Backup and restore your configuration."
+msgstr "Резервне копіювання та відновлення конфігурації."
+
+msgctxt "@text"
+msgid "Backup and sync your material settings and plugins"
+msgstr "Виконуйте резервне копіювання та синхронізацію своїх налаштувань матеріалів та плагінів"
+
+msgctxt "@description"
+msgid "Backup and synchronize your Cura settings."
+msgstr "Резервне копіювання та синхронізація ваших параметрів Cura."
+
+msgctxt "@info:title"
+msgid "Backups"
+msgstr "Резервні копії"
+
+msgctxt "@action:label"
+msgid "Base (mm)"
+msgstr "База (мм)"
+
+msgctxt "@tooltip:button"
+msgid "Become a 3D printing expert with UltiMaker e-learning."
+msgstr "Станьте експертом з 3D-друку за допомогою електронного навчання UltiMaker."
+
+msgctxt "@action:inmenu menubar:view"
+msgid "Bottom View"
+msgstr "Вигляд знизу"
+
+msgctxt "@label"
+msgid "Brand"
+msgstr "Бренд"
+
+msgctxt "@title"
+msgid "Build Plate Leveling"
+msgstr "Вирівнювання столу"
+
+msgctxt "@info:title"
+msgid "Build Volume"
+msgstr "Обсяг друку"
+
+msgctxt "@label"
+msgid "Build plate"
+msgstr "Рабочий стіл"
+
+msgctxt "@label"
+msgid "Build plate shape"
+msgstr "Форма столу"
+
+msgctxt "@label"
+msgid "Bundled Materials"
+msgstr "Пов'язані матеріали"
+
+msgctxt "@label"
+msgid "Bundled Plugins"
+msgstr "Пов'язані модулі, що вбудовуються"
+
+msgctxt "@button"
+msgid "Buy spool"
+msgstr "Купити котушку"
+
+msgctxt "@label Is followed by the name of an author"
+msgid "By"
+msgstr "Автор"
+
+msgctxt "@label Description for application dependency"
+msgid "C/C++ Binding library"
+msgstr "C/C++ бібліотека інтерфейсу"
+
+msgctxt "@item:inlistbox"
+msgid "COLLADA Digital Asset Exchange"
+msgstr "COLLADA Digital Asset Exchange"
+
+msgctxt "@info:status"
+msgid "Calculated"
+msgstr "Розраховано"
+
+msgctxt "@window:text"
+msgid "Camera rendering:"
+msgstr "Рендеринг камери:"
+
+msgctxt "@action:inmenu menubar:view"
+msgid "Camera view"
+msgstr "Вид камери"
+
+msgctxt "@info:title"
+msgid "Can't Find Location"
+msgstr "Не можу знайти місце"
+
+msgctxt "@info:title"
+msgid "Can't Open Project File"
+msgstr "Неможливо відкрити файл проекту"
+
+msgctxt "@label"
+msgid "Can't connect to your UltiMaker printer?"
+msgstr "Не вдається підключитися до принтера UltiMaker?"
+
+#, python-brace-format
+msgctxt "@info:status Don't translate the XML tags <filename>!"
+msgid "Can't import profile from <filename>{0}</filename> before a printer is added."
+msgstr "Неможливо імпортувати профіль із <filename>{0}</filename>, поки не додано принтер."
+
+#, python-brace-format
+msgctxt "@info:status"
+msgid "Can't open any other file if G-code is loading. Skipped importing {0}"
+msgstr "Неможливо відкрити будь-який інший файл, якщо файл G-code вже завантажений. Пропускаю імпортування {0}"
+
+msgctxt "@info:error"
+msgid "Can't write to UFP file:"
+msgstr "Неможливо записати в файл UFP:"
+
+msgctxt "@action:button"
+msgid "Cancel"
+msgstr "Скасувати"
+
+msgctxt "@button"
+msgid "Cancel"
+msgstr "Скасувати"
+
+msgctxt "@button Cancel pre-heating"
+msgid "Cancel"
+msgstr "Скасувати"
+
+msgctxt "@option:check"
+msgid "Caution message in g-code reader"
+msgstr "Попереджувальне повідомлення у засобі зчитування G-коду"
+
+msgctxt "@action:inmenu"
+msgid "Ce&nter Model on Platform"
+msgstr "Помістити модель по центру"
+
+msgctxt "@action:inmenu menubar:edit"
+msgid "Center Selected"
+msgstr "Центрувати вибране"
+
+msgctxt "@action:button"
+msgid "Center camera when item is selected"
+msgstr "Центрувати камеру на вибраному об'єкті"
+
+msgctxt "@info:tooltip"
+msgid "Change active post-processing scripts."
+msgstr "Змініть активні скрипти пост-обробки."
+
+msgctxt "@label"
+msgid "Change material %1 from %2 to %3."
+msgstr "Змінити матеріал %1 із %2 на %3."
+
+msgctxt "@label"
+msgid "Change print core %1 from %2 to %3."
+msgstr "Змінити екструдер %1 із %2 на %3."
+
+msgctxt "@info:title"
+msgid "Changes detected from your UltiMaker account"
+msgstr "У вашому обліковому записі UltiMaker виявлено зміни"
+
+msgctxt "@title"
+msgid "Changes from your account"
+msgstr "Зміни у вашому обліковому записі"
+
+msgctxt "@label:textbox"
+msgid "Check all"
+msgstr "Обрати все"
+
+msgctxt "@button"
+msgid "Check for account updates"
+msgstr "Перевірити наявність оновлень облікового запису"
+
+msgctxt "@option:check"
+msgid "Check for updates on start"
+msgstr "Перевіряти оновлення при старті"
+
+msgctxt "@label"
+msgid "Checking..."
+msgstr "Перевірка..."
+
+msgctxt "description"
+msgid "Checks for firmware updates."
+msgstr "Перевіряє наявність оновлень програмного забезпечення."
+
+msgctxt "description"
+msgid "Checks models and print configuration for possible printing issues and give suggestions."
+msgstr "Перевіряє моделі та конфігурацію друку на можливі проблеми з друком і дає пропозиції."
+
+msgctxt "@label"
+msgid ""
+"Chooses between the techniques available to generate support. \n"
+"\n"
+"\"Normal\" support creates a support structure directly below the overhanging parts and drops those areas straight down. \n"
+"\n"
+"\"Tree\" support creates branches towards the overhanging areas that support the model on the tips of those branches, and allows the branches to crawl around the model to support it from the build plate as much as possible."
+msgstr "Виберіть з доступних технік створення підтримки. Підтримка зі стандартною структурою створюється безпосередньо під деталями, що виступають, і потім опускає ці області вниз лінійно. У підтримки з деревоподібною структурою гілки тягнуться до областей, що виступають, і модель спирається на кінці цих гілок, які охоплюють модель з різних сторін, щоб таким чином максимально підтримувати її по всій площі друкованої пластини."
+
+msgctxt "@action:inmenu menubar:edit"
+msgid "Clear Build Plate"
+msgstr "Очистити стіл"
+
+msgctxt "@option:check"
+msgid "Clear buildplate before loading model into the single instance"
+msgstr "Очистіть друкарську пластину перед завантаженням моделі в єдиний екземпляр"
+
+msgctxt "@text"
+msgid "Click the export material archive button."
+msgstr "Натисніть кнопку експорту архіву матеріалів."
+
+msgctxt "@action:button"
+msgid "Close"
+msgstr "Закрити"
+
+msgctxt "@title:window %1 is the application name"
+msgid "Closing %1"
+msgstr "Закриття %1"
+
+msgctxt "@action:inmenu"
+msgid "Collapse All Categories"
+msgstr "Згорнути усі категорії"
+
+msgctxt "@label"
+msgid "Color"
+msgstr "Колір"
+
+msgctxt "@action:label"
+msgid "Color Model"
+msgstr "Колірна модель"
+
+msgctxt "@label"
+msgid "Color scheme"
+msgstr "Колірна схема"
+
+msgctxt "@info"
+msgid "Compare and save."
+msgstr "Порівнюйте та заощаджуйте."
+
+msgctxt "@label"
+msgid "Compatibility Mode"
+msgstr "Режим сумісності"
+
+msgctxt "@label Description for application dependency"
+msgid "Compatibility between Python 2 and 3"
+msgstr "Сумісність між Python 2 та 3"
+
+msgctxt "@title:label"
+msgid "Compatible Printers"
+msgstr "Сумісні принтери"
+
+msgctxt "@label"
+msgid "Compatible material diameter"
+msgstr "Діаметр сумісного матеріалу"
+
+msgctxt "@header"
+msgid "Compatible printers"
+msgstr "Сумісні принтери"
+
+msgctxt "@header"
+msgid "Compatible support materials"
+msgstr "Сумісні допоміжні матеріали"
+
+msgctxt "@header"
+msgid "Compatible with Material Station"
+msgstr "Сумісно з Material Station"
+
+msgctxt "@item:inlistbox"
+msgid "Compressed COLLADA Digital Asset Exchange"
+msgstr "Compressed COLLADA Digital Asset Exchange"
+
+msgctxt "@item:inlistbox"
+msgid "Compressed G-code File"
+msgstr "Стиснутий файл з G-кодом"
+
+msgctxt "name"
+msgid "Compressed G-code Reader"
+msgstr "Засіб зчитування стисненого G-коду"
+
+msgctxt "name"
+msgid "Compressed G-code Writer"
+msgstr "Засіб запису стисненого G-коду"
+
+msgctxt "@title:window"
+msgid "Configuration Changes"
+msgstr "Зміни конфігурації"
+
+msgctxt "@error"
+msgid "Configuration not supported"
+msgstr "Конфігурація не підтримується"
+
+msgctxt "@header"
+msgid "Configurations"
+msgstr "Конфігурації"
+
+msgctxt "@label"
+msgid "Configurations"
+msgstr "Конфігурації"
+
+msgctxt "@action:inmenu"
+msgid "Configure Cura..."
+msgstr "Налаштувати Cura..."
+
+msgctxt "@info:tooltip"
+msgid "Configure Per Model Settings"
+msgstr "Налаштувати параметри для кожної моделі"
+
+msgctxt "@action"
+msgid "Configure group"
+msgstr "Налаштувати групу"
+
+msgctxt "@action:menu"
+msgid "Configure setting visibility..."
+msgstr "Налаштування видимості параметрів..."
+
+msgctxt "@title:window"
+msgid "Confirm Diameter Change"
+msgstr "Підтвердити зміну діаметра"
+
+msgctxt "@title:window"
+msgid "Confirm Remove"
+msgstr "Підтвердьте видалення"
+
+msgctxt "@action:button"
+msgid "Connect"
+msgstr "Підключити"
+
+msgctxt "@button"
+msgid "Connect"
+msgstr "Підключити"
+
+msgctxt "@title:window"
+msgid "Connect to Networked Printer"
+msgstr "Підключення до мережного принтера"
+
+msgctxt "@action"
+msgid "Connect via Network"
+msgstr "Підключитись через мережу"
+
+msgctxt "@info:status"
+msgid "Connected over the network"
+msgstr "Підключений через мережу"
+
+msgctxt "@label"
+msgid "Connected printers"
+msgstr "Підключені принтери"
+
+msgctxt "@info:status"
+msgid "Connected via USB"
+msgstr "Підключено через USB"
+
+msgctxt "@info:status"
+msgid "Connected via cloud"
+msgstr "Підключено через хмару"
+
+msgctxt "description"
+msgid "Connects to the Digital Library, allowing Cura to open files from and save files to the Digital Library."
+msgstr "Підключається до цифрової бібліотеки, дозволяючи Cura відкривати файли з цифрової бібліотеки та зберігати файли у ній."
+
+msgctxt "@tooltip:button"
+msgid "Consult the UltiMaker Community."
+msgstr "Зверніться до спільноти UltiMaker."
+
+msgctxt "@title:window"
+msgid "Convert Image"
+msgstr "Перетворення зображення"
+
+msgctxt "@label"
+msgid "Cooling Fan Number"
+msgstr "Номер охолоджувального вентилятора"
+
+msgctxt "@action:menu"
+msgid "Copy all changed values to all extruders"
+msgstr "Копіювати всі змінені значення для всіх екструдерів"
+
+msgctxt "@action:menu"
+msgid "Copy value to all extruders"
+msgstr "Копіювати значення для всіх екструдерів"
+
+msgctxt "@label"
+msgid "Cost per Meter"
+msgstr "Вартість метра"
+
+msgctxt "@info"
+msgid "Could not access update information."
+msgstr "Не можу отримати інформацію про оновлення."
+
+msgctxt "@label"
+msgid "Could not connect to device."
+msgstr "Не вдалося підключитися до пристрою."
+
+msgctxt "@info:backup_failed"
+msgid "Could not create archive from user data directory: {}"
+msgstr "Не вдалося створити архів із каталогу з даними користувача: {}"
+
+#, python-brace-format
+msgctxt "@info:status Don't translate the tag {device}!"
+msgid "Could not find a file name when trying to write to {device}."
+msgstr "Не можу знайти ім'я файлу під час запису в {device}."
+
+msgctxt "@info:status Don't translate the XML tags <filename> or <message>!"
+msgid "Could not import material <filename>%1</filename>: <message>%2</message>"
+msgstr "Не можу імпортувати матеріал <filename>%1</filename>: <message>%2</message>"
+
+msgctxt "@info:error"
+msgid "Could not interpret the server's response."
+msgstr "Не вдалося інтерпретувати відповідь сервера."
+
+msgctxt "@info:error"
+msgid "Could not reach Marketplace."
+msgstr "Не вдалося зв'язатися із магазином."
+
+msgctxt "@message"
+msgid "Could not read response."
+msgstr "Не вдалося прочитати відповідь."
+
+msgctxt "@message:text"
+msgid "Could not save material archive to {}:"
+msgstr "Неможливо зберегти архів матеріалів в {}:"
+
+#, python-brace-format
+msgctxt "@info:status Don't translate the XML tags <filename> or <message>!"
+msgid "Could not save to <filename>{0}</filename>: <message>{1}</message>"
+msgstr "Не можу записати <filename>{0}</filename>: <message>{1}</message>"
+
+#, python-brace-format
+msgctxt "@info:status"
+msgid "Could not save to removable drive {0}: {1}"
+msgstr "Не можна зберегти на зовнішній носій {0}: {1}"
+
+msgctxt "@info:text"
+msgid "Could not upload the data to the printer."
+msgstr "Не вдалося завантажити дані з хмари на принтер."
+
+msgctxt "@title:window"
+msgid "Crash Report"
+msgstr "Звіт про збій"
+
+msgctxt "@title:window"
+msgid "Create Profile"
+msgstr "Створити профіль"
+
+msgctxt "@text"
+msgid "Create a free UltiMaker Account"
+msgstr "Створіть безкоштовний обліковий запис UltiMaker"
+
+msgctxt "@button"
+msgid "Create a free UltiMaker account"
+msgstr "Створіть безкоштовний обліковий запис UltiMaker"
+
+msgctxt "@info:tooltip"
+msgid "Create a volume in which supports are not printed."
+msgstr "Створення об'єму без друку елементів підтримки."
+
+msgctxt "@action:ComboBox Save settings in a new profile"
+msgid "Create new"
+msgstr "Створити новий"
+
+msgctxt "@action:button"
+msgid "Create new"
+msgstr "Створити новий"
+
+msgctxt "@button"
+msgid "Create new"
+msgstr "Створити новий"
+
+msgctxt "@action:tooltip"
+msgid "Create new profile from current settings/overrides"
+msgstr "Створити новий профіль із поточних налаштувань/перевизначень"
+
+msgctxt "@tooltip:button"
+msgid "Create print projects in Digital Library."
+msgstr "Створюйте проекти друку в електронній бібліотеці."
+
+msgctxt "description"
+msgid "Creates an eraser mesh to block the printing of support in certain places"
+msgstr "Створення об'єкта стирання для блокування друку елемента підтримки у певних місцях"
+
+msgctxt "@info:backup_status"
+msgid "Creating your backup..."
+msgstr "Створення резервної копії..."
+
+msgctxt "@item:inlistbox"
+msgid "Cura 15.04 profiles"
+msgstr "Профілі Cura 15.04"
+
+msgctxt "@title:window"
+msgid "Cura Backups"
+msgstr "Резервні копії Cura"
+
+msgctxt "name"
+msgid "Cura Backups"
+msgstr "Резервні копії Cura"
+
+msgctxt "@item:inlistbox"
+msgid "Cura Profile"
+msgstr "Профіль Cura"
+
+msgctxt "name"
+msgid "Cura Profile Reader"
+msgstr "Читання профілю Cura"
+
+msgctxt "name"
+msgid "Cura Profile Writer"
+msgstr "Запис профілю Cura"
+
+msgctxt "@item:inlistbox"
+msgid "Cura Project 3MF file"
+msgstr "3MF файл проекту Cura"
+
+msgctxt "@backuplist:label"
+msgid "Cura Version"
+msgstr "Версія Cura"
+
+msgctxt "@title:window"
+msgid "Cura can't start"
+msgstr "Не вдалося запустити Cura"
+
+#, python-brace-format
+msgctxt "@info:status"
+msgid "Cura has detected material profiles that were not yet installed on the host printer of group {0}."
+msgstr "Cura виявила профілі матеріалів, які ще не встановлені в головному принтері групи {0}."
+
+msgctxt "@info:credit"
+msgid ""
+"Cura is developed by UltiMaker in cooperation with the community.\n"
+"Cura proudly uses the following open source projects:"
+msgstr ""
+"Cura розроблена UltiMaker у співпраці з спільнотою.\n"
+"Cura з гордістю використовує такі проекти з відкритим кодом:"
+
+msgctxt "@label"
+msgid "Cura language"
+msgstr "Мова Cura"
+
+msgctxt "@label Cura version number"
+msgid "Cura version"
+msgstr "Версія Cura"
+
+msgctxt "name"
+msgid "CuraEngine Backend"
+msgstr "Двигун CuraEngine"
+
+msgctxt "@label"
+msgid "Currency:"
+msgstr "Валюта:"
+
+msgctxt "@title:column"
+msgid "Current"
+msgstr "Поточний"
+
+msgctxt "@title:column"
+msgid "Current changes"
+msgstr "Поточні зміни"
+
+msgctxt "@header"
+msgid "Custom"
+msgstr "Своє"
+
+msgctxt "@label"
+msgid "Custom"
+msgstr "Своє"
+
+msgctxt "@title:tab"
+msgid "Custom"
+msgstr "Своя"
+
+msgctxt "@label"
+msgid "Custom Material"
+msgstr "Власний матеріал"
+
+msgctxt "@label"
+msgid "Custom profile"
+msgstr "Власний профіль"
+
+msgctxt "@info"
+msgid "Custom profile name:"
+msgstr "Ім'я профілю користувача:"
+
+msgctxt "@label"
+msgid "Custom profiles"
+msgstr "Власні профілі"
+
+msgctxt "@label:header"
+msgid "Custom profiles"
+msgstr "Власні профілі"
+
+msgctxt "@item:inlistbox"
+msgid "Cutting mesh"
+msgstr "Обмежуючий об'єкт"
+
+msgctxt "@item:inlistbox"
+msgid "Darker is higher"
+msgstr "Темні вище"
+
+msgctxt "@info:title"
+msgid "Data Sent"
+msgstr "Дані надіслані"
+
+msgctxt "@label Description for application dependency"
+msgid "Data interchange format"
+msgstr "Формат обміну даними"
+
+msgctxt "@button"
+msgid "Decline"
+msgstr "Відхилити"
+
+msgctxt "@button"
+msgid "Decline and close"
+msgstr "Відхилити та закрити"
+
+msgctxt "@button"
+msgid "Decline and remove from account"
+msgstr "Відхилити та видалити з облікового запису"
+
+msgctxt "@info:No intent profile selected"
+msgid "Default"
+msgstr "Default"
+
+msgctxt "@label"
+msgid "Default"
+msgstr "Default"
+
+msgctxt "@window:text"
+msgid "Default behavior for changed setting values when switching to a different profile: "
+msgstr "Стандартна поведінка для змінених значень параметрів при перемиканні на інший профіль: "
+
+msgctxt "@info:tooltip"
+msgid "Default behavior when opening a project file"
+msgstr "Стандартна поведінка при відкритті файлу проекту"
+
+msgctxt "@window:text"
+msgid "Default behavior when opening a project file: "
+msgstr "Стандартна поведінка при відкритті файлу проекту "
+
+msgctxt "@action:button"
+msgid "Defaults"
+msgstr "Стандартні"
+
+msgctxt "@label"
+msgid "Defines the thickness of your part side walls, roof and floor."
+msgstr "Визначає товщину бічних стін, даху та підлоги вашої деталі."
+
+msgctxt "@label"
+msgid "Delete"
+msgstr "Видалити"
+
+msgctxt "@dialog:title"
+msgid "Delete Backup"
+msgstr "Видалити резервную копію"
+
+msgctxt "@action:inmenu"
+msgid "Delete Model"
+msgstr "Видалити модель"
+
+msgctxt "@action:inmenu menubar:edit"
+msgid "Delete Selected"
+msgstr "Видалити вибране"
+
+msgctxt "@window:title"
+msgid "Delete print job"
+msgstr "Видалити завдання друку"
+
+msgctxt "@label"
+msgid "Density"
+msgstr "Щільність"
+
+msgctxt "@label Description for development tool"
+msgid "Dependency and package manager"
+msgstr "Менеджер залежностей та пакетів"
+
+msgctxt "@action:label"
+msgid "Depth (mm)"
+msgstr "Глибина (мм)"
+
+msgctxt "@action:label"
+msgid "Derivative from"
+msgstr "Похідне від"
+
+msgctxt "@header"
+msgid "Description"
+msgstr "Опис"
+
+msgctxt "@label"
+msgid "Description"
+msgstr "Опис"
+
+msgctxt "@action:button"
+msgid "Details"
+msgstr "Подробиці"
+
+msgctxt "@label"
+msgid "Diameter"
+msgstr "Діаметр"
+
+msgctxt "@button"
+msgid "Disable"
+msgstr "Вимкнути"
+
+msgctxt "@action:inmenu"
+msgid "Disable Extruder"
+msgstr "Вимкнути екструдер"
+
+msgctxt "@option:discardOrKeep"
+msgid "Discard and never ask again"
+msgstr "Відкинути та більше ніколи не запитувати"
+
+msgctxt "@action:button"
+msgid "Discard changes"
+msgstr "Відмінити зміни"
+
+msgctxt "@action:button"
+msgid "Discard current changes"
+msgstr "Скасувати поточні зміни"
+
+msgctxt "@title:window"
+msgid "Discard or Keep changes"
+msgstr "Скасувати або зберегти зміни"
+
+msgctxt "@button"
+msgid "Dismiss"
+msgstr "Відхилити"
+
+msgctxt "@label"
+msgid "Display Name"
+msgstr "Відображене ім'я"
+
+msgctxt "@option:check"
+msgid "Display model errors"
+msgstr "Відображувати помилки моделі"
+
+msgctxt "@option:check"
+msgid "Display overhang"
+msgstr "Відобразити нависання"
+
+msgctxt "@info:option_text"
+msgid "Do not show this message again"
+msgstr "Більше не показувати це повідомлення"
+
+msgctxt "@info:generic"
+msgid "Do you want to sync material and software packages with your account?"
+msgstr "Бажаєте синхронізувати пакети матеріалів та програмного забезпечення зі своїм обліковим записом?"
+
+msgctxt "@action:label"
+msgid "Don't show project summary on save again"
+msgstr "Більше не показувати звіт за проектом"
+
+msgctxt "@action:menu"
+msgid "Don't show this setting"
+msgstr "Не показувати цей параметр"
+
+msgctxt "@label"
+msgid "Don't support overlaps"
+msgstr "Не підтримувати перекриття"
+
+msgctxt "@button"
+msgid "Done"
+msgstr "Готово"
+
+msgctxt "@button"
+msgid "Downgrade"
+msgstr "Перехід на більш ранню версію"
+
+msgctxt "@button"
+msgid "Downgrading..."
+msgstr "Перехід на більш ранню версію..."
+
+msgctxt "@label"
+msgid "Draft"
+msgstr "Черновий"
+
+msgctxt "@action:button"
+msgid "Duplicate"
+msgstr "Дублювати"
+
+msgctxt "@title:window"
+msgid "Duplicate Profile"
+msgstr "Копіювати профіль"
+
+msgctxt "@backup_limit_info"
+msgid "During the preview phase, you'll be limited to 5 visible backups. Remove a backup to see older ones."
+msgstr "На етапі попереднього перегляду відображається лише 5 резервних копій. Щоб переглянути попередні резервні копії, видаліть одну копію."
+
+msgctxt "@title:menu menubar:toplevel"
+msgid "E&xtensions"
+msgstr "&Доповнення"
+
+msgctxt "@action:button"
+msgid "Edit"
+msgstr "Редагування"
+
+msgctxt "@action:button"
+msgid "Eject"
+msgstr "Витягнути"
+
+#, python-brace-format
+msgctxt "@action"
+msgid "Eject removable device {0}"
+msgstr "Витягнути знімний пристрій {0}"
+
+#, python-brace-format
+msgctxt "@info:status"
+msgid "Ejected {0}. You can now safely remove the drive."
+msgstr "Витягнуто {0}. Ви можете безпечно витягти носій."
+
+msgctxt "@label"
+msgid "Empty"
+msgstr "Пусто"
+
+msgctxt "@button"
+msgid "Enable"
+msgstr "Увімкнути"
+
+msgctxt "@action:inmenu"
+msgid "Enable Extruder"
+msgstr "Увімкнути екструдер"
+
+msgctxt "@label"
+msgid "Enable printing a brim or raft. This will add a flat area around or under your object which is easy to cut off afterwards."
+msgstr "Дозволяє друк облямівки або підкладки. Це додає плоску область навколо або під об'єктом, яку легко видалити після друку."
+
+msgctxt "@label"
+msgid "Enabled"
+msgstr "Увімкнено"
+
+msgctxt "description"
+msgid "Enables ability to generate printable geometry from 2D image files."
+msgstr "Забезпечує можливість генерувати друковану геометрію із файлів двовимірних зображень."
+
+msgctxt "@title:label"
+msgid "End G-code"
+msgstr "Кінцевий G-код"
+
+msgctxt "@label"
+msgid "End-to-end solution for fused filament 3D printing."
+msgstr "Повне рішення для 3D друку методом наплавлення матеріалу."
+
+msgctxt "@label"
+msgid "Engineering"
+msgstr "Проектування"
+
+msgctxt "@option:check"
+msgid "Ensure models are kept apart"
+msgstr "Упевнитися, що моделі розміщені поруч"
+
+msgctxt "@label"
+msgid "Enter the IP address of your printer on the network."
+msgstr "Введіть IP-адресу принтера у мережі."
+
+msgctxt "@text"
+msgid "Enter your printer's IP address."
+msgstr "Введіть IP-адресу свого принтера."
+
+msgctxt "@info:title"
+msgid "Error"
+msgstr "Помилка"
+
+msgctxt "@title:groupbox"
+msgid "Error traceback"
+msgstr "Зворотне відстеження помилки"
+
+msgctxt "@error:zip"
+msgid "Error writing 3mf file."
+msgstr "Помилка під час запису файлу 3MF."
+
+msgctxt "@label"
+msgid "Estimated time left"
+msgstr "Залишилося приблизно"
+
+msgctxt "@action:inmenu"
+msgid "Exit Full Screen"
+msgstr "Вийти з повноекранного режиму"
+
+msgctxt "@label"
+msgid "Experimental"
+msgstr "Експериментальне"
+
+msgctxt "@action:button"
+msgid "Export"
+msgstr "Експорт"
+
+msgctxt "@title:window"
+msgid "Export All Materials"
+msgstr "Експорт усіх матеріалів"
+
+msgctxt "@title:window"
+msgid "Export Material"
+msgstr "Експортувати матеріал"
+
+msgctxt "@title:window"
+msgid "Export Profile"
+msgstr "Експорт профіля"
+
+msgctxt "@action:inmenu menubar:file"
+msgid "Export Selection..."
+msgstr "Експорт обраного..."
+
+msgctxt "@button"
+msgid "Export material archive"
+msgstr "Експорт архіву матеріалів"
+
+msgctxt "@info:title"
+msgid "Export succeeded"
+msgstr "Експорт успішно завершено"
+
+#, python-brace-format
+msgctxt "@info:status Don't translate the XML tag <filename>!"
+msgid "Exported profile to <filename>{0}</filename>"
+msgstr "Експортування профілю в <filename>{0}</filename>"
+
+msgctxt "@tooltip:button"
+msgid "Extend UltiMaker Cura with plugins and material profiles."
+msgstr "Розширюйте можливості UltiMaker Cura за рахунок плагінів та профілів матеріалів."
+
+msgctxt "description"
+msgid "Extension that allows for user created scripts for post processing"
+msgstr "Розширення, яке дозволяє користувачеві створювати скрипти для постобробки"
+
+msgctxt "@label"
+msgid "Extruder"
+msgstr "Екструдер"
+
+msgctxt "@action:label"
+msgid "Extruder %1"
+msgstr "Екструдер %1"
+
+msgctxt "@title:label"
+msgid "Extruder End G-code"
+msgstr "Завершаючий G-код екструдера"
+
+msgctxt "@title:label"
+msgid "Extruder Start G-code"
+msgstr "Стартовий G-код екструдера"
+
+msgctxt "@info:title"
+msgid "Extruder(s) Disabled"
+msgstr "Екструдер(и) відключено"
+
+msgctxt "@label:status"
+msgid "Failed"
+msgstr "Збій"
+
+msgctxt "@text:error"
+msgid "Failed to connect to Digital Factory to sync materials with some of the printers."
+msgstr "Підключення до Digital Factory для синхронізації матеріалів із деякими принтерами не встановлено."
+
+msgctxt "@text:error"
+msgid "Failed to connect to Digital Factory."
+msgstr "Підключення до Digital Factory не встановлено."
+
+msgctxt "@text:error"
+msgid "Failed to create archive of materials to sync with printers."
+msgstr "Архів матеріалів для синхронізації з принтерами не створено."
+
+#, python-brace-format
+msgctxt "@info:status"
+msgid "Failed to eject {0}. Another program may be using the drive."
+msgstr "Неможливо вийняти {0}. Інша програма може використовувати цей пристрій."
+
+msgctxt "@info:status Don't translate the XML tags <filename> and <message>!"
+msgid "Failed to export material to <filename>%1</filename>: <message>%2</message>"
+msgstr "Не можу експортувати матеріал <filename>%1</filename>: <message>%2</message>"
+
+#, python-brace-format
+msgctxt "@info:status Don't translate the XML tags <filename> or <message>!"
+msgid "Failed to export profile to <filename>{0}</filename>: <message>{1}</message>"
+msgstr "Неможливо експортувати профіль до <filename>{0}</filename>: <message>{1}</message>"
+
+#, python-brace-format
+msgctxt "@info:status Don't translate the XML tag <filename>!"
+msgid "Failed to export profile to <filename>{0}</filename>: Writer plugin reported failure."
+msgstr "Неможливо експортувати профіль до <filename>{0}</filename>: Плагін запису повідомив про помилку."
+
+#, python-brace-format
+msgctxt "@info:status Don't translate the XML tag <filename>!"
+msgid "Failed to import profile from <filename>{0}</filename>:"
+msgstr "Не вдалося імпортувати профіль з <filename>{0}</filename>:"
+
+#, python-brace-format
+msgctxt "@info:status Don't translate the XML tags <filename>!"
+msgid "Failed to import profile from <filename>{0}</filename>:"
+msgstr "Не вдалося імпортувати профіль з <filename>{0}</filename>:"
+
+#, python-brace-format
+msgctxt "@info:status Don't translate the XML tags <filename>!"
+msgid "Failed to import profile from <filename>{0}</filename>: {1}"
+msgstr "Не вдалося імпортувати профіль з <filename>{0}</filename>: {1}"
+
+msgctxt "@button"
+msgid "Failed to load packages:"
+msgstr "Пакети не завантажені:"
+
+msgctxt "@text:error"
+msgid "Failed to load the archive of materials to sync it with printers."
+msgstr "Архів матеріалів для синхронізації з принтерами не завантажено."
+
+msgctxt "@message:title"
+msgid "Failed to save material archive"
+msgstr "Архів матеріалів не збережено"
+
+msgctxt "@label:category menu label"
+msgid "Favorites"
+msgstr "Вибрані"
+
+msgctxt "@label"
+msgid "Filament Cost"
+msgstr "Вартість матеріалу"
+
+msgctxt "@label"
+msgid "Filament length"
+msgstr "Довжина матеріалу"
+
+msgctxt "@label"
+msgid "Filament weight"
+msgstr "Вага матеріалу"
+
+msgctxt "@title:window"
+msgid "File Already Exists"
+msgstr "Файл вже існує"
+
+msgctxt "@info:title"
+msgid "File Saved"
+msgstr "Файл збережено"
+
+#, python-brace-format
+msgctxt "@info:status"
+msgid "File {0} does not contain any valid profile."
+msgstr "У файлі {0} немає відповідних профілів."
+
+msgctxt "@label:textbox"
+msgid "Filter..."
+msgstr "Фільтр..."
+
+msgctxt "@info:title"
+msgid "Finding Location"
+msgstr "Пошук місця"
+
+msgctxt "@info:status"
+msgid "Finding new location for objects"
+msgstr "Пошук місця для нових об'єктів"
+
+msgctxt "@action:button"
+msgid "Finish"
+msgstr "Завершити"
+
+msgctxt "@label:status"
+msgid "Finished"
+msgstr "Завершено"
+
+msgctxt "@label:status"
+msgid "Finishes %1 at %2"
+msgstr "Завершення %1 у %2"
+
+msgctxt "@title:window"
+msgid "Firmware Update"
+msgstr "Оновлення прошивки"
+
+msgctxt "name"
+msgid "Firmware Update Checker"
+msgstr "Перевірка оновлень"
+
+msgctxt "name"
+msgid "Firmware Updater"
+msgstr "Засіб оновлення прошивки"
+
+msgctxt "@label"
+msgid "Firmware can not be updated because the connection with the printer does not support upgrading firmware."
+msgstr "Неможливо оновити прошивку, оскільки підключення до принтера не підтримує функцію оновлення прошивки."
+
+msgctxt "@label"
+msgid "Firmware can not be updated because there is no connection with the printer."
+msgstr "Неможливо оновити прошивку, оскільки немає підключення до принтера."
+
+msgctxt "@label"
+msgid "Firmware is the piece of software running directly on your 3D printer. This firmware controls the step motors, regulates the temperature and ultimately makes your printer work."
+msgstr "Прошивка є програмне забезпечення, яке працює на платі вашого 3D принтера. Прошивка керує кроковими моторами, регулює температуру та зрештою, забезпечує роботу вашого принтера."
+
+msgctxt "@label"
+msgid "Firmware update completed."
+msgstr "Оновлення прошивки завершено."
+
+msgctxt "@label"
+msgid "Firmware update failed due to an communication error."
+msgstr "Оновлення прошивки не вдалося через помилку зв'язку."
+
+msgctxt "@label"
+msgid "Firmware update failed due to an input/output error."
+msgstr "Оновлення прошивки не вдалося через помилку введення-виводу."
+
+msgctxt "@label"
+msgid "Firmware update failed due to an unknown error."
+msgstr "Оновлення прошивки не вдалося через невідому помилку."
+
+msgctxt "@label"
+msgid "Firmware update failed due to missing firmware."
+msgstr "Оновлення прошивки не вдалося через її відсутність."
+
+msgctxt "@label"
+msgid "Firmware version"
+msgstr "Версія прошивки"
+
+msgctxt "@label"
+msgid "First available"
+msgstr "Перше доступне"
+
+msgctxt "@label:listbox"
+msgid "Flow"
+msgstr "Потік"
+
+msgctxt "@text In the UI this is followed by a list of steps the user needs to take."
+msgid "Follow the following steps to load the new material profiles to your printer."
+msgstr "Щоб завантажити нові профілі матеріалів у принтер, виконайте наведені нижче дії."
+
+msgctxt "@info"
+msgid "Follow the procedure to add a new printer"
+msgstr "Виконайте процедуру додавання нового принтера"
+
+msgctxt "@text"
+msgid "Following a few simple steps, you will be able to synchronize all your material profiles with your printers."
+msgstr "Виконавши кілька простих дій, ви зможете синхронізувати всі профілі матеріалів зі своїми принтерами."
+
+msgctxt "@label"
+msgid "Font"
+msgstr "Шрифт"
+
+msgctxt "@label"
+msgid "For every position; insert a piece of paper under the nozzle and adjust the print build plate height. The print build plate height is right when the paper is slightly gripped by the tip of the nozzle."
+msgstr "Для кожної позиції вставте шматок паперу під сопло і відрегулюйте висоту столу. Коли кінчик сопла трохи притискає папір до столу, то ви виставили правильну висоту столу."
+
+msgctxt "@info:tooltip"
+msgid "For lithophanes a simple logarithmic model for translucency is available. For height maps the pixel values correspond to heights linearly."
+msgstr "Для літофанії передбачена проста логарифмічна модель світлопрохідності. У картах висот значення пікселів лінійно відповідають висотам."
+
+msgctxt "@info:tooltip"
+msgid "For lithophanes dark pixels should correspond to thicker locations in order to block more light coming through. For height maps lighter pixels signify higher terrain, so lighter pixels should correspond to thicker locations in the generated 3D model."
+msgstr "Для літофанії темні пікселі повинні відповідати товстішим частинам, щоб сильніше затримувати світло, що проходить. Для схем висот світліші пікселі позначають більш високу ділянку. Тому світліші пікселі повинні відповідати товстішим місцям у створеній 3D-моделі."
+
+msgctxt "@option:check"
+msgid "Force layer view compatibility mode (restart required)"
+msgstr "Перегляд шарів у режимі сумісності (потрібний перезапуск)"
+
+msgctxt "@action:inmenu menubar:view"
+msgid "Front View"
+msgstr "Вигляд спереду"
+
+msgctxt "@info:tooltip"
+msgid "Front View"
+msgstr "Вигляд спереду"
+
+msgctxt "@item:inlistbox"
+msgid "G File"
+msgstr "Файл G"
+
+msgctxt "@info:title"
+msgid "G-code Details"
+msgstr "Параметри G-code"
+
+msgctxt "@item:inlistbox"
+msgid "G-code File"
+msgstr "Файл G-code"
+
+msgctxt "name"
+msgid "G-code Profile Reader"
+msgstr "Засіб зчитування профілю з G-коду"
+
+msgctxt "name"
+msgid "G-code Reader"
+msgstr "Читання G-code"
+
+msgctxt "name"
+msgid "G-code Writer"
+msgstr "Засіб запису G-коду"
+
+msgctxt "@label"
+msgid "G-code flavor"
+msgstr "Варіант G-коду"
+
+msgctxt "@label Description for application component"
+msgid "G-code generator"
+msgstr "Генератор G-коду"
+
+msgctxt "@error:not supported"
+msgid "GCodeGzWriter does not support text mode."
+msgstr "Засіб запису G-коду з розширенням GZ (GCodeGzWriter) не підтримує текстовий режим."
+
+msgctxt "@error:not supported"
+msgid "GCodeWriter does not support non-text mode."
+msgstr "Засіб записування G-коду (GCodeWriter) не підтримує нетекстовий режим."
+
+msgctxt "@item:inlistbox"
+msgid "GIF Image"
+msgstr "GIF зображення"
+
+msgctxt "@label Description for application dependency"
+msgid "GUI framework"
+msgstr "Фреймворк GUI"
+
+msgctxt "@label Description for application dependency"
+msgid "GUI framework bindings"
+msgstr "Фреймворк GUI, інтерфейс"
+
+msgctxt "@label"
+msgid "Gantry Height"
+msgstr "Висота порталу"
+
+msgctxt "@title:tab"
+msgid "General"
+msgstr "Загальне"
+
+msgctxt "@label"
+msgid "Generate structures to support parts of the model which have overhangs. Without these structures, these parts would collapse during printing."
+msgstr "Генерація структур для підтримки нависаючих частин моделі. Без цих структур такі частини складатимуться під час друку."
+
+msgctxt "@label Description for development tool"
+msgid "Generating Windows installers"
+msgstr "Генерація інсталяторів для Windows"
+
+msgctxt "@label:category menu label"
+msgid "Generic"
+msgstr "Універсальні"
+
+msgctxt "@option:check"
+msgid "Get notifications for plugin updates"
+msgstr "Отримувати повідомлення про оновлення плагінів"
+
+msgctxt "@action"
+msgid "Get started"
+msgstr "Приступити"
+
+msgctxt "@title:tab"
+msgid "Global Settings"
+msgstr "Загальні параметри"
+
+msgctxt "@label Description for application component"
+msgid "Graphical user interface"
+msgstr "Графічний інтерфейс користувача"
+
+#, python-brace-format
+msgctxt "@label"
+msgid "Group #{group_nr}"
+msgstr "Група #{group_nr}"
+
+msgctxt "@tooltip of pre-heat"
+msgid "Heat the bed in advance before printing. You can continue adjusting your print while it is heating, and you won't have to wait for the bed to heat up when you're ready to print."
+msgstr "Нагрів гарячого столу перед друком. Ви можете продовжувати налаштування вашого друку, поки стіл нагрівається, і вам не доведеться чекати нагріву столу для старту друку."
+
+msgctxt "@tooltip of pre-heat"
+msgid "Heat the hotend in advance before printing. You can continue adjusting your print while it is heating, and you won't have to wait for the hotend to heat up when you're ready to print."
+msgstr "Нагрівання сопла перед друком. Можна продовжувати налаштування друку під час нагрівання, і вам не доведеться чекати нагріву сопла, коли ви будете готові приступити до друку."
+
+msgctxt "@label"
+msgid "Heated Build Plate (official kit or self-built)"
+msgstr "Стіл, що нагрівається (офіційний набір або саморобний)"
+
+msgctxt "@label"
+msgid "Heated bed"
+msgstr "Стіл, що нагрівається"
+
+msgctxt "@label"
+msgid "Heated build volume"
+msgstr "Об'єм друку, що підігрівається"
+
+msgctxt "@action:label"
+msgid "Height (mm)"
+msgstr "Висота (мм)"
+
+msgctxt "@label"
+msgid "Helpers"
+msgstr "Помічники"
+
+msgctxt "@label"
+msgid "Hex"
+msgstr "Шестигранний"
+
+msgctxt "@label"
+msgid "Hide all connected printers"
+msgstr "Приховати всі підключені принтери"
+
+msgctxt "@action:menu"
+msgid "Hide this setting"
+msgstr "Сховати цей параметр"
+
+msgctxt "@info:tooltip"
+msgid "Highlight missing or extraneous surfaces of the model using warning signs. The toolpaths will often be missing parts of the intended geometry."
+msgstr "Позначте відсутні або зайві поверхні моделі за допомогою попереджувальних знаків. У шляхах інструментів часто будуть відсутні деталі передбачуваної геометрії."
+
+msgctxt "@info:tooltip"
+msgid "Highlight unsupported areas of the model in red. Without support these areas will not print properly."
+msgstr "Підсвічувати червоні області моделі, що вимагають підтримки. Без підтримки ці області не будуть надруковані правильно."
+
+msgctxt "@button"
+msgid "How to load new material profiles to my printer"
+msgstr "Завантаження нових профілів матеріалів у принтер"
+
+msgctxt "@action:button"
+msgid "How to update"
+msgstr "Порядок оновлення"
+
+msgctxt "@text:window"
+msgid "I don't want to send anonymous data"
+msgstr "Не хочу надсилати анонімні дані"
+
+msgctxt "@label:status"
+msgid "Idle"
+msgstr "Простій"
+
+msgctxt "@label"
+msgid "If you are trying to add a new UltiMaker printer to Cura"
+msgstr "Якщо ви намагаєтеся додати новий принтер UltiMaker у Cura"
+
+msgctxt "@label"
+msgid "If your printer is not listed, read the <a href='%1'>network printing troubleshooting guide</a>"
+msgstr "Якщо ваш принтер відсутній у списку, зверніться до <a href='%1'>посібника з вирішення проблем із мережевим друком</a>"
+
+msgctxt "name"
+msgid "Image Reader"
+msgstr "Читання зображень"
+
+msgctxt "@action:button"
+msgid "Import"
+msgstr "Імпорт"
+
+msgctxt "@title:window"
+msgid "Import Material"
+msgstr "Імпортувати матеріал"
+
+msgctxt "@title:window"
+msgid "Import Profile"
+msgstr "Імпорт профілю"
+
+msgctxt "@action:button"
+msgid "Import all as models"
+msgstr "Імпортувати все як моделі"
+
+msgctxt "@action:button"
+msgid "Import models"
+msgstr "Імпортувати моделі"
+
+msgctxt "@label:MonitorStatus"
+msgid "In maintenance. Please check the printer"
+msgstr "У режимі обслуговування. Будь ласка, перевірте принтер"
+
+msgctxt "@info"
+msgid "In order to monitor your print from Cura, please connect the printer."
+msgstr "Щоб відстежувати завдання друку за допомогою Cura, підключіть принтер."
+
+msgctxt "@label"
+msgid "In order to start using Cura you will need to configure a printer."
+msgstr "Щоб почати користуватися Cura, потрібно настроїти принтер."
+
+msgctxt "@button"
+msgid "In order to use the package you will need to restart Cura"
+msgstr "Для роботи з пакетом необхідно перезапустити Cura"
+
+msgctxt "@label"
+msgid "Infill"
+msgstr "Заповнення"
+
+msgctxt "@tooltip"
+msgid "Infill"
+msgstr "Заповнення"
+
+msgctxt "infill_sparse_density description"
+msgid "Infill Density"
+msgstr "Щільність заповнення"
+
+msgctxt "@action:label"
+msgid "Infill Pattern"
+msgstr "Шаблон заповнення"
+
+msgctxt "@item:inlistbox"
+msgid "Infill mesh only"
+msgstr "Заповнення об'єкту"
+
+msgctxt "@label"
+msgid "Infill overlapping with this model is modified."
+msgstr "Змінено заповнення перекриття із цією моделлю."
+
+msgctxt "@info:title"
+msgid "Information"
+msgstr "Інформація"
+
+msgctxt "@title"
+msgid "Information"
+msgstr "Інформація"
+
+msgctxt "@info:progress"
+msgid "Initializing Active Machine..."
+msgstr "Ініціалізація активної машини..."
+
+msgctxt "@info:progress"
+msgid "Initializing build volume..."
+msgstr "Ініціалізація обсягу друку..."
+
+msgctxt "@info:progress"
+msgid "Initializing engine..."
+msgstr "Ініціалізація ядра..."
+
+msgctxt "@info:progress"
+msgid "Initializing machine manager..."
+msgstr "Ініціалізація диспетчера машин..."
+
+msgctxt "@label"
+msgid "Inner Wall"
+msgstr "Внутрішня стінка"
+
+msgctxt "@tooltip"
+msgid "Inner Walls"
+msgstr "Внутрішні стінки"
+
+msgctxt "@text"
+msgid "Insert the USB stick into your printer and launch the procedure to load new material profiles."
+msgstr "Вставте USB-накопичувач у принтер і запустіть процедуру завантаження нових профілів матеріалів."
+
+msgctxt "@button"
+msgid "Install"
+msgstr "Встановити"
+
+msgctxt "@action:button"
+msgid "Install Materials"
+msgstr "Встановлення матеріалів"
+
+msgctxt "@header"
+msgid "Install Materials"
+msgstr "Встановлення матеріалів"
+
+msgctxt "@window:title"
+msgid "Install Package"
+msgstr "Встановити пакет"
+
+msgctxt "@header"
+msgid "Install Plugins"
+msgstr "Встановлення вбудованих модулів"
+
+msgctxt "@title"
+msgid "Install missing Materials"
+msgstr "Встановити відсутні матеріали"
+
+msgctxt "@action:button"
+msgid "Install missing material"
+msgstr "Встановити відсутній матеріал"
+
+msgctxt "@button"
+msgid "Install pending updates"
+msgstr "Встановити очікування оновлення"
+
+msgctxt "@label"
+msgid "Installed Materials"
+msgstr "Встановлені матеріали"
+
+msgctxt "@label"
+msgid "Installed Plugins"
+msgstr "Встановлені модулі, що вбудовуються"
+
+msgctxt "@button"
+msgid "Installing..."
+msgstr "Встановлення..."
+
+msgctxt "@action:label"
+msgid "Intent"
+msgstr "Призначення"
+
+msgctxt "@label"
+msgid "Interface"
+msgstr "Інтерфейс"
+
+msgctxt "@label Description for application component"
+msgid "Interprocess communication library"
+msgstr "Бібліотека міжпроцесної взаємодії"
+
+msgctxt "@title:window"
+msgid "Invalid IP address"
+msgstr "Недійсна IP-адреса"
+
+msgctxt "@info:status"
+msgid "Invalid file URL:"
+msgstr "Неправильна URL-адреса файлу:"
+
+msgctxt "@action:button"
+msgid "Invert the direction of camera zoom."
+msgstr "Інвертувати напрямок збільшення камери."
+
+msgctxt "@label"
+msgid "Is printed as support."
+msgstr "Друкується як підтримка."
+
+msgctxt "@text"
+msgid "It seems like you don't have any compatible printers connected to Digital Factory. Make sure your printer is connected and it's running the latest firmware."
+msgstr "Схоже, що у вас немає сумісних принтерів, підключених до Digital Factory. Переконайтеся, що ваш принтер підключено і на ньому встановлена остання версія прошивки."
+
+msgctxt "@item:inlistbox"
+msgid "JPEG Image"
+msgstr "JPEG зображення"
+
+msgctxt "@item:inlistbox"
+msgid "JPG Image"
+msgstr "JPG зображення"
+
+msgctxt "@label Description for application dependency"
+msgid "JSON parser"
+msgstr "Парсер JSON"
+
+msgctxt "@label"
+msgid "Job Name"
+msgstr "Ім'я завдання"
+
+msgctxt "@label"
+msgid "Jog Distance"
+msgstr "Відстань поштовхової подачі"
+
+msgctxt "@label"
+msgid "Jog Position"
+msgstr "Положення поштовхової подачі"
+
+msgctxt "@option:discardOrKeep"
+msgid "Keep and never ask again"
+msgstr "Зберегти і ніколи більше не питати"
+
+msgctxt "@action:button"
+msgid "Keep changes"
+msgstr "Зберегти зміни"
+
+msgctxt "@action:button"
+msgid "Keep printer configurations"
+msgstr "Зберегти конфігурацію принтера"
+
+msgctxt "@action:menu"
+msgid "Keep this setting visible"
+msgstr "Залишити цей параметр видимим"
+
+msgctxt "@label The argument is a timestamp"
+msgid "Last update: %1"
+msgstr "Останнє оновлення: %1"
+
+msgctxt "@label:listbox"
+msgid "Layer Thickness"
+msgstr "Товщина шару"
+
+msgctxt "@item:inlistbox"
+msgid "Layer view"
+msgstr "Перегляд шарів"
+
+msgctxt "@button:label"
+msgid "Learn More"
+msgstr "Дізнатися більше"
+
+msgctxt "@button"
+msgid "Learn how to connect your printer to Digital Factory"
+msgstr "Дізнайтеся, як підключити принтер до Digital Factory"
+
+msgctxt "@tooltip:button"
+msgid "Learn how to get started with UltiMaker Cura."
+msgstr "Дізнайтесь, як розпочати роботу з UltiMaker Cura."
+
+msgctxt "@action"
+msgid "Learn more"
+msgstr "Дізнатися більше"
+
+msgctxt "@action:button"
+msgid "Learn more"
+msgstr "Дізнатися більше"
+
+msgctxt "@button"
+msgid "Learn more"
+msgstr "Дізнатися більше"
+
+msgctxt "@button:label"
+msgid "Learn more"
+msgstr "Дізнатися більше"
+
+msgctxt "@action:button"
+msgid "Learn more about Cura print profiles"
+msgstr "Докладніше про профілі друку Cura"
+
+msgctxt "@button"
+msgid "Learn more about adding printers to Cura"
+msgstr "Детальніше про додавання принтерів у Cura"
+
+msgctxt "@action:inmenu menubar:view"
+msgid "Left Side View"
+msgstr "Вид зліва"
+
+msgctxt "@info:tooltip"
+msgid "Left View"
+msgstr "Вид зліва"
+
+msgctxt "name"
+msgid "Legacy Cura Profile Reader"
+msgstr "Читання застарілих профілів Cura"
+
+msgctxt "@tooltip:button"
+msgid "Let developers know that something is going wrong."
+msgstr "Повідомте розробникам про проблеми."
+
+msgctxt "@action"
+msgid "Level build plate"
+msgstr "Вирівнювання столу"
+
+msgctxt "@item:inlistbox"
+msgid "Lighter is higher"
+msgstr "Світліші вище"
+
+msgctxt "@label:listbox"
+msgid "Line Type"
+msgstr "Тип лінії"
+
+msgctxt "@label:listbox"
+msgid "Line Width"
+msgstr "Ширина лінії"
+
+msgctxt "@item:inlistbox"
+msgid "Linear"
+msgstr "Лінійний"
+
+msgctxt "@label Description for development tool"
+msgid "Linux cross-distribution application deployment"
+msgstr "Розгортання програм для різних дистрибутивів Linux"
+
+msgctxt "@label"
+msgid "Load %3 as material %1 (This cannot be overridden)."
+msgstr "Завантажте %3 як матеріал %1 (перевизначення цієї дії неможливо)."
+
+msgctxt "@button"
+msgid "Load more"
+msgstr "Завантажити ще"
+
+msgctxt "@button"
+msgid "Loading"
+msgstr "Завантаження"
+
+msgctxt "@action:warning"
+msgid "Loading a project will clear all models on the build plate."
+msgstr "Завантаження проекту призведе до видалення всіх моделей на робочому столі."
+
+msgctxt "@label"
+msgid "Loading available configurations from the printer..."
+msgstr "Завантаження доступних конфігурацій із принтера."
+
+msgctxt "@info:progress"
+msgid "Loading interface..."
+msgstr "Завантаження інтерфейсу..."
+
+msgctxt "@info:progress"
+msgid "Loading machines..."
+msgstr "Завантаження принтерів..."
+
+msgctxt "@label:status"
+msgid "Loading..."
+msgstr "Завантаження..."
+
+msgctxt "@title"
+msgid "Loading..."
+msgstr "Завантаження..."
+
+msgctxt "@label:category menu label"
+msgid "Local printers"
+msgstr "Локальні принтери"
+
+msgctxt "@info:title"
+msgid "Log-in failed"
+msgstr "Вхід до системи не виконано"
+
+msgctxt "@info:title"
+msgid "Login failed"
+msgstr "Вхід не виконано"
+
+msgctxt "@title:groupbox"
+msgid "Logs"
+msgstr "Журнали"
+
+msgctxt "description"
+msgid "Logs certain events so that they can be used by the crash reporter"
+msgstr "Реєструє певні події в журналі, щоб їх можна було використовувати у звітах про аварійне завершення роботи"
+
+msgctxt "@label:MonitorStatus"
+msgid "Lost connection with the printer"
+msgstr "Втрачено з'єднання з принтером"
+
+msgctxt "@action"
+msgid "Machine Settings"
+msgstr "Параметри принтера"
+
+msgctxt "name"
+msgid "Machine Settings Action"
+msgstr "Параметри принтера дія"
+
+msgctxt "@backuplist:label"
+msgid "Machines"
+msgstr "Принтери"
+
+msgctxt "@text"
+msgid "Make sure all your printers are turned ON and connected to Digital Factory."
+msgstr "Переконайтеся, що всі принтери включені та підключені до Digital Factory."
+
+msgctxt "@info:generic"
+msgid "Make sure the g-code is suitable for your printer and printer configuration before sending the file to it. The g-code representation may not be accurate."
+msgstr "Перед тим, як надіслати G-code на принтер, перевірте його відповідність вашому принтеру та його параметрам. Можливі неточності у G-code."
+
+msgctxt "@action:inmenu"
+msgid "Manage Materials..."
+msgstr "Управління матеріалами..."
+
+msgctxt "@action:inmenu menubar:printer"
+msgid "Manage Pr&inters..."
+msgstr "Управління принтерами..."
+
+msgctxt "@action:inmenu menubar:profile"
+msgid "Manage Profiles..."
+msgstr "Управління профілями..."
+
+msgctxt "@action:inmenu"
+msgid "Manage Setting Visibility..."
+msgstr "Управління видимістю налаштувань..."
+
+msgctxt "@item:inmenu"
+msgid "Manage backups"
+msgstr "Управління резервними копіями"
+
+msgctxt "@label link to connect manager"
+msgid "Manage in browser"
+msgstr "Управління через браузер"
+
+msgctxt "@header"
+msgid "Manage packages"
+msgstr "Управління пакетами"
+
+msgctxt "@info:tooltip"
+msgid "Manage packages"
+msgstr "Управління пакетами"
+
+msgctxt "@action"
+msgid "Manage print jobs"
+msgstr "Керування завданнями друку"
+
+msgctxt "@label link to Connect and Cloud interfaces"
+msgid "Manage printer"
+msgstr "Управління принтером"
+
+msgctxt "@button"
+msgid "Manage printers"
+msgstr "Управління принтерами"
+
+msgctxt "@text"
+msgid "Manage your UltiMaker Cura plugins and material profiles here. Make sure to keep your plugins up to date and backup your setup regularly."
+msgstr "Тут можна керувати вбудованими модулями Ultimaker Cura та профілями матеріалів. Регулярно оновлюйте вбудовані модулі та створюйте резервні копії налаштувань."
+
+msgctxt "description"
+msgid "Manages extensions to the application and allows browsing extensions from the UltiMaker website."
+msgstr "Дозволяє керувати розширеннями програми та переглядати розширення з веб-сайту UltiMaker."
+
+msgctxt "description"
+msgid "Manages network connections to UltiMaker networked printers."
+msgstr "Керує мережевими з'єднаннями з мережевими принтерами UltiMaker."
+
+msgctxt "@label"
+msgid "Manufacturer"
+msgstr "Виробник"
+
+msgctxt "@action:button"
+msgid "Marketplace"
+msgstr "Магазин"
+
+msgctxt "@label"
+msgid "Marketplace"
+msgstr "Магазин"
+
+msgctxt "name"
+msgid "Marketplace"
+msgstr "Магазин"
+
+msgctxt "@action:label"
+msgid "Material"
+msgstr "Матеріал"
+
+msgctxt "@label"
+msgid "Material"
+msgstr "Матеріал"
+
+msgctxt "@label:category menu label"
+msgid "Material"
+msgstr "Матеріал"
+
+msgctxt "@label:listbox"
+msgid "Material Color"
+msgstr "Колір матеріалу"
+
+msgctxt "name"
+msgid "Material Profiles"
+msgstr "Профілі матеріалів"
+
+msgctxt "@label"
+msgid "Material Type"
+msgstr "Тип матеріалу"
+
+msgctxt "@title"
+msgid "Material color picker"
+msgstr "Вибір кольору матеріалу"
+
+msgctxt "@label"
+msgid "Material estimation"
+msgstr "Оцінка матеріалу"
+
+msgctxt "@info:title"
+msgid "Material profiles not installed"
+msgstr "Профілі матеріалів не встановлені"
+
+msgctxt "@title:header"
+msgid "Material profiles successfully synced with the following printers:"
+msgstr "Профілі матеріалів успішно синхронізовані з наступними принтерами:"
+
+msgctxt "@action:label"
+msgid "Material settings"
+msgstr "Параметри матеріалу"
+
+msgctxt "@backuplist:label"
+msgid "Materials"
+msgstr "Матеріали"
+
+msgctxt "@button"
+msgid "Materials"
+msgstr "Матеріали"
+
+msgctxt "@title:tab"
+msgid "Materials"
+msgstr "Матеріали"
+
+msgctxt "@label"
+msgid "Materials compatible with active printer:"
+msgstr "Матеріали, сумісні з активним принтером:"
+
+msgctxt "@label"
+msgid "Mesh Type"
+msgstr "Тип об'єкту"
+
+msgctxt "@action:label"
+msgid "Mode"
+msgstr "Режим"
+
+msgctxt "name"
+msgid "Model Checker"
+msgstr "Засіб перевірки моделей"
+
+msgctxt "@info:title"
+msgid "Model Errors"
+msgstr "Помилки моделі"
+
+msgctxt "@item:inmenu"
+msgid "Modify G-Code"
+msgstr "Змінити G-код"
+
+msgctxt "@label"
+msgid "Modify settings for overlaps"
+msgstr "Змінити налаштування для перекриття"
+
+msgctxt "@item:inmenu"
+msgid "Monitor"
+msgstr "Монітор"
+
+msgctxt "name"
+msgid "Monitor Stage"
+msgstr "Етап моніторингу"
+
+msgctxt "@action:button"
+msgid "Monitor print"
+msgstr "Моніторинг друку"
+
+msgctxt "@tooltip:button"
+msgid "Monitor print jobs and reprint from your print history."
+msgstr "Відстежуйте завдання друку та запускайте їх з історії друку."
+
+msgctxt "@tooltip:button"
+msgid "Monitor printers in Ultimaker Digital Factory."
+msgstr "Слідкуйте за принтерами в Ultimaker Digital Factory."
+
+msgctxt "@info"
+msgid "Monitor your printers from everywhere using Ultimaker Digital Factory"
+msgstr "Слідкуйте за своїми принтерами будь-де за допомогою Ultimaker Digital Factory"
+
+msgctxt "@title:window"
+msgid "More information on anonymous data collection"
+msgstr "Додаткова інформація про збирання анонімних даних"
+
+msgctxt "@window:title"
+msgid "Move print job to top"
+msgstr "Перемістити завдання друку на початок черги"
+
+msgctxt "@action:button"
+msgid "Move to Next Position"
+msgstr "Перейти до наступної позиції"
+
+msgctxt "@label"
+msgid "Move to top"
+msgstr "Перемістити на початок"
+
+msgctxt "@info:tooltip"
+msgid "Moves the camera so the model is in the center of the view when a model is selected"
+msgstr "Переміщати камеру так, щоб вибрана модель поміщалася в центр екрану"
+
+msgctxt "@action:inmenu menubar:edit"
+msgid "Multiply Selected"
+msgstr "Розмножити вибране"
+
+msgctxt "@title:window"
+msgid "Multiply Selected Model"
+msgid_plural "Multiply Selected Models"
+msgstr[0] "Розмножити вибрану модель"
+msgstr[1] "Розмножити вибрані моделі"
+msgstr[2] "Розмножити вибрані моделі"
+
+msgctxt "@info:status"
+msgid "Multiplying and placing objects"
+msgstr "Розмноження та розміщення об'єктів"
+
+msgctxt "@title"
+msgid "My Backups"
+msgstr "Мої резервні копії"
+
+msgctxt "@label:button"
+msgid "My printers"
+msgstr "Мої принтери"
+
+msgctxt "@action:label"
+msgid "Name"
+msgstr "Назва"
+
+msgctxt "@label:category menu label"
+msgid "Network enabled printers"
+msgstr "Принтери, підключені до мережі"
+
+msgctxt "@info:title"
+msgid "Network error"
+msgstr "Помилка мережі"
+
+#, python-format
+msgctxt "@info:title The %s gets replaced with the printer name."
+msgid "New %s stable firmware available"
+msgstr "Доступна нова стабільна прошивка %s"
+
+msgctxt "@textfield:placeholder"
+msgid "New Custom Profile"
+msgstr "Новий профіль користувача"
+
+msgctxt "@label"
+msgid "New UltiMaker printers can be connected to Digital Factory and monitored remotely."
+msgstr "Нові принтери UltiMaker можна підключити до Digital Factory та керувати ними віддалено."
+
+#, python-brace-format
+msgctxt "@info Don't translate {machine_name}, since it gets replaced by a printer name!"
+msgid "New features or bug-fixes may be available for your {machine_name}! If you haven't done so already, it is recommended to update the firmware on your printer to version {latest_version}."
+msgstr "Для {machine_name} доступні нові функції або виправлення! Якщо у вас не встановлена остання версія прошивки принтера, рекомендуємо оновити її до версії {latest_version}."
+
+msgctxt "@action:button"
+msgid "New materials installed"
+msgstr "Встановлені нові матеріали"
+
+msgctxt "info:status"
+msgid "New printer detected from your Ultimaker account"
+msgid_plural "New printers detected from your Ultimaker account"
+msgstr[0] "Новий принтер виявлено з облікового запису Ultimaker"
+msgstr[1] "Новий принтер виявлено з облікового запису Ultimaker"
+msgstr[2] "Нових принтерів виявлено з облікового запису Ultimaker"
+
+msgctxt "@title:window"
+msgid "New project"
+msgstr "Новий проект"
+
+msgctxt "@action:button"
+msgid "Next"
+msgstr "Наступний"
+
+msgctxt "@button"
+msgid "Next"
+msgstr "Наступний"
+
+msgctxt "@info"
+msgid "No"
+msgstr "Ні"
+
+msgctxt "@info"
+msgid "No compatibility information"
+msgstr "Немає інформації про сумісність"
+
+msgctxt "@description"
+msgid "No compatible printers, that are currently online, were found."
+msgstr "Наразі у мережі нема сумісних принтерів."
+
+msgctxt "@label"
+msgid "No cost estimation available"
+msgstr "Оцінка витрат недоступна"
+
+#, python-brace-format
+msgctxt "@info:status Don't translate the XML tags <filename>!"
+msgid "No custom profile to import in file <filename>{0}</filename>"
+msgstr "Немає власного профілю для імпорту у файл <filename>{0}</filename>"
+
+msgctxt "@label"
+msgid "No items to select from"
+msgstr "Немає елементів для вибору"
+
+msgctxt "@info:title"
+msgid "No layers to show"
+msgstr "Немає шарів для відображення"
+
+msgctxt "@message"
+msgid "No more results to load"
+msgstr "Більше немає результатів для завантаження"
+
+msgctxt "@error:zip"
+msgid "No permission to write the workspace here."
+msgstr "Права на запис робочого середовища немає."
+
+msgctxt "@title:header"
+msgid "No printers found"
+msgstr "Принтери не виявлено"
+
+msgctxt "@label"
+msgid "No printers found in your account?"
+msgstr "В обліковому записі немає принтерів?"
+
+msgctxt "@message:text %1 is the name the printer uses for 'nozzle'."
+msgid "No profiles are available for the selected material/%1 configuration. Please change your configuration."
+msgstr "Немає профілів для вибраного матеріалу/конфігурації %1. Будь ласка, змініть конфігурацію."
+
+msgctxt "@message"
+msgid "No results found with current filter"
+msgstr "Пошук із поточним фільтром не дав результатів"
+
+msgctxt "@label"
+msgid "No time estimation available"
+msgstr "Оцінка часу недоступна"
+
+msgctxt "@button"
+msgid "Non UltiMaker printer"
+msgstr "Принтер, який не використовує UltiMaker"
+
+msgctxt "@info No materials"
+msgid "None"
+msgstr "Нема"
+
+msgctxt "@label"
+msgid "Normal model"
+msgstr "Нормальна модель"
+
+msgctxt "@info:title"
+msgid "Not a group host"
+msgstr "Не головний принтер групи"
+
+msgctxt "@label:MonitorStatus"
+msgid "Not connected to a printer"
+msgstr "Не підключено до принтера"
+
+msgctxt "@action:label"
+msgid "Not in profile"
+msgstr "Поза профілю"
+
+msgctxt "@menuitem"
+msgid "Not overridden"
+msgstr "Не перевизначено"
+
+msgctxt "@info:not supported profile"
+msgid "Not supported"
+msgstr "Не підтримується"
+
+msgctxt "@label"
+msgid "Not yet initialized"
+msgstr "Ще не ініціалізовано"
+
+msgctxt "@info:status"
+msgid "Nothing is shown because you need to slice first."
+msgstr "Нічого не відображається, оскільки спочатку потрібно вирізати шари."
+
+msgctxt "@label"
+msgid "Nozzle"
+msgstr "Сопло"
+
+msgctxt "@title:label"
+msgid "Nozzle Settings"
+msgstr "Параметри сопла"
+
+msgctxt "@label"
+msgid "Nozzle offset X"
+msgstr "Зміщення сопла по осі X"
+
+msgctxt "@label"
+msgid "Nozzle offset Y"
+msgstr "Зміщення сопла по осі Y"
+
+msgctxt "@label"
+msgid "Nozzle size"
+msgstr "Діаметр сопла"
+
+msgctxt "@label"
+msgid "Number of Copies"
+msgstr "Кількість копій"
+
+msgctxt "@label"
+msgid "Number of Extruders"
+msgstr "Кількість екструдерів"
+
+msgctxt "@action:button"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "@label"
+msgid "OS language"
+msgstr "Мова ОС"
+
+msgctxt "@label"
+msgid "Object list"
+msgstr "Список об'єктів"
+
+msgctxt "@label:Should be short"
+msgid "Off"
+msgstr "Вимк"
+
+msgctxt "@label:Should be short"
+msgid "On"
+msgstr "Увімк"
+
+msgctxt "@label"
+msgid "Only Show Top Layers"
+msgstr "Показати тільки верхні шари"
+
+#, python-brace-format
+msgctxt "@info:status"
+msgid "Only one G-code file can be loaded at a time. Skipped importing {0}"
+msgstr "Тільки один G-code файл може бути завантажений в момент часу. Пропускаю імпортування {0}"
+
+msgctxt "@action:button"
+msgid "Open"
+msgstr "Відкрити"
+
+msgctxt "@title:menu menubar:file"
+msgid "Open &Recent"
+msgstr "Відкрити недавні"
+
+msgctxt "@item:inlistbox 'Open' is part of the name of this file format."
+msgid "Open Compressed Triangle Mesh"
+msgstr "Open Compressed Triangle Mesh"
+
+msgctxt "@title:window"
+msgid "Open File(s)"
+msgstr "Открыть файл(ы)"
+
+msgctxt "@title:menu menubar:file"
+msgid "Open File(s)..."
+msgstr "Відкрити файл(и)..."
+
+msgctxt "@title:window"
+msgid "Open Project"
+msgstr "Відкриття проекту"
+
+msgctxt "@info:title"
+msgid "Open Project File"
+msgstr "Відкрити файл проекту"
+
+msgctxt "@action:label"
+msgid "Open With"
+msgstr "Відкрити з допомогою"
+
+msgctxt "@action:button"
+msgid "Open as project"
+msgstr "Відкрити як проект"
+
+msgctxt "@title:window"
+msgid "Open file(s)"
+msgstr "Відкрити файл(и)"
+
+msgctxt "@action:button"
+msgid "Open project anyway"
+msgstr "Все одно відкрити проект"
+
+msgctxt "@title:window"
+msgid "Open project file"
+msgstr "Відкрити файл проекту"
+
+msgctxt "@label OpenGL version"
+msgid "OpenGL"
+msgstr "OpenGL"
+
+msgctxt "@label"
+msgid "Opening and saving files"
+msgstr "Відкриття та збереження файлів"
+
+msgctxt "@header"
+msgid "Optimized for Air Manager"
+msgstr "Оптимізовано для Air Manager"
+
+msgctxt "@label"
+msgid "Origin at center"
+msgstr "Початок координат у центрі"
+
+msgid "Orthographic"
+msgstr "Ортографічна"
+
+msgctxt "@action:inmenu menubar:view"
+msgid "Orthographic"
+msgstr "Ортографічна"
+
+msgctxt "@tooltip"
+msgid "Other"
+msgstr "Інші"
+
+msgctxt "@label"
+msgid "Other models overlapping with this model are modified."
+msgstr "Інші моделі, що мають перекриття із цією моделлю, змінені."
+
+msgctxt "@label"
+msgid "Other printers"
+msgstr "Інші принтери"
+
+msgctxt "@tooltip"
+msgid "Outer Wall"
+msgstr "Зовнішня стінка"
+
+msgctxt "@label"
+msgid "Overlaps with this model are not supported."
+msgstr "Перекриття із цією моделлю не підтримуються."
+
+msgctxt "@action:button"
+msgid "Override"
+msgstr "Перевизначити"
+
+msgctxt "@label"
+msgid "Override will use the specified settings with the existing printer configuration. This may result in a failed print."
+msgstr "При перевизначенні до наявної конфігурації принтера буде застосовано налаштування. Це може спричинити помилку друку."
+
+msgctxt "@label %1 is the number of settings it overrides."
+msgid "Overrides %1 setting."
+msgid_plural "Overrides %1 settings."
+msgstr[0] "Перевизначає %1 налаштування."
+msgstr[1] "Перевизначає %1 налаштування."
+msgstr[2] "Перевизначає %1 налаштування."
+
+msgctxt "@title:menu menubar:toplevel"
+msgid "P&references"
+msgstr "&Налаштування"
+
+msgctxt "@item:inlistbox"
+msgid "PNG Image"
+msgstr "PNG зображення"
+
+msgctxt "@header"
+msgid "Package details"
+msgstr "Відомості про пакет"
+
+msgctxt "@label Description for development tool"
+msgid "Packaging Python-applications"
+msgstr "Упаковка Python-додатків"
+
+msgctxt "@info:status"
+msgid "Parsing G-code"
+msgstr "Обробка G-code"
+
+msgctxt "@label"
+msgid "Pause"
+msgstr "Пауза"
+
+msgctxt "@label:MonitorStatus"
+msgid "Paused"
+msgstr "Припинено"
+
+msgctxt "@label:status"
+msgid "Paused"
+msgstr "Припинено"
+
+msgctxt "@label"
+msgid "Pausing..."
+msgstr "Призупинення..."
+
+msgctxt "@label:status"
+msgid "Pausing..."
+msgstr "Призупинення..."
+
+msgctxt "@label"
+msgid "Per Model Settings"
+msgstr "Параметри моделі"
+
+msgctxt "name"
+msgid "Per Model Settings Tool"
+msgstr "Інструмент для налаштування кожної моделі"
+
+msgid "Perspective"
+msgstr "Перспективна"
+
+msgctxt "@action:inmenu menubar:view"
+msgid "Perspective"
+msgstr "Перспективна"
+
+msgctxt "@action:label"
+msgid "Placement"
+msgstr "Разміщення"
+
+msgctxt "@info:title"
+msgid "Placing Object"
+msgstr "Розміщення об'єкту"
+
+msgctxt "@info:title"
+msgid "Placing Objects"
+msgstr "Розміщення об'єктів"
+
+msgctxt "@label Type of platform"
+msgid "Platform"
+msgstr "Платформа"
+
+msgctxt "@info"
+msgid "Please connect your printer to the network."
+msgstr "Підключіть принтер до мережі."
+
+msgctxt "@text"
+msgid "Please enter a valid IP address."
+msgstr "Введіть дійсну IP-адресу."
+
+msgctxt "@message"
+msgid "Please give the required permissions when authorizing this application."
+msgstr "Дайте необхідні дозволи під час авторизації в цьому додатку."
+
+msgctxt "@info"
+msgid ""
+"Please make sure your printer has a connection:\n"
+"- Check if the printer is turned on.\n"
+"- Check if the printer is connected to the network.\n"
+"- Check if you are signed in to discover cloud-connected printers."
+msgstr ""
+"Перевірте наявність підключення до принтера:\n"
+"- Переконайтеся, що принтер увімкнено.\n"
+"- Переконайтеся, що принтер підключено до мережі.\n"
+"- Переконайтеся, що ви увійшли до системи (це необхідно для пошуку принтерів, підключених до хмари)."
+
+msgctxt "@text"
+msgid "Please name your printer"
+msgstr "Надайте ім'я принтеру"
+
+msgctxt "@warning:status"
+msgid "Please prepare G-code before exporting."
+msgstr "Підготуйте G-код перед експортом."
+
+msgctxt "@info"
+msgid "Please provide a name for this profile."
+msgstr "Вкажіть ім'я цього профілю."
+
+msgctxt "@info"
+msgid "Please provide a new name."
+msgstr "Вкажіть нове ім'я."
+
+msgctxt "@text"
+msgid "Please read and agree with the plugin licence."
+msgstr "Прочитайте ліцензію модуля і прийміть її умови."
+
+msgctxt "@label:MonitorStatus"
+msgid "Please remove the print"
+msgstr "Будь ласка, видаліть надруковане"
+
+msgctxt "@info:status"
+msgid ""
+"Please review settings and check if your models:\n"
+"- Fit within the build volume\n"
+"- Are assigned to an enabled extruder\n"
+"- Are not all set as modifier meshes"
+msgstr ""
+"Перевірте налаштування та переконайтеся, що ваші моделі:\n"
+"- відповідають допустимій області друку\n"
+"- призначені активованому екструдеру\n"
+"- не задані як об'єкти-модифікатори"
+
+msgctxt "@label"
+msgid "Please select any upgrades made to this UltiMaker Original"
+msgstr "Будь ласка, вкажіть будь-які зміни, внесені до UltiMaker Original"
+
+msgctxt "@description"
+msgid "Please sign in to get verified plugins and materials for UltiMaker Cura Enterprise"
+msgstr "Увійдіть, щоб отримати перевірені вбудовані модулі та матеріали для UltiMaker Cura Enterprise"
+
+msgctxt "@action:button"
+msgid "Please sync the material profiles with your printers before starting to print."
+msgstr "Перед початком друку синхронізуйте профілі матеріалів із принтерами."
+
+msgctxt "@info"
+msgid "Please update your printer's firmware to manage the queue remotely."
+msgstr "Для віддаленого керування чергою необхідно оновити програмне забезпечення принтера."
+
+msgctxt "@info:status"
+msgid "Please wait until the current job has been sent."
+msgstr "Дочекайтеся закінчення відправки поточного завдання."
+
+msgctxt "@title:window"
+msgid "Plugin License Agreement"
+msgstr "Ліцензійна угода плагіна"
+
+msgctxt "@button"
+msgid "Plugin license agreement"
+msgstr "Ліцензійна угода плагіна"
+
+msgctxt "@backuplist:label"
+msgid "Plugins"
+msgstr "Плагіни"
+
+msgctxt "@button"
+msgid "Plugins"
+msgstr "Плагіни"
+
+msgctxt "@label Description for application dependency"
+msgid "Polygon clipping library"
+msgstr "Бібліотека обрізки полігонів"
+
+msgctxt "@label Description for application component"
+msgid "Polygon packing library, developed by Prusa Research"
+msgstr "Бібліотека упаковки полігонів, розроблена Prusa Research"
+
+msgctxt "@item:inmenu"
+msgid "Post Processing"
+msgstr "Пост-обробка"
+
+msgctxt "name"
+msgid "Post Processing"
+msgstr "Пост-обробка"
+
+msgctxt "@title:window"
+msgid "Post Processing Plugin"
+msgstr "Плагін пост-обробки"
+
+msgctxt "@label"
+msgid "Post Processing Scripts"
+msgstr "Скрипти пост-обробки"
+
+msgctxt "@button"
+msgid "Pre-heat"
+msgstr "Переднагрівання"
+
+msgctxt "@item:inmenu"
+msgid "Prepare"
+msgstr "Підготовка"
+
+msgctxt "name"
+msgid "Prepare Stage"
+msgstr "Підготовчий етап"
+
+msgctxt "@label:MonitorStatus"
+msgid "Preparing..."
+msgstr "Підготовка..."
+
+msgctxt "@label:status"
+msgid "Preparing..."
+msgstr "Підготовка..."
+
+msgctxt "@label"
+msgid "Preset printers"
+msgstr "Попередньо налаштовані принтери"
+
+msgctxt "@button"
+msgid "Preview"
+msgstr "Попередній перегляд"
+
+msgctxt "@item:inmenu"
+msgid "Preview"
+msgstr "Попередній перегляд"
+
+msgctxt "name"
+msgid "Preview Stage"
+msgstr "Етап попереднього перегляду"
+
+msgctxt "@tooltip"
+msgid "Prime Tower"
+msgstr "Чорнова вежа"
+
+msgctxt "@action:button"
+msgid "Print"
+msgstr "Друк"
+
+msgctxt "@label"
+msgid "Print Selected Model With:"
+msgid_plural "Print Selected Models With:"
+msgstr[0] "Друк вибраної моделі:"
+msgstr[1] "Друк вибраних моделей:"
+msgstr[2] "Друк вибраних моделей:"
+
+msgctxt "@label %1 is filled in with the name of an extruder"
+msgid "Print Selected Model with %1"
+msgid_plural "Print Selected Models with %1"
+msgstr[0] "Друкувати вибрану модель з %1"
+msgstr[1] "Друкувати вибрані моделі з %1"
+msgstr[2] "Друкувати вибрані моделі з %1"
+
+msgctxt "@label"
+msgid "Print as support"
+msgstr "Друк як підтримка"
+
+msgctxt "@info:title"
+msgid "Print error"
+msgstr "Помилка друку"
+
+msgctxt "@message"
+msgid "Print in Progress"
+msgstr "Йде друк"
+
+msgctxt "@info:status"
+msgid "Print job queue is full. The printer can't accept a new job."
+msgstr "Черга завдань друку заповнена. Принтер не може прийняти нове завдання."
+
+msgctxt "@info:status"
+msgid "Print job was successfully sent to the printer."
+msgstr "Завдання друку успішно надіслано на принтер."
+
+msgctxt "@label"
+msgid "Print jobs"
+msgstr "Завдання друку"
+
+msgctxt "@label:button"
+msgid "Print jobs"
+msgstr "Завдання друку"
+
+msgctxt "@action:button Preceded by 'Ready to'."
+msgid "Print over network"
+msgstr "Друк через мережу"
+
+msgctxt "@properties:tooltip"
+msgid "Print over network"
+msgstr "Друк через мережу"
+
+msgctxt "@title:window"
+msgid "Print over network"
+msgstr "Друк через мережу"
+
+msgctxt "@label"
+msgid "Print settings"
+msgstr "Параметри друку"
+
+msgctxt "@label shown when we load a Gcode file"
+msgid "Print setup disabled. G-code file can not be modified."
+msgstr "Налаштування друку вимкнено. Неможливо змінити файл із G-кодом."
+
+msgctxt "@action:button Preceded by 'Ready to'."
+msgid "Print via USB"
+msgstr "Друк через USB"
+
+msgctxt "@info:tooltip"
+msgid "Print via USB"
+msgstr "Друк через USB"
+
+msgctxt "@action:button"
+msgid "Print via cloud"
+msgstr "Друк через хмару"
+
+msgctxt "@properties:tooltip"
+msgid "Print via cloud"
+msgstr "Друк через хмару"
+
+msgctxt "@action:label"
+msgid "Print with"
+msgstr "Друк за допомогою"
+
+msgctxt "@title:tab"
+msgid "Printer"
+msgstr "Принтер"
+
+msgctxt "@title:window"
+msgid "Printer Address"
+msgstr "Адреса принтера"
+
+msgctxt "@action:label"
+msgid "Printer Group"
+msgstr "Група принтерів"
+
+msgctxt "@title:label"
+msgid "Printer Settings"
+msgstr "Параметри принтера"
+
+msgctxt "@label"
+msgid "Printer control"
+msgstr "Керування принтером"
+
+msgctxt "@label:MonitorStatus"
+msgid "Printer does not accept commands"
+msgstr "Принтер не приймає команди"
+
+msgctxt "@label"
+msgid "Printer name"
+msgstr "Ім'я принтера"
+
+msgctxt "@label"
+msgid "Printer selection"
+msgstr "Вибір принтера"
+
+msgctxt "@action:label"
+msgid "Printer settings"
+msgstr "Параметри принтера"
+
+msgctxt "@info:tooltip"
+msgid "Printer settings will be updated to match the settings saved with the project."
+msgstr "Параметри принтера будуть оновлені відповідно до параметрів, збережених у проекті."
+
+msgctxt "@title:tab"
+msgid "Printers"
+msgstr "Принтери"
+
+msgctxt "info:status"
+msgid "Printers added from Digital Factory:"
+msgstr "Принтери додані з Digital Factory:"
+
+msgctxt "@text Asking the user whether printers are missing in a list."
+msgid "Printers missing?"
+msgstr "Відсутні принтери?"
+
+msgctxt "@title:label"
+msgid "Printhead Settings"
+msgstr "Параметри голови"
+
+msgctxt "@label:status"
+msgid "Printing"
+msgstr "Друк"
+
+msgctxt "@label"
+msgid "Printing Time"
+msgstr "Час друку"
+
+msgctxt "@label:MonitorStatus"
+msgid "Printing..."
+msgstr "Друк..."
+
+msgctxt "@label"
+msgid "Privacy"
+msgstr "Приватність"
+
+msgctxt "@button"
+msgid "Processing"
+msgstr "Обробка"
+
+msgctxt "@info:status"
+msgid "Processing Layers"
+msgstr "Обробка шарів"
+
+msgctxt "@label"
+msgid "Profile"
+msgstr "Профіль"
+
+msgctxt "@title:column"
+msgid "Profile"
+msgstr "Профіль"
+
+msgctxt "@label"
+msgid "Profile author"
+msgstr "Автор профілю"
+
+msgctxt "@info:status"
+msgid "Profile is missing a quality type."
+msgstr "Профайл не має типу якості."
+
+msgctxt "@action:label"
+msgid "Profile settings"
+msgstr "Параметри профілю"
+
+msgctxt "@title:column"
+msgid "Profile settings"
+msgstr "Параметри профілю"
+
+#, python-brace-format
+msgctxt "@info:status"
+msgid "Profile {0} has an unknown file type or is corrupted."
+msgstr "Профіль {0} має невідомий тип файлу або пошкоджено."
+
+msgctxt "@backuplist:label"
+msgid "Profiles"
+msgstr "Профілі"
+
+msgctxt "@label"
+msgid "Profiles"
+msgstr "Профілі"
+
+msgctxt "@title:tab"
+msgid "Profiles"
+msgstr "Профілі"
+
+msgctxt "@label"
+msgid "Profiles compatible with active printer:"
+msgstr "Профілі, сумісні з активним принтером:"
+
+msgctxt "@label Description for application dependency"
+msgid "Programming language"
+msgstr "Мова програмування"
+
+#, python-brace-format
+msgctxt "@info:status Don't translate the XML tags <filename> or <message>!"
+msgid "Project file <filename>{0}</filename> contains an unknown machine type <message>{1}</message>. Cannot import the machine. Models will be imported instead."
+msgstr "Файл проекту <filename>{0}</filename> містить невідомий тип принтера <message>{1}</message>. Не вдалося імпортувати принтер. Натомість будуть імпортовані моделі."
+
+#, python-brace-format
+msgctxt "@info:error Don't translate the XML tags <filename> or <message>!"
+msgid "Project file <filename>{0}</filename> is corrupt: <message>{1}</message>."
+msgstr "Файл проекту <filename>{0}</filename> пошкоджено: <message>{1}</message>."
+
+#, python-brace-format
+msgctxt "@info:error Don't translate the XML tag <filename>!"
+msgid "Project file <filename>{0}</filename> is made using profiles that are unknown to this version of UltiMaker Cura."
+msgstr "Файл проекту <filename>{0}</filename> створений за допомогою профілів, несумісних із цією версією UltiMaker Cura."
+
+#, python-brace-format
+msgctxt "@info:error Don't translate the XML tags <filename> or <message>!"
+msgid "Project file <filename>{0}</filename> is suddenly inaccessible: <message>{1}</message>."
+msgstr "Файл проекту <filename>{0}</filename> раптово став недоступним: <message>{1}.</message>."
+
+msgctxt "@label"
+msgid "Properties"
+msgstr "Властивості"
+
+msgctxt "description"
+msgid "Provides a machine actions for updating firmware."
+msgstr "Забезпечення дій принтера для оновлення прошивки."
+
+msgctxt "description"
+msgid "Provides a monitor stage in Cura."
+msgstr "Забезпечує етап моніторингу у Cura."
+
+msgctxt "description"
+msgid "Provides a normal solid mesh view."
+msgstr "Надає перегляд твердого тіла."
+
+msgctxt "description"
+msgid "Provides a prepare stage in Cura."
+msgstr "Забезпечує підготовчий етап у Cura."
+
+msgctxt "description"
+msgid "Provides a preview stage in Cura."
+msgstr "Забезпечує дії на етапі попереднього перегляду Cura."
+
+msgctxt "description"
+msgid "Provides a way to change machine settings (such as build volume, nozzle size, etc.)."
+msgstr "Надає можливість зміни параметрів принтера (такі як робочий об'єм, діаметр сопла тощо)"
+
+msgctxt "description"
+msgid "Provides capabilities to read and write XML-based material profiles."
+msgstr "Надає можливості читання та запису профілів матеріалів у вигляді XML."
+
+msgctxt "description"
+msgid "Provides machine actions for Ultimaker machines (such as bed leveling wizard, selecting upgrades, etc.)."
+msgstr "Надає додаткові можливості для принтерів UltiMaker (такі як майстер вирівнювання столу, вибору оновлення тощо)"
+
+msgctxt "description"
+msgid "Provides removable drive hotplugging and writing support."
+msgstr "Надає підтримку для підключення та запису на зовнішній носій."
+
+msgctxt "description"
+msgid "Provides support for exporting Cura profiles."
+msgstr "Надає підтримку для експорту профілів Cura."
+
+msgctxt "description"
+msgid "Provides support for importing Cura profiles."
+msgstr "Надає підтримку для імпорту профілів Cura."
+
+msgctxt "description"
+msgid "Provides support for importing profiles from g-code files."
+msgstr "Надає підтримку для імпортування профілів з файлів G-Code."
+
+msgctxt "description"
+msgid "Provides support for importing profiles from legacy Cura versions."
+msgstr "Надає підтримку для імпортування профілів із застарілих версій Cura."
+
+msgctxt "description"
+msgid "Provides support for reading 3MF files."
+msgstr "Надає підтримку для читання файлів 3MF."
+
+msgctxt "description"
+msgid "Provides support for reading AMF files."
+msgstr "Забезпечує підтримку для читання файлів AMF."
+
+msgctxt "description"
+msgid "Provides support for reading Ultimaker Format Packages."
+msgstr "Надає підтримку для читання пакетів UltiMaker."
+
+msgctxt "description"
+msgid "Provides support for reading X3D files."
+msgstr "Надає підтримку для читання файлів X3D."
+
+msgctxt "description"
+msgid "Provides support for reading model files."
+msgstr "Надає підтримку для читання файлів моделей."
+
+msgctxt "description"
+msgid "Provides support for writing 3MF files."
+msgstr "Надає можливість запису 3MF файлів."
+
+msgctxt "description"
+msgid "Provides support for writing Ultimaker Format Packages."
+msgstr "Надає підтримку для запису пакетів UltiMaker."
+
+msgctxt "description"
+msgid "Provides the Per Model Settings."
+msgstr "Надає параметри для кожної моделі."
+
+msgctxt "description"
+msgid "Provides the X-Ray view."
+msgstr "Надає рентгенівський вигляд."
+
+msgctxt "description"
+msgid "Provides the link to the CuraEngine slicing backend."
+msgstr "Надає інтерфейс до движка CuraEngine."
+
+msgctxt "description"
+msgid "Provides the preview of sliced layerdata."
+msgstr "Забезпечує перегляд нарізаних даних шару."
+
+msgctxt "@label"
+msgid "PyQt version"
+msgstr "Версія PyQt"
+
+msgctxt "@Label Description for application dependency"
+msgid "Python Error tracking library"
+msgstr "Бібліотека відстеження помилок Python"
+
+msgctxt "@label Description for application dependency"
+msgid "Python bindings for Clipper"
+msgstr "Прив'язки Python для Clipper"
+
+msgctxt "@label Description for application component"
+msgid "Python bindings for libnest2d"
+msgstr "Інтерфейс Python для libnest2d"
+
+msgctxt "@label"
+msgid "Qt version"
+msgstr "Версія Qt"
+
+#, python-brace-format
+msgctxt "@info:status"
+msgid "Quality type '{0}' is not compatible with the current active machine definition '{1}'."
+msgstr "Тип якості \"{0}\" несумісний з поточним визначенням активної машини \"{1}\"."
+
+msgctxt "@info:title"
+msgid "Queue Full"
+msgstr "Черга заповнена"
+
+msgctxt "@label"
+msgid "Queued"
+msgstr "Заплановано"
+
+msgctxt "@info:button, %1 is the application name"
+msgid "Quit %1"
+msgstr "Вийти з %1"
+
+msgctxt "description"
+msgid "Reads g-code from a compressed archive."
+msgstr "Зчитує G-код зі стисненого архіву."
+
+msgctxt "@button"
+msgid "Recommended"
+msgstr "Рекомендований"
+
+msgctxt "@title:tab"
+msgid "Recommended"
+msgstr "Рекомендована"
+
+msgctxt "@label"
+msgid "Recommended print settings"
+msgstr "Рекомендовані налаштування друку"
+
+msgctxt "@info %1 is the name of a profile"
+msgid "Recommended settings (for <b>%1</b>) were altered."
+msgstr "Рекомендовані настройки (%1</b>) були змінені."
+
+msgctxt "@action:button"
+msgid "Refresh"
+msgstr "Оновити"
+
+msgctxt "@button"
+msgid "Refresh"
+msgstr "Оновити"
+
+msgctxt "@label"
+msgid "Refresh"
+msgstr "Оновити"
+
+msgctxt "@button"
+msgid "Refresh List"
+msgstr "Оновити список"
+
+msgctxt "@label"
+msgid "Release Notes"
+msgstr "Примітки до випуску"
+
+msgctxt "@action:inmenu menubar:file"
+msgid "Reload All Models"
+msgstr "Перезавантажити всі моделі"
+
+msgctxt "@text:window"
+msgid "Remember my choice"
+msgstr "Запам'ятати мій вибір"
+
+msgctxt "@item:intext"
+msgid "Removable Drive"
+msgstr "Зовнішній носій"
+
+msgctxt "name"
+msgid "Removable Drive Output Device Plugin"
+msgstr "Плагін для роботи із зовнішнім носієм"
+
+msgctxt "@action:button"
+msgid "Remove"
+msgstr "Видалити"
+
+msgctxt "@action:button"
+msgid "Remove printers"
+msgstr "Видалити принтери"
+
+msgctxt "@title:window"
+msgid "Remove printers?"
+msgstr "Видалити принтери?"
+
+msgctxt "@action:button"
+msgid "Rename"
+msgstr "Перейменувати"
+
+msgctxt "@title:window"
+msgid "Rename"
+msgstr "Перейменувати"
+
+msgctxt "@title:window"
+msgid "Rename Profile"
+msgstr "Перейменувати профіль"
+
+msgctxt "@action:inmenu menubar:help"
+msgid "Report a &Bug"
+msgstr "Надіслати звіт про помилку"
+
+msgctxt "@label:button"
+msgid "Report a bug"
+msgstr "Повідомити про помилку"
+
+msgctxt "@message:button"
+msgid "Report a bug"
+msgstr "Повідомити про помилку"
+
+msgctxt "@message:description"
+msgid "Report a bug on UltiMaker Cura's issue tracker."
+msgstr "Повідомте про помилку у системі відстеження проблем UltiMaker Cura."
+
+msgctxt "@label:status"
+msgid "Requires configuration changes"
+msgstr "Необхідно внести зміни конфігурації"
+
+msgctxt "@action:inmenu menubar:edit"
+msgid "Reset All Model Positions"
+msgstr "Скинути позиції всіх моделей"
+
+msgctxt "@action:inmenu menubar:edit"
+msgid "Reset All Model Transformations"
+msgstr "Скинути перетворення всіх моделей"
+
+msgctxt "@info"
+msgid "Reset to defaults."
+msgstr "Відновити значення за промовчанням."
+
+msgctxt "@label"
+msgid "Resolution"
+msgstr "Дозвіл"
+
+msgctxt "@button"
+msgid "Restore"
+msgstr "Відновити"
+
+msgctxt "@dialog:title"
+msgid "Restore Backup"
+msgstr "Відновити резервну копію"
+
+msgctxt "@option:check"
+msgid "Restore window position on start"
+msgstr "Відновити положення вікна під час запуску"
+
+msgctxt "@label"
+msgid "Resume"
+msgstr "Продовжити"
+
+msgctxt "@label"
+msgid "Resuming..."
+msgstr "Відновлюється..."
+
+msgctxt "@label:status"
+msgid "Resuming..."
+msgstr "Відновлюється..."
+
+msgctxt "@tooltip"
+msgid "Retractions"
+msgstr "Відкати"
+
+msgctxt "@button"
+msgid "Retry?"
+msgstr "Повторити спробу?"
+
+msgctxt "@action:inmenu menubar:view"
+msgid "Right Side View"
+msgstr "Вид справа"
+
+msgctxt "@info:tooltip"
+msgid "Right View"
+msgstr "Вид справа"
+
+msgctxt "@label Description for application dependency"
+msgid "Root Certificates for validating SSL trustworthiness"
+msgstr "Кореневі сертифікати для перевірки надійності SSL"
+
+msgctxt "@info:title"
+msgid "Safely Remove Hardware"
+msgstr "Безпечне виймання пристрою"
+
+msgctxt "@button"
+msgid "Safety datasheet"
+msgstr "Паспорт безпеки"
+
+msgctxt "@action:button"
+msgid "Save"
+msgstr "Зберегти"
+
+msgctxt "@option"
+msgid "Save Cura project"
+msgstr "Зберегти проект Cura"
+
+msgctxt "@option"
+msgid "Save Cura project and print file"
+msgstr "Зберегти проект Cura та роздрукувати файл"
+
+msgctxt "@title:window"
+msgid "Save Custom Profile"
+msgstr "Зберегти профіль користувача"
+
+msgctxt "@title:window"
+msgid "Save Project"
+msgstr "Зберегти проект"
+
+msgctxt "@title:menu menubar:file"
+msgid "Save Project..."
+msgstr "Зберегти проект..."
+
+msgctxt "@action:button"
+msgid "Save as new custom profile"
+msgstr "Зберегти як новий профіль користувача"
+
+msgctxt "@action:button"
+msgid "Save changes"
+msgstr "Зберегти зміни"
+
+msgctxt "@button"
+msgid "Save new profile"
+msgstr "Зберегти новий профіль"
+
+msgctxt "@text"
+msgid "Save the .umm file on a USB stick."
+msgstr "Збережіть файл UMM на USB-накопичувачі."
+
+msgctxt "@action:button Preceded by 'Ready to'."
+msgid "Save to Removable Drive"
+msgstr "Зберегти на зовнішній носій"
+
+#, python-brace-format
+msgctxt "@item:inlistbox"
+msgid "Save to Removable Drive {0}"
+msgstr "Зберегти на зовнішній носій {0}"
+
+#, python-brace-format
+msgctxt "@info:status"
+msgid "Saved to Removable Drive {0} as {1}"
+msgstr "Збережено на зовнішній носій {0} як {1}"
+
+msgctxt "@info:title"
+msgid "Saving"
+msgstr "Збереження"
+
+#, python-brace-format
+msgctxt "@info:progress Don't translate the XML tags <filename>!"
+msgid "Saving to Removable Drive <filename>{0}</filename>"
+msgstr "Збереження на зовнішній носій <filename>{0}</filename>"
+
+msgctxt "@option:check"
+msgid "Scale extremely small models"
+msgstr "Масштабувати дуже маленькі моделі"
+
+msgctxt "@option:check"
+msgid "Scale large models"
+msgstr "Масштабувати великі моделі"
+
+msgctxt "@placeholder"
+msgid "Search"
+msgstr "Пошук"
+
+msgctxt "@info"
+msgid "Search in the browser"
+msgstr "Пошук у браузері"
+
+msgctxt "@label:textbox"
+msgid "Search settings"
+msgstr "Параметри пошуку"
+
+msgctxt "@action:inmenu menubar:edit"
+msgid "Select All Models"
+msgstr "Вибрати всі моделі"
+
+msgctxt "@title:window"
+msgid "Select Printer"
+msgstr "Вибрати принтер"
+
+msgctxt "@title:window"
+msgid "Select Settings to Customize for this model"
+msgstr "Виберіть параметр, щоб змінити цю модель"
+
+msgctxt "@text"
+msgid "Select and install material profiles optimised for your UltiMaker 3D printers."
+msgstr "Виберіть та встановіть профілі матеріалів, оптимізовані для 3D-принтерів Ultimaker."
+
+msgctxt "@label"
+msgid "Select configuration"
+msgstr "Виберіть конфігурації"
+
+msgctxt "@title:window"
+msgid "Select custom firmware"
+msgstr "Вибрати власну прошивку"
+
+msgctxt "@option:check"
+msgid "Select models when loaded"
+msgstr "Вибрати моделі під час завантаження"
+
+msgctxt "@action:button"
+msgid "Select settings"
+msgstr "Виберіть параметри"
+
+msgctxt "@action"
+msgid "Select upgrades"
+msgstr "Вибір оновлень"
+
+msgctxt "@label"
+msgid "Select your printer from the list below:"
+msgstr "Виберіть свій принтер із наведеного нижче списку:"
+
+msgctxt "@option:check"
+msgid "Send (anonymous) print information"
+msgstr "Надсилати (анонімно) інформацію про друк"
+
+msgctxt "@label"
+msgid "Send G-code"
+msgstr "Надіслати G-код"
+
+msgctxt "@tooltip of G-code command input"
+msgid "Send a custom G-code command to the connected printer. Press 'enter' to send the command."
+msgstr "Надіслати свою команду до G-коду підключеного принтера. Натисніть Enter, щоб надіслати команду."
+
+msgctxt "@action:button"
+msgid "Send crash report to UltiMaker"
+msgstr "Надіслати звіт про збій до UltiMaker"
+
+msgctxt "@action:button"
+msgid "Send report"
+msgstr "Надіслати звіт"
+
+msgctxt "@info:status"
+msgid "Sending Print Job"
+msgstr "Надсилання завдання друку"
+
+msgctxt "@info:title"
+msgid "Sending materials to printer"
+msgstr "Надсилання матеріалів на принтер"
+
+msgctxt "name"
+msgid "Sentry Logger"
+msgstr "Контрольний журнал"
+
+msgctxt "@label Description for application dependency"
+msgid "Serial communication library"
+msgstr "Бібліотека послідовного інтерфейсу"
+
+msgctxt "@action:inmenu"
+msgid "Set as Active Extruder"
+msgstr "Встановити як активний екструдер"
+
+msgctxt "@title:column"
+msgid "Setting"
+msgstr "Параметр"
+
+msgctxt "@title:tab"
+msgid "Setting Visibility"
+msgstr "Видимість параметрів"
+
+msgctxt "@info:progress"
+msgid "Setting up preferences..."
+msgstr "Налаштування параметрів..."
+
+msgctxt "@info:progress"
+msgid "Setting up scene..."
+msgstr "Налаштування сцени..."
+
+msgctxt "@action:label"
+msgid "Setting visibility"
+msgstr "Видимість параметрів"
+
+msgctxt "@label"
+msgid "Settings"
+msgstr "Параметри"
+
+msgctxt "@title:tab"
+msgid "Settings"
+msgstr "Параметри"
+
+msgctxt "@info:message Followed by a list of settings."
+msgid "Settings have been changed to match the current availability of extruders:"
+msgstr "Установки змінені відповідно до поточної доступності екструдерів:"
+
+msgctxt "@info:title"
+msgid "Settings updated"
+msgstr "Установки оновлено"
+
+msgctxt "@text"
+msgid "Share ideas and get help from 48,000+ users in the UltiMaker Community"
+msgstr "Діліться ідеями та отримуйте допомогу від 48 000 користувачів у спільноті UltiMaker"
+
+msgctxt "@label"
+msgid "Shell"
+msgstr "Огородження"
+
+msgctxt "@action:label"
+msgid "Shell Thickness"
+msgstr "Товщина стінки"
+
+msgctxt "@info:tooltip"
+msgid "Should Cura check for updates when the program is started?"
+msgstr "Чи має Cura перевіряти оновлення програми при старті?"
+
+msgctxt "@info:tooltip"
+msgid "Should Cura open at the location it was closed?"
+msgstr "Відкрити Cura на тому місці, де ви зупинилися минулого разу?"
+
+msgctxt "@info:tooltip"
+msgid "Should a prefix based on the printer name be added to the print job name automatically?"
+msgstr "Чи потрібно автоматично додавати префікс на ім'я принтера до назви завдання друку?"
+
+msgctxt "@info:tooltip"
+msgid "Should a summary be shown when saving a project file?"
+msgstr "Показувати зведення під час збереження файлу проекту?"
+
+msgctxt "@info:tooltip"
+msgid "Should an automatic check for new plugins be done every time Cura is started? It is highly recommended that you do not disable this!"
+msgstr "Чи слід автоматично перевіряти наявність нових плагінів під час кожного запуску Cura? Настійно рекомендується не вимикати це!"
+
+msgctxt "@info:tooltip"
+msgid "Should anonymous data about your print be sent to UltiMaker? Note, no models, IP addresses or other personally identifiable information is sent or stored."
+msgstr "Чи можна надсилати анонімну інформацію про вашу печатку до UltiMaker? Слід зазначити, що ні моделі, ні IP-адреси та жодна інша персональна інформація не буде надіслана чи збережена."
+
+msgctxt "@info:tooltip"
+msgid "Should layer be forced into compatibility mode?"
+msgstr "Чи повинен бути шар переведений у режим сумісності?"
+
+msgctxt "@info:tooltip"
+msgid "Should models be scaled to the build volume if they are too large?"
+msgstr "Чи масштабувати моделі для розміщення всередині друкуваного об'єму, якщо вони не влазять у нього?"
+
+msgctxt "@info:tooltip"
+msgid "Should models be selected after they are loaded?"
+msgstr "Вибрати моделі після завантаження?"
+
+msgctxt "@info:tooltip"
+msgid "Should models on the platform be moved down to touch the build plate?"
+msgstr "Чи слід опустити моделі на стіл?"
+
+msgctxt "@info:tooltip"
+msgid "Should models on the platform be moved so that they no longer intersect?"
+msgstr "Чи слід розміщувати моделі на столі так, щоб вони не перетиналися?"
+
+msgctxt "@info:tooltip"
+msgid "Should opening files from the desktop or external applications open in the same instance of Cura?"
+msgstr "Відкривати файли з комп'ютера та із зовнішніх програм в одному екземплярі Cura?"
+
+msgctxt "@info:tooltip"
+msgid "Should the build plate be cleared before loading a new model in the single instance of Cura?"
+msgstr "Чи слід очищати друковану пластину перед завантаженням нової моделі у єдиний екземпляр Cura?"
+
+msgctxt "@info:tooltip"
+msgid "Should the default zoom behavior of cura be inverted?"
+msgstr "Чи слід інвертувати стандартний спосіб збільшення Cura?"
+
+msgctxt "@info:tooltip"
+msgid "Should zooming move in the direction of the mouse?"
+msgstr "Збільшувати у міру руху мишкою?"
+
+msgctxt "@label"
+msgid "Show 5 Detailed Layers On Top"
+msgstr "Показати 5 деталізованих шарів зверху"
+
+msgctxt "@action:inmenu menubar:help"
+msgid "Show Configuration Folder"
+msgstr "Показати конфігураційний каталог"
+
+msgctxt "@button"
+msgid "Show Custom"
+msgstr "Показати своє"
+
+msgctxt "@action:inmenu menubar:help"
+msgid "Show Online &Documentation"
+msgstr "Показати онлайн документацію"
+
+msgctxt "@action:inmenu"
+msgid "Show Online Troubleshooting"
+msgstr "Показати мережний посібник з усунення несправностей"
+
+msgctxt "@label:checkbox"
+msgid "Show all"
+msgstr "Показати все"
+
+msgctxt "@label"
+msgid "Show all connected printers"
+msgstr "Показати всі підключені принтери"
+
+msgctxt "@info:tooltip"
+msgid "Show an icon and notifications in the system notification area."
+msgstr "Показати піктограму та сповіщення в області сповіщень системи."
+
+msgctxt "@info:tooltip"
+msgid "Show caution message in g-code reader."
+msgstr "Показувати попереджувальне повідомлення у засобі зчитування G-коду."
+
+msgctxt "@action:button"
+msgid "Show configuration folder"
+msgstr "Показати конфігураційний каталог"
+
+msgctxt "@action:button"
+msgid "Show detailed crash report"
+msgstr "Показати докладний звіт про збій"
+
+msgctxt "@option:check"
+msgid "Show summary dialog when saving project"
+msgstr "Показувати зведення під час збереження проекту"
+
+msgctxt "@button"
+msgid "Sign Out"
+msgstr "Вийти"
+
+msgctxt "@action:button"
+msgid "Sign in"
+msgstr "Увійти"
+
+msgctxt "@button"
+msgid "Sign in"
+msgstr "Увійти"
+
+msgctxt "@title:header"
+msgid "Sign in"
+msgstr "Увійти"
+
+msgctxt "@info"
+msgid "Sign in into UltiMaker Digital Factory"
+msgstr "Увійти в UltiMaker Digital Factory"
+
+msgctxt "@button"
+msgid "Sign in to Digital Factory"
+msgstr "Увійти в Digital Factory"
+
+msgctxt "@label"
+msgid "Sign in to the UltiMaker platform"
+msgstr "Увійдіть на платформу UltiMaker"
+
+msgctxt "name"
+msgid "Simulation View"
+msgstr "Вид моделювання"
+
+msgctxt "@tooltip"
+msgid "Skin"
+msgstr "Покриття"
+
+msgctxt "@action:button"
+msgid "Skip"
+msgstr "Пропустити"
+
+msgctxt "@button"
+msgid "Skip"
+msgstr "Пропустити"
+
+msgctxt "@tooltip"
+msgid "Skirt"
+msgstr "Юбка"
+
+msgctxt "@button"
+msgid "Slice"
+msgstr "Нарізка на шари"
+
+msgctxt "@option:check"
+msgid "Slice automatically"
+msgstr "Нарізати автоматично"
+
+msgctxt "@info:tooltip"
+msgid "Slice automatically when changing settings."
+msgstr "Нарізати автоматично при зміні налаштувань."
+
+msgctxt "name"
+msgid "Slice info"
+msgstr "Інформація про нарізку моделі"
+
+msgctxt "@message:title"
+msgid "Slicing failed"
+msgstr "Нарізка на шари не виконана"
+
+msgctxt "@message"
+msgid "Slicing failed with an unexpected error. Please consider reporting a bug on our issue tracker."
+msgstr "Нарізка на шари не виконана через непередбачену помилку. Можливо, варто повідомити про помилку в системі відстеження проблем."
+
+msgctxt "@label:PrintjobStatus"
+msgid "Slicing..."
+msgstr "Нарізка на шари..."
+
+msgctxt "@action:label"
+msgid "Smoothing"
+msgstr "Згладжування"
+
+msgctxt "name"
+msgid "Solid View"
+msgstr "Огляд"
+
+msgctxt "@item:inmenu"
+msgid "Solid view"
+msgstr "Огляд моделі"
+
+msgctxt "@label"
+msgid ""
+"Some hidden settings use values different from their normal calculated value.\n"
+"\n"
+"Click to make these settings visible."
+msgstr ""
+"Деякі з прихованих параметрів використовують значення, які відрізняються від їх обчислених значень.\n"
+"\n"
+"Натисніть, щоб зробити ці параметри видимими."
+
+msgctxt "@info %1 is the name of a profile"
+msgid "Some setting-values defined in <b>%1</b> were overridden."
+msgstr "Деякі значення налаштувань, визначені в <b>%1</b>, були перевизначені."
+
+msgctxt "@tooltip"
+msgid ""
+"Some setting/override values are different from the values stored in the profile.\n"
+"\n"
+"Click to open the profile manager."
+msgstr ""
+"Значення деяких параметрів відрізняються від значень профілю.\n"
+"\n"
+"Натисніть для відкриття менеджера профілів."
+
+msgctxt "@action:label"
+msgid "Some settings from current profile were overwritten."
+msgstr "Деякі налаштування з поточного профілю були перезаписані."
+
+msgctxt "@message"
+msgid "Something unexpected happened when trying to log in, please try again."
+msgstr "Під час спроби входу трапилося щось несподіване, повторіть спробу."
+
+msgctxt "@title:header"
+msgid "Something went wrong when sending the materials to the printers."
+msgstr "При надсиланні матеріалів на принтери щось пішло не так."
+
+msgctxt "@label"
+msgid "Something went wrong..."
+msgstr "Щось пішло не так..."
+
+msgctxt "@label:listbox"
+msgid "Speed"
+msgstr "Швидкість"
+
+msgctxt "@option:radio"
+msgid "Stable and Beta releases"
+msgstr "Стабільні та бета-версії"
+
+msgctxt "@option:radio"
+msgid "Stable releases only"
+msgstr "Тільки стабільні версії"
+
+msgctxt "@item:inlistbox"
+msgid "Stanford Triangle Format"
+msgstr "Stanford Triangle Format"
+
+msgctxt "@button"
+msgid "Start"
+msgstr "Пуск"
+
+msgctxt "@action:button"
+msgid "Start Build Plate Leveling"
+msgstr "Початок вирівнювання столу"
+
+msgctxt "@title:label"
+msgid "Start G-code"
+msgstr "Стартовий G-код"
+
+msgctxt "@label"
+msgid "Start the slicing process"
+msgstr "Запустити нарізку на шари"
+
+msgctxt "@label"
+msgid "Starts"
+msgstr "Запуск"
+
+msgctxt "@text"
+msgid "Streamline your workflow and customize your UltiMaker Cura experience with plugins contributed by our amazing community of users."
+msgstr "Оптимізуйте свої робочі процеси та налаштуйте Ultimaker Cura за допомогою вбудованих модулів, розроблених експертами нашої чудової спільноти."
+
+msgctxt "@label"
+msgid "Strength"
+msgstr "Міцність"
+
+msgctxt "description"
+msgid "Submits anonymous slice info. Can be disabled through preferences."
+msgstr "Відправляє анонімну інформацію про нарізку моделей. Може бути вимкнено через налаштування."
+
+msgctxt "@info:status Don't translate the XML tag <filename>!"
+msgid "Successfully exported material to <filename>%1</filename>"
+msgstr "Матеріал успішно експортовано до <filename>%1</filename>"
+
+msgctxt "@info:status Don't translate the XML tag <filename>!"
+msgid "Successfully imported material <filename>%1</filename>"
+msgstr "Успішно імпортований матеріал <filename>%1</filename>"
+
+#, python-brace-format
+msgctxt "@info:status"
+msgid "Successfully imported profile {0}."
+msgstr "Профіль {0} успішно імпортовано."
+
+msgctxt "@action:title"
+msgid "Summary - Cura Project"
+msgstr "Зведення - Проект Cura"
+
+msgctxt "@label"
+msgid "Support"
+msgstr "Підтримки"
+
+msgctxt "@tooltip"
+msgid "Support"
+msgstr "Підтримки"
+
+msgctxt "@label"
+msgid "Support Blocker"
+msgstr "Блокувальник підтримки"
+
+msgctxt "name"
+msgid "Support Eraser"
+msgstr "Засіб стирання елемента підтримки"
+
+msgctxt "@tooltip"
+msgid "Support Infill"
+msgstr "Заповнення підтримки"
+
+msgctxt "@tooltip"
+msgid "Support Interface"
+msgstr "Сполучний шар підтримки"
+
+msgctxt "@action:label"
+msgid "Support Type"
+msgstr "Тип підтримки"
+
+msgctxt "@label Description for application dependency"
+msgid "Support library for faster math"
+msgstr "Допоміжна бібліотека для швидких розрахунків"
+
+msgctxt "@label Description for application component"
+msgid "Support library for file metadata and streaming"
+msgstr "Допоміжна бібліотека для метаданих файлу та потокової передачі"
+
+msgctxt "@label Description for application component"
+msgid "Support library for handling 3MF files"
+msgstr "Допоміжна бібліотека для роботи з 3MF файлами"
+
+msgctxt "@label Description for application dependency"
+msgid "Support library for handling STL files"
+msgstr "Допоміжна бібліотека для роботи зі STL файлами"
+
+msgctxt "@label Description for application dependency"
+msgid "Support library for handling triangular meshes"
+msgstr "Допоміжна бібліотека для роботи з трикутними сітками"
+
+msgctxt "@label Description for application dependency"
+msgid "Support library for scientific computing"
+msgstr "Допоміжна бібліотека для наукових обчислень"
+
+msgctxt "@label Description for application dependency"
+msgid "Support library for system keyring access"
+msgstr "Допоміжна бібліотека для доступу до набору ключів системи"
+
+msgctxt "@action:button"
+msgid "Sync"
+msgstr "Синхронізація"
+
+msgctxt "@button"
+msgid "Sync"
+msgstr "Синхронізація"
+
+msgctxt "@title:header"
+msgid "Sync material profiles via USB"
+msgstr "Синхронізація профілів матеріалів за допомогою USB"
+
+msgctxt "@action:button"
+msgid "Sync materials"
+msgstr "Синхронізувати матеріали"
+
+msgctxt "@button"
+msgid "Sync materials with USB"
+msgstr "Синхронізація матеріалів за допомогою USB"
+
+msgctxt "@title:header"
+msgid "Sync materials with printers"
+msgstr "Синхронізувати матеріали з принтерами"
+
+msgctxt "@title:window"
+msgid "Sync materials with printers"
+msgstr "Синхронізувати матеріали з принтерами"
+
+msgctxt "@action:button"
+msgid "Sync with Printers"
+msgstr "Синхронізація з принтерами"
+
+msgctxt "@button"
+msgid "Syncing"
+msgstr "Синхронізація"
+
+msgctxt "@info:generic"
+msgid "Syncing..."
+msgstr "Синхронізація..."
+
+msgctxt "@title:groupbox"
+msgid "System information"
+msgstr "Інформація про систему"
+
+msgctxt "@button"
+msgid "Technical datasheet"
+msgstr "Таблиця технічних характеристик"
+
+msgctxt "@info:tooltip"
+msgid "The amount of smoothing to apply to the image."
+msgstr "Розмір згладжування для застосування до зображення."
+
+msgctxt "@text"
+msgid "The annealing profile requires post-processing in an oven after the print is finished. This profile retains the dimensional accuracy of the printed part after annealing and improves strength, stiffness, and thermal resistance."
+msgstr "Профіль відпалу вимагає подальшої обробки печі після завершення друку. Цей профіль зберігає точність розмірів надрукованої деталі після відпалу та покращує її міцність, жорсткість та термостійкість."
+
+msgctxt "@label"
+msgid "The assigned printer, %1, requires the following configuration change:"
+msgid_plural "The assigned printer, %1, requires the following configuration changes:"
+msgstr[0] "Для призначеного принтера %1 потрібна наступна зміна конфігурації:"
+msgstr[1] "Для призначеного принтера %1 потрібна наступна зміна конфігурації:"
+msgstr[2] "Для призначеного принтера %1 потрібна наступна зміна конфігурації:"
+
+msgctxt "@error:file_size"
+msgid "The backup exceeds the maximum file size."
+msgstr "Розмір файлу резервної копії перевищує максимально допустимий."
+
+msgctxt "@info:tooltip"
+msgid "The base height from the build plate in millimeters."
+msgstr "Висота основи від столу у міліметрах."
+
+msgctxt "@info:status"
+msgid "The build volume height has been reduced due to the value of the \"Print Sequence\" setting to prevent the gantry from colliding with printed models."
+msgstr "Висота об'єму друку була зменшена до значення \"Послідовність друку\", щоб запобігти торканню порталу за надруковані деталі."
+
+msgctxt "@status"
+msgid "The cloud connection is currently unavailable. Please check your internet connection."
+msgstr "На даний момент немає підключення до хмари. Перевірте підключення до Інтернету."
+
+msgctxt "@status"
+msgid "The cloud connection is currently unavailable. Please sign in to connect to the cloud printer."
+msgstr "На даний момент немає підключення до хмари. Щоб підключитися до хмарного принтера, виконайте вхід."
+
+msgctxt "@status"
+msgid "The cloud printer is offline. Please check if the printer is turned on and connected to the internet."
+msgstr "Хмарний принтер не в мережі. Переконайтеся, що принтер увімкнено та підключено до Інтернету."
+
+msgctxt "@tooltip"
+msgid "The colour of the material in this extruder."
+msgstr "Колір матеріалу в цьому екструдері."
+
+msgctxt "@tooltip"
+msgid "The configuration of this extruder is not allowed, and prohibits slicing."
+msgstr "Конфігурація цього екструдера не дозволяється та забороняє нарізку на шари."
+
+msgctxt "@label"
+msgid "The configurations are not available because the printer is disconnected."
+msgstr "Конфігурації недоступні, оскільки принтер вимкнено."
+
+msgctxt "@tooltip"
+msgid "The current temperature of the heated bed."
+msgstr "Поточна температура гарячого столу."
+
+msgctxt "@tooltip"
+msgid "The current temperature of this hotend."
+msgstr "Поточна температура цього сопла."
+
+msgctxt "@info:tooltip"
+msgid "The depth in millimeters on the build plate"
+msgstr "Глибина у міліметрах на столі"
+
+msgctxt "@text"
+msgid "The draft profile is designed to print initial prototypes and concept validation with the intent of significant print time reduction."
+msgstr "Чорновий профіль призначений для друку початкових прототипів та перевірки концепції, де пріоритетом є швидкість друку."
+
+msgctxt "@text"
+msgid "The engineering profile is designed to print functional prototypes and end-use parts with the intent of better accuracy and for closer tolerances."
+msgstr "Інженерний профіль призначений для друку функціональних прототипів та готових деталей, для яких потрібна висока точність та малі допуски."
+
+msgctxt "@label"
+msgid "The extruder train to use for printing the support. This is used in multi-extrusion."
+msgstr "Цей екструдер використовується для друку підтримки. Використовується за наявності кількох екструдерів."
+
+#, python-brace-format
+msgctxt "@label Don't translate the XML tag <filename>!"
+msgid "The file <filename>{0}</filename> already exists. Are you sure you want to overwrite it?"
+msgstr "Файл <filename>{0}</filename> вже існує. Ви впевнені, що бажаєте перезаписати його?"
+
+msgctxt "@label"
+msgid "The firmware shipping with new printers works, but new versions tend to have more features and improvements."
+msgstr "Прошивка, що постачається з новими принтерами, працездатна, але оновлення надають більше можливостей і вдосконалень."
+
+msgctxt "@info:backup_failed"
+msgid "The following error occurred while trying to restore a Cura backup:"
+msgstr "При спробі відновити резервну копію Cura виникла така помилка:"
+
+msgctxt "@label"
+msgid "The following packages can not be installed because of an incompatible Cura version:"
+msgstr "Наступні пакети неможливо встановити через несумісну версію Cura:"
+
+msgctxt "@label"
+msgid "The following packages will be added:"
+msgstr "Будуть додані такі пакети:"
+
+msgctxt "@label"
+msgid "The following printers in your account have been added in Cura:"
+msgstr "Наступні принтери до вашого облікового запису додані в Cura:"
+
+msgctxt "@title:header"
+msgid "The following printers will receive the new material profiles:"
+msgstr "Наступні принтери отримають нові профілі матеріалів:"
+
+msgctxt "@info:tooltip"
+msgid "The following script is active:"
+msgid_plural "The following scripts are active:"
+msgstr[0] "Активні наступні скрипти:"
+msgstr[1] "Активні наступні скрипти:"
+msgstr[2] "Активні наступні скрипти:"
+
+msgctxt "@label"
+msgid "The following settings define the strength of your part."
+msgstr "Наступні установки визначають міцність деталі."
+
+msgctxt "@info:status"
+msgid "The highlighted areas indicate either missing or extraneous surfaces. Fix your model and open it again into Cura."
+msgstr "Виділено області з відсутніми або зайвими поверхнями. Виправте модель і знову відкрийте її у Cura."
+
+msgctxt "@tooltip"
+msgid "The material in this extruder."
+msgstr "Матеріал у даному екструдері."
+
+msgctxt "@label:label Ultimaker Marketplace is a brand name, don't translate"
+msgid "The material package associated with the Cura project could not be found on the Ultimaker Marketplace. Use the partial material profile definition stored in the Cura project file at your own risk."
+msgstr "Пакет матеріалів, пов'язаний із проектом Cura, не знайдено на Ultimaker Marketplace. Використовуйте часткове визначення профілю матеріалу, що зберігається у файлі проекту Cura, на свій страх та ризик."
+
+msgctxt "@label"
+msgid "The material used in this project is currently not installed in Cura.<br/>Install the material profile and reopen the project."
+msgstr "Матеріал, який використовується в цьому проекті, в даний час не встановлений у Cura.<br/>Встановіть профіль матеріалу та відкрийте проект знову."
+
+msgctxt "@info:status"
+msgid "The material used in this project relies on some material definitions not available in Cura, this might produce undesirable print results. We highly recommend installing the full material package from the Marketplace."
+msgstr "Матеріал, що використовується в цьому проекті, ґрунтується на визначеннях матеріалів, недоступних у Cura, що може призвести до небажаних результатів під час друку. Ми рекомендуємо встановити повний пакет матеріалів з магазину."
+
+msgctxt "@info:tooltip"
+msgid "The maximum distance of each pixel from \"Base.\""
+msgstr "Максимальна дистанція кожного пікселя від \"Основи\"."
+
+msgctxt "@label (%1 is a number)"
+msgid "The new filament diameter is set to %1 mm, which is not compatible with the current extruder. Do you wish to continue?"
+msgstr "Встановлено новий діаметр пластикової нитки %1 мм. Це значення несумісне з поточним екструдером. Продовжити?"
+
+msgctxt "@tooltip"
+msgid "The nozzle inserted in this extruder."
+msgstr "Сопло, вставлене в цей екструдер."
+
+msgctxt "@error:zip"
+msgid "The operating system does not allow saving a project file to this location or with this file name."
+msgstr "Операційна система не дозволяє зберігати файл проекту у цьому каталозі або з цим ім'ям файлу."
+
+msgctxt "@label"
+msgid ""
+"The pattern of the infill material of the print:\n"
+"\n"
+"For quick prints of non functional model choose line, zig zag or lightning infill.\n"
+"\n"
+"For functional part not subjected to a lot of stress we recommend grid or triangle or tri hexagon.\n"
+"\n"
+"For functional 3D prints which require high strength in multiple directions use cubic, cubic subdivision, quarter cubic, octet, and gyroid."
+msgstr ""
+"Шаблон заповнювача друку:\n"
+"\n"
+"Для швидкого друку нефункціональної моделі виберіть шаблон \"Лінійний\", \"Зигзагоподібний\" або \"Блискавка\".\n"
+"\n"
+"Для функціональної частини, яка не піддається великої напруги, ми рекомендуємо шаблон «Сітка», «Трикутник» або «Шестигранник із трикутників».\n"
+"\n"
+"Для функціонального 3D-друку, що потребує високої міцності в різних напрямках, використовуйте шаблони «Куб», «Динамічний куб», «Чверть куба», «Восьмигранник» або «Гіроїд»."
+
+msgctxt "@info:tooltip"
+msgid "The percentage of light penetrating a print with a thickness of 1 millimeter. Lowering this value increases the contrast in dark regions and decreases the contrast in light regions of the image."
+msgstr "Відсоток світла, що проникає у відбиток завтовшки 1 міліметр. Якщо зменшити це значення, контрастність у темних областях зображення збільшиться, а світлих – зменшиться."
+
+msgctxt "@info:title"
+msgid "The print job was successfully submitted"
+msgstr "Завдання друку успішно надіслано"
+
+msgctxt "@label"
+msgid "The printer %1 is assigned, but the job contains an unknown material configuration."
+msgstr "Принтер %1 призначений, однак у заданій наведено невідому конфігурацію матеріалу."
+
+msgctxt "@label"
+msgid "The printer at this address has not responded yet."
+msgstr "Від принтера з цією адресою ще не надходила відповідь."
+
+msgctxt "@label"
+msgid "The printer at this address has not yet responded."
+msgstr "Принтер на цю адресу ще не відповідав."
+
+msgctxt "@info:status"
+msgid "The printer is not connected."
+msgstr "Принтер не підключено."
+
+msgctxt "@label"
+msgid "The printer(s) below cannot be connected because they are part of a group"
+msgstr "Наведені нижче принтери неможливо підключити, оскільки вони входять до складу групи"
+
+msgctxt "@message"
+msgid "The provided state is not correct."
+msgstr "Вказано неправильний стан."
+
+msgctxt "@text:window"
+msgid "The release notes could not be opened."
+msgstr "Неможливо відкрити нотатки до версії."
+
+msgctxt "@text:error"
+msgid "The response from Digital Factory appears to be corrupted."
+msgstr "Відповідь від Digital Factory пошкоджена."
+
+msgctxt "@text:error"
+msgid "The response from Digital Factory is missing important information."
+msgstr "Відповідь від Digital Factory не має важливої інформації."
+
+msgctxt "@tooltip"
+msgid "The target temperature of the heated bed. The bed will heat up or cool down towards this temperature. If this is 0, the bed heating is turned off."
+msgstr "Цільова температура гарячого столу. Стіл нагріватиметься і охолоджуватиметься, залишаючись на цій температурі. Якщо встановлено 0, значить нагрівання столу вимкнено."
+
+msgctxt "@tooltip"
+msgid "The target temperature of the hotend. The hotend will heat up or cool down towards this temperature. If this is 0, the hotend heating is turned off."
+msgstr "Цільова температура сопла. Сопло буде нагріте або остуджене до вказаної температури. Якщо значення дорівнює 0, то нагрівання буде вимкнено."
+
+msgctxt "@tooltip of temperature input"
+msgid "The temperature to pre-heat the bed to."
+msgstr "Температура преднагріву гарячого столу."
+
+msgctxt "@tooltip of temperature input"
+msgid "The temperature to pre-heat the hotend to."
+msgstr "Температура преднагріву гарячого сопла."
+
+msgctxt "@text"
+msgid "The visual profile is designed to print visual prototypes and models with the intent of high visual and surface quality."
+msgstr "Візуальний профіль призначений для друку візуальних прототипів та моделей, для яких потрібна висока якість поверхні та зовнішнього вигляду."
+
+msgctxt "@info:tooltip"
+msgid "The width in millimeters on the build plate"
+msgstr "Ширина у міліметрах на друкованій пластині"
+
+msgctxt "@label: Please keep the asterix, it's to indicate that a restart is needed."
+msgid "Theme*:"
+msgstr "Тема*:"
+
+msgctxt "@info:status"
+msgid "There are no file formats available to write with!"
+msgstr "Жодний формат файлів недоступний для запису!"
+
+msgctxt "@label"
+msgid "There are no print jobs in the queue. Slice and send a job to add one."
+msgstr "У черзі немає завдань друку. Виконайте нарізку та надішліть завдання."
+
+msgctxt "@tooltip"
+msgid "There are no profiles matching the configuration of this extruder."
+msgstr "Немає профілів, які відповідають конфігурації цього екструдера."
+
+msgctxt "@info:status"
+msgid "There is no active printer yet."
+msgstr "Ще немає активних принтерів."
+
+msgctxt "@label"
+msgid "There is no printer found over your network."
+msgstr "Принтер не знайдено у вашій мережі."
+
+msgctxt "@error"
+msgid "There is no workspace yet to write. Please add a printer first."
+msgstr "Немає робочого середовища для запису. Спочатку додайте принтер."
+
+msgctxt "@info:backup_status"
+msgid "There was an error trying to restore your backup."
+msgstr "При спробі відновлення даних із резервної копії виникла помилка."
+
+msgctxt "@info:backup_status"
+msgid "There was an error while creating your backup."
+msgstr "При створенні резервної копії виникла помилка."
+
+msgctxt "@info:backup_status"
+msgid "There was an error while uploading your backup."
+msgstr "При заливанні резервної копії виникла помилка."
+
+msgctxt "@label"
+msgid "This configuration is not available because %1 is not recognized. Please visit %2 to download the correct material profile."
+msgstr "Ця конфігурація недоступна, оскільки %1 не розпізнано. Відвідайте %2 і завантажте відповідний профіль матеріалу."
+
+msgctxt "@text:window"
+msgid "This is a Cura project file. Would you like to open it as a project or import the models from it?"
+msgstr "Це проект Cura. Чи слід відкрити його як проект або просто імпортувати з нього моделі?"
+
+msgctxt "@label"
+msgid "This material is linked to %1 and shares some of its properties."
+msgstr "Цей матеріал прив'язаний до %1 і має низку його властивостей."
+
+msgctxt "@label"
+msgid "This package will be installed after restarting."
+msgstr "Цей пакет буде встановлено після перезапуску."
+
+msgctxt "@label"
+msgid "This printer cannot be added because it's an unknown printer or it's not the host of a group."
+msgstr "Цей принтер неможливо додати, оскільки це невідомий принтер або він не управляє групою."
+
+msgctxt "info:status"
+msgid "This printer is not linked to the Digital Factory:"
+msgid_plural "These printers are not linked to the Digital Factory:"
+msgstr[0] "Цей принтер не підключено до Digital Factory:"
+msgstr[1] "Цей принтер не підключено до Digital Factory:"
+msgstr[2] "Цей принтер не підключено до Digital Factory:"
+
+msgctxt "@status"
+msgid "This printer is not linked to your account. Please visit the Ultimaker Digital Factory to establish a connection."
+msgstr "Цей принтер не пов'язаний з вашим обліковим записом. Відвідайте Ultimaker Digital Factory, щоб встановити прив'язку."
+
+msgctxt "@label"
+msgid "This printer is not set up to host a group of printers."
+msgstr "Цей принтер не налаштований для керування групою принтерів."
+
+msgctxt "@label"
+msgid "This printer is the host for a group of %1 printers."
+msgstr "Цей принтер керує групою %1 принтера(-ів)."
+
+#, python-brace-format
+msgctxt "@info:status Don't translate the XML tags <filename>!"
+msgid "This profile <filename>{0}</filename> contains incorrect data, could not import it."
+msgstr "Цей профіль <filename>{0}</filename> містить неправильні дані, тому його неможливо імпортувати."
+
+msgctxt "@action:label"
+msgid "This profile uses the defaults specified by the printer, so it has no settings/overrides in the list below."
+msgstr "Цей профіль використовує стандартні налаштування принтера, тому список нижче порожній."
+
+msgctxt "@label"
+msgid ""
+"This setting has a value that is different from the profile.\n"
+"\n"
+"Click to restore the value of the profile."
+msgstr ""
+"Значення цього параметра відрізняється від значення у профілі.\n"
+"\n"
+"Натисніть , щоб відновити значення з профілю."
+
+msgctxt "@item:tooltip"
+msgid "This setting has been hidden by the active machine and will not be visible."
+msgstr "Цей параметр приховано поточним принтером і не відображатиметься."
+
+msgctxt "@item:tooltip %1 is list of setting names"
+msgid "This setting has been hidden by the value of %1. Change the value of that setting to make this setting visible."
+msgid_plural "This setting has been hidden by the values of %1. Change the values of those settings to make this setting visible."
+msgstr[0] "Цей параметр був прихований %1. Змініть це значення, щоб відобразити параметр."
+msgstr[1] "Цей параметр був прихований %1. Змініть це значення, щоб відобразити параметр."
+msgstr[2] "Цей параметр був прихований %1. Змініть це значення, щоб відобразити параметр."
+
+msgctxt "@label"
+msgid "This setting is always shared between all extruders. Changing it here will change the value for all extruders."
+msgstr "Ця установка завжди використовується спільно всіма екструдерами. Зміна цього значення призведе до зміни значення для всіх екструдерів."
+
+msgctxt "@label"
+msgid ""
+"This setting is normally calculated, but it currently has an absolute value set.\n"
+"\n"
+"Click to restore the calculated value."
+msgstr ""
+"Зазвичай це значення обчислюється, але зараз було явно.\n"
+"\n"
+"Натисніть , щоб відновити обчислене значення."
+
+msgctxt "@label"
+msgid "This setting is not used because all the settings that it influences are overridden."
+msgstr "Цей параметр не використовується, оскільки всі настройки, на які він впливає, перевизначаються."
+
+msgctxt "@label"
+msgid "This setting is resolved from conflicting extruder-specific values:"
+msgstr "Ця настройка отримана з значень екструдера, що конфліктують:"
+
+msgctxt "@label"
+msgid "Time estimation"
+msgstr "Оцінка часу"
+
+msgctxt "@message"
+msgid "Timeout when authenticating with the account server."
+msgstr "Закінчився час автентифікації на сервері облікового запису."
+
+msgctxt "@text"
+msgid "To automatically sync the material profiles with all your printers connected to Digital Factory you need to be signed in in Cura."
+msgstr "Для автоматичної синхронізації профілів матеріалів з усіма принтерами, підключеними до Digital Factory, необхідно увійти до Cura."
+
+#, python-brace-format
+msgctxt "info:status"
+msgid "To establish a connection, please visit the {website_link}"
+msgstr "Щоб встановити з'єднання, перейдіть на сайт {website_link}"
+
+msgctxt "@label"
+msgid "To make sure your prints will come out great, you can now adjust your buildplate. When you click 'Move to Next Position' the nozzle will move to the different positions that can be adjusted."
+msgstr "Зараз ви можете відрегулювати ваш стіл, щоб бути впевненим як наступний друк. При натисканні на кнопку \"Перейти до наступної позиції\" сопло перейде на іншу позицію, яку можна буде відрегулювати."
+
+msgctxt "@label"
+msgid "To print directly to your printer over the network, please make sure your printer is connected to the network using a network cable or by connecting your printer to your WIFI network. If you don't connect Cura with your printer, you can still use a USB drive to transfer g-code files to your printer."
+msgstr "Для друку безпосередньо на принтері через мережу необхідно підключити принтер до мережі за допомогою мережного кабелю або підключити його до мережі Wi-Fi. Якщо ви не підключили Cura до принтера, ви можете використовувати USB-накопичувач для перенесення файлів G-Code на принтер."
+
+#, python-brace-format
+msgctxt "@message {printer_name} is replaced with the name of the printer"
+msgid "To remove {printer_name} permanently, visit {digital_factory_link}"
+msgstr "Щоб видалити {printer_name} без відновлення, перейдіть на сайт {digital_factory_link}"
+
+msgctxt "@action:inmenu"
+msgid "Toggle Full Screen"
+msgstr "Повний екран"
+
+msgctxt "@label"
+msgid "Top / Bottom"
+msgstr "Дно / кришка"
+
+msgctxt "@action:inmenu menubar:view"
+msgid "Top View"
+msgstr "Вид зверху"
+
+msgctxt "@info:tooltip"
+msgid "Top View"
+msgstr "Вид зверху"
+
+msgctxt "@label"
+msgid "Total print time"
+msgstr "Загальний час друку"
+
+msgctxt "@action:tooltip"
+msgid "Track the print in Ultimaker Digital Factory"
+msgstr "Слідкуйте за печаткою в Ultimaker Digital Factory"
+
+msgctxt "@item:inlistbox"
+msgid "Translucency"
+msgstr "Світлопрохідність"
+
+msgctxt "@tooltip"
+msgid "Travel"
+msgstr "Переміщення"
+
+msgctxt "@label"
+msgid "Travels"
+msgstr "Переміщення"
+
+msgctxt "@info:backup_failed"
+msgid "Tried to restore a Cura backup that is higher than the current version."
+msgstr "Виконано спробу відновити резервну копію Cura з пізнішою версією, ніж поточна."
+
+msgctxt "@info:backup_failed"
+msgid "Tried to restore a Cura backup without having proper data or meta data."
+msgstr "Спроба відновити резервну копію Cura за відсутності необхідних даних або метаданих."
+
+msgctxt "name"
+msgid "Trimesh Reader"
+msgstr "Засіб читання Trimesh"
+
+msgctxt "@button"
+msgid "Troubleshooting"
+msgstr "Пошук та усунення несправностей"
+
+msgctxt "@label"
+msgid "Troubleshooting"
+msgstr "Пошук та усунення несправностей"
+
+msgctxt "@button"
+msgid "Try again"
+msgstr "Повторити спробу"
+
+msgctxt "@action:label"
+msgid "Type"
+msgstr "Тип"
+
+msgctxt "@label"
+msgid "Type"
+msgstr "Тип"
+
+msgctxt "name"
+msgid "UFP Reader"
+msgstr "Засіб зчитування UFP"
+
+msgctxt "name"
+msgid "UFP Writer"
+msgstr "Засіб запису UFP"
+
+msgctxt "@item:inmenu"
+msgid "USB printing"
+msgstr "Друк через USB"
+
+msgctxt "name"
+msgid "USB printing"
+msgstr "Друк через USB"
+
+msgctxt "@button"
+msgid "UltiMaker Account"
+msgstr "Обліковий запис UltiMaker"
+
+msgctxt "@info"
+msgid "UltiMaker Certified Material"
+msgstr "Сертифікований матеріал UltiMaker"
+
+msgctxt "@text:window"
+msgid "UltiMaker Cura collects anonymous data in order to improve the print quality and user experience. Below is an example of all the data that is shared:"
+msgstr "UltiMaker Cura збирає анонімні дані для підвищення якості друку та покращення взаємодії з користувачем. Нижче наведено приклад всіх даних, що передаються:"
+
+msgctxt "@item:inlistbox"
+msgid "UltiMaker Format Package"
+msgstr "Пакет формату UltiMaker"
+
+msgctxt "name"
+msgid "UltiMaker Network Connection"
+msgstr "З'єднання з мережею UltiMaker"
+
+msgctxt "@info"
+msgid "UltiMaker Verified Package"
+msgstr "Перевірений пакет UltiMaker"
+
+msgctxt "@info"
+msgid "UltiMaker Verified Plug-in"
+msgstr "Перевірений плагін UltiMaker"
+
+msgctxt "name"
+msgid "UltiMaker machine actions"
+msgstr "Дії з принтерами UltiMaker"
+
+msgctxt "@button"
+msgid "UltiMaker printer"
+msgstr "Принтер UltiMaker"
+
+msgctxt "@label:button"
+msgid "UltiMaker support"
+msgstr "Підримка UltiMaker"
+
+msgctxt "info:name"
+msgid "Ultimaker Digital Factory"
+msgstr "Ultimaker Digital Factory"
+
+msgctxt "name"
+msgid "Ultimaker Digital Library"
+msgstr "Ultimaker Digital Library"
+
+msgctxt "@info:status"
+msgid "Unable to add the profile."
+msgstr "Неможливо додати профіль."
+
+msgctxt "@info:status"
+msgid "Unable to find a location within the build volume for all objects"
+msgstr "Неможливо розмістити всі об'єкти всередині об'єму, що друкується"
+
+msgctxt "@info"
+msgid "Unable to reach the UltiMaker account server."
+msgstr "Немає зв'язку із сервером облікових записів UltiMaker."
+
+msgctxt "@text"
+msgid "Unable to read example data file."
+msgstr "Неможливо прочитати приклад файлу даних."
+
+msgctxt "@info:title"
+msgid "Unable to slice"
+msgstr "Неможливо нарізати"
+
+msgctxt "@label:PrintjobStatus"
+msgid "Unable to slice"
+msgstr "Неможливо нарізати"
+
+msgctxt "@info:status"
+msgid "Unable to slice because the prime tower or prime position(s) are invalid."
+msgstr "Слайсинг неможливий, оскільки чорнова вежа чи її позиція неправильні."
+
+#, python-format
+msgctxt "@info:status"
+msgid "Unable to slice because there are objects associated with disabled Extruder %s."
+msgstr "Неможливо розділити шари через наявність об'єктів, пов'язаних з вимкненим екструдером %s."
+
+#, python-brace-format
+msgctxt "@info:status"
+msgid "Unable to slice due to some per-model settings. The following settings have errors on one or more models: {error_labels}"
+msgstr "Не вдалося виконати слайсинг через налаштування моделі. Наступні параметри помилкові для однієї або кількох моделей: {error_labels}"
+
+msgctxt "@info:status"
+msgid "Unable to slice with the current material as it is incompatible with the selected machine or configuration."
+msgstr "Неможливо нарізати модель, використовуючи поточний матеріал, оскільки він несумісний із вибраною машиною чи конфігурацією."
+
+#, python-brace-format
+msgctxt "@info:status"
+msgid "Unable to slice with the current settings. The following settings have errors: {0}"
+msgstr "Не можу виконати слайсинг на поточних налаштуваннях. Перевірте такі параметри: {0}"
+
+msgctxt "@info"
+msgid "Unable to start a new sign in process. Check if another sign in attempt is still active."
+msgstr "Неможливо розпочати новий вхід до системи. Перевірте, чи ще не завершено інший сеанс."
+
+msgctxt "@label:status"
+msgid "Unavailable"
+msgstr "Недоступний"
+
+msgctxt "@label"
+msgid "Unavailable printer"
+msgstr "Недоступний принтер"
+
+msgctxt "@action:inmenu menubar:edit"
+msgid "Ungroup Models"
+msgstr "Розгрупувати моделі"
+
+msgctxt "@button"
+msgid "Uninstall"
+msgstr "Видалити"
+
+msgctxt "@title:column Unit of measurement"
+msgid "Unit"
+msgstr "Одиниця"
+
+msgctxt "@label Description for development tool"
+msgid "Universal build system configuration"
+msgstr "Конфігурація універсальної системи збірки"
+
+msgctxt "@label"
+msgid "Unknown"
+msgstr "Невідомо"
+
+msgctxt "@label unknown version of Cura"
+msgid "Unknown"
+msgstr "Невідомо"
+
+msgctxt "@label:property"
+msgid "Unknown Author"
+msgstr "Невідомий автор"
+
+msgctxt "@label:property"
+msgid "Unknown Package"
+msgstr "Невідомий пакет"
+
+#, python-brace-format
+msgctxt "@error:send"
+msgid "Unknown error code when uploading print job: {0}"
+msgstr "Невідомий код помилки під час завантаження завдання друку: {0}"
+
+msgctxt "@text"
+msgid "Unknown error."
+msgstr "Невідома помилка."
+
+msgctxt "@label"
+msgid "Unlink Material"
+msgstr "Відв'язати матеріал"
+
+msgctxt "@label:status"
+msgid "Unreachable"
+msgstr "Недосяжно"
+
+msgctxt "@label"
+msgid "Untitled"
+msgstr "Без імені"
+
+msgctxt "@text Print job name"
+msgid "Untitled"
+msgstr "Без імені"
+
+msgctxt "@button"
+msgid "Update"
+msgstr "Оновити"
+
+msgctxt "@action"
+msgid "Update Firmware"
+msgstr "Оновити прошивку"
+
+msgctxt "@title"
+msgid "Update Firmware"
+msgstr "Оновити прошивку"
+
+msgctxt "@action:ComboBox Update/override existing profile"
+msgid "Update existing"
+msgstr "Оновити існуючий"
+
+msgctxt "@action:tooltip"
+msgid "Update profile with current settings/overrides"
+msgstr "Оновити профіль поточними параметрами"
+
+msgctxt "@action:button"
+msgid "Update profile."
+msgstr "Оновити профіль."
+
+msgctxt "@info:title"
+msgid "Update your printer"
+msgstr "Оновіть свій принтер"
+
+msgctxt "@label"
+msgid "Updates"
+msgstr "Оновлення"
+
+msgctxt "@label"
+msgid "Updating firmware."
+msgstr "Оновлення прошивки."
+
+msgctxt "@button"
+msgid "Updating..."
+msgstr "Оновлення..."
+
+msgctxt "description"
+msgid "Upgrades configurations from Cura 2.1 to Cura 2.2."
+msgstr "Оновлює налаштування Cura 2.1 до Cura 2.2."
+
+msgctxt "description"
+msgid "Upgrades configurations from Cura 2.2 to Cura 2.4."
+msgstr "Оновлює налаштування Cura 2.2 до Cura 2.4."
+
+msgctxt "description"
+msgid "Upgrades configurations from Cura 2.5 to Cura 2.6."
+msgstr "Оновлює налаштування Cura 2.5 до Cura 2.6."
+
+msgctxt "description"
+msgid "Upgrades configurations from Cura 2.6 to Cura 2.7."
+msgstr "Оновлює налаштування Cura 2.6 до Cura 2.7."
+
+msgctxt "description"
+msgid "Upgrades configurations from Cura 2.7 to Cura 3.0."
+msgstr "Оновлює налаштування Cura 2.7 до Cura 3.0."
+
+msgctxt "description"
+msgid "Upgrades configurations from Cura 3.0 to Cura 3.1."
+msgstr "Оновлює налаштування Cura 3.0 до Cura 3.1."
+
+msgctxt "description"
+msgid "Upgrades configurations from Cura 3.2 to Cura 3.3."
+msgstr "Оновлює налаштування Cura 3.2 до Cura 3.3."
+
+msgctxt "description"
+msgid "Upgrades configurations from Cura 3.3 to Cura 3.4."
+msgstr "Оновлює налаштування Cura 3.3 до Cura 3.4."
+
+msgctxt "description"
+msgid "Upgrades configurations from Cura 3.4 to Cura 3.5."
+msgstr "Оновлює налаштування Cura 3.4 до Cura 3.5."
+
+msgctxt "description"
+msgid "Upgrades configurations from Cura 3.5 to Cura 4.0."
+msgstr "Оновлює налаштування Cura 3.5 до Cura 4.0."
+
+msgctxt "description"
+msgid "Upgrades configurations from Cura 4.0 to Cura 4.1."
+msgstr "Оновлює налаштування Cura 4.0 до Cura 4.1."
+
+msgctxt "description"
+msgid "Upgrades configurations from Cura 4.1 to Cura 4.2."
+msgstr "Оновлює налаштування Cura 4.1 до Cura 4.2."
+
+msgctxt "description"
+msgid "Upgrades configurations from Cura 4.11 to Cura 4.12."
+msgstr "Оновлює налаштування Cura 4.11 до Cura 4.12."
+
+msgctxt "description"
+msgid "Upgrades configurations from Cura 4.13 to Cura 5.0."
+msgstr "Оновлює налаштування Cura 4.13 до Cura 5.0."
+
+msgctxt "description"
+msgid "Upgrades configurations from Cura 4.2 to Cura 4.3."
+msgstr "Оновлює налаштування Cura 4.2 до Cura 4.3."
+
+msgctxt "description"
+msgid "Upgrades configurations from Cura 4.3 to Cura 4.4."
+msgstr "Оновлює налаштування Cura 4.3 до Cura 4.4."
+
+msgctxt "description"
+msgid "Upgrades configurations from Cura 4.4 to Cura 4.5."
+msgstr "Оновлює налаштування  Cura 4.4 до Cura 4.5."
+
+msgctxt "description"
+msgid "Upgrades configurations from Cura 4.5 to Cura 4.6."
+msgstr "Оновлює налаштування Cura 4.5 до Cura 4.6."
+
+msgctxt "description"
+msgid "Upgrades configurations from Cura 4.6.0 to Cura 4.6.2."
+msgstr "Оновлює налаштування Cura 4.6.0 до Cura 4.6.2."
+
+msgctxt "description"
+msgid "Upgrades configurations from Cura 4.6.2 to Cura 4.7."
+msgstr "Оновлює налаштування Cura 4.6.2 до Cura 4.7."
+
+msgctxt "description"
+msgid "Upgrades configurations from Cura 4.7 to Cura 4.8."
+msgstr "Оновлює налаштування Cura 4.7 до Cura 4.8."
+
+msgctxt "description"
+msgid "Upgrades configurations from Cura 4.8 to Cura 4.9."
+msgstr "Оновлює налаштування Cura 4.8 до Cura 4.9."
+
+msgctxt "description"
+msgid "Upgrades configurations from Cura 4.9 to Cura 4.10."
+msgstr "Оновлює налаштування Cura 4.9 до Cura 4.10."
+
+msgctxt "description"
+msgid "Upgrades configurations from Cura 5.2 to Cura 5.3."
+msgstr "Оновлює налаштування Cura 5.2 до Cura 5.3."
+
+msgctxt "description"
+msgid "Upgrades configurations from Cura 5.3 to Cura 5.4."
+msgstr "Оновлює налаштування Cura 5.3 до Cura 5.4."
+
+msgctxt "@action:button"
+msgid "Upload custom Firmware"
+msgstr "Залити власну прошивку"
+
+msgctxt "@info:status"
+msgid "Uploading print job to printer."
+msgstr "Завантаження завдання друку до принтера."
+
+msgctxt "@info:backup_status"
+msgid "Uploading your backup..."
+msgstr "Виконується заливка вашої резервної копії..."
+
+msgctxt "@option:check"
+msgid "Use a single instance of Cura"
+msgstr "Використовувати один екземпляр Cura"
+
+msgctxt "@label"
+msgid "Use glue for better adhesion with this material combination."
+msgstr "Використовувати клей для кращого прилипання до цієї комбінації матеріалів."
+
+msgctxt "@label"
+msgid "User Agreement"
+msgstr "Угода користувача"
+
+msgctxt "@label Description for application dependency"
+msgid "Utility functions, including an image loader"
+msgstr "Допоміжні функції, включаючи завантажувач зображень"
+
+msgctxt "@label Description for application dependency"
+msgid "Utility library, including Voronoi generation"
+msgstr "Допоміжні функції, включаючи створення діаграм Вороного"
+
+msgctxt "name"
+msgid "Version Upgrade 2.1 to 2.2"
+msgstr "Оновлення версії 2.1 до 2.2"
+
+msgctxt "name"
+msgid "Version Upgrade 2.2 to 2.4"
+msgstr "Оновлення версії 2.2 до 2.4"
+
+msgctxt "name"
+msgid "Version Upgrade 2.5 to 2.6"
+msgstr "Оновлення версії 2.5 до 2.6"
+
+msgctxt "name"
+msgid "Version Upgrade 2.6 to 2.7"
+msgstr "Оновлення версії 2.6 до 2.7"
+
+msgctxt "name"
+msgid "Version Upgrade 2.7 to 3.0"
+msgstr "Оновлення версії 2.7 до 3.0"
+
+msgctxt "name"
+msgid "Version Upgrade 3.0 to 3.1"
+msgstr "Оновлення версії 3.0 до 3.1"
+
+msgctxt "name"
+msgid "Version Upgrade 3.2 to 3.3"
+msgstr "Оновлення версії 3.2 до 3.3"
+
+msgctxt "name"
+msgid "Version Upgrade 3.3 to 3.4"
+msgstr "Оновлення версії 3.3 до 3.4"
+
+msgctxt "name"
+msgid "Version Upgrade 3.4 to 3.5"
+msgstr "Оновлення версії 3.4 до 3.5"
+
+msgctxt "name"
+msgid "Version Upgrade 3.5 to 4.0"
+msgstr "Оновлення версії 3.5 до 4.0"
+
+msgctxt "name"
+msgid "Version Upgrade 4.0 to 4.1"
+msgstr "Оновлення версії 4.0 до 4.1"
+
+msgctxt "name"
+msgid "Version Upgrade 4.1 to 4.2"
+msgstr "Оновлення версії 4.1 до 4.2"
+
+msgctxt "name"
+msgid "Version Upgrade 4.11 to 4.12"
+msgstr "Оновлення версії 4.11 до 4.12"
+
+msgctxt "name"
+msgid "Version Upgrade 4.13 to 5.0"
+msgstr "Оновлення версії 4.13 до 5.0"
+
+msgctxt "name"
+msgid "Version Upgrade 4.2 to 4.3"
+msgstr "Оновлення версії 4.2 до 4.3"
+
+msgctxt "name"
+msgid "Version Upgrade 4.3 to 4.4"
+msgstr "Оновлення версії 4.3 до 4.4"
+
+msgctxt "name"
+msgid "Version Upgrade 4.4 to 4.5"
+msgstr "Оновлення версії 4.4 до 4.5"
+
+msgctxt "name"
+msgid "Version Upgrade 4.5 to 4.6"
+msgstr "Оновлення версії 4.5 до 4.6"
+
+msgctxt "name"
+msgid "Version Upgrade 4.6.0 to 4.6.2"
+msgstr "Оновлення версії 4.6.0 до 4.6.2"
+
+msgctxt "name"
+msgid "Version Upgrade 4.6.2 to 4.7"
+msgstr "Оновлення версії 4.6.2 до 4.7"
+
+msgctxt "name"
+msgid "Version Upgrade 4.7 to 4.8"
+msgstr "Оновлення версії 4.7 до 4.8"
+
+msgctxt "name"
+msgid "Version Upgrade 4.8 to 4.9"
+msgstr "Оновлення версії 4.8 до 4.9"
+
+msgctxt "name"
+msgid "Version Upgrade 4.9 to 4.10"
+msgstr "Оновлення версії 4.9 до 4.10"
+
+msgctxt "name"
+msgid "Version Upgrade 5.2 to 5.3"
+msgstr "Оновлення версії 5.2 до 5.3"
+
+msgctxt "name"
+msgid "Version Upgrade 5.3 to 5.4"
+msgstr "Оновлення версії 5.3 до 5.4"
+
+msgctxt "@button"
+msgid "View printers in Digital Factory"
+msgstr "Переглянути принтери в Digital Factory"
+
+msgctxt "@label"
+msgid "View type"
+msgstr "Перегляд типу"
+
+msgctxt "@label link to technical assistance"
+msgid "View user manuals online"
+msgstr "Перегляд посібників користувачів онлайн"
+
+msgctxt "@label"
+msgid "Viewport behavior"
+msgstr "Поведінка вікна"
+
+msgctxt "@action:inmenu"
+msgid "Visible Settings"
+msgstr "Наявні параметри"
+
+msgctxt "@button"
+msgid "Visit plug-in website"
+msgstr "Відвідайте веб-сайт вбудованих модулів"
+
+msgctxt "@tooltip:button"
+msgid "Visit the UltiMaker website."
+msgstr "Посетите веб-сайт UltiMaker."
+
+msgctxt "@label"
+msgid "Visual"
+msgstr "Візуальний"
+
+msgctxt "@label"
+msgid "Waiting for"
+msgstr "Очікування"
+
+msgctxt "@label"
+msgid "Waiting for Cloud response"
+msgstr "Очікується відповідь від хмари"
+
+msgctxt "@button"
+msgid "Waiting for new printers"
+msgstr "Очікування нових принтерів"
+
+msgctxt "@button"
+msgid "Want more?"
+msgstr "Бажаєте більшого?"
+
+msgctxt "@info:title"
+msgid "Warning"
+msgstr "Увага"
+
+#, python-brace-format
+msgctxt "@info:status"
+msgid "Warning: The profile is not visible because its quality type '{0}' is not available for the current configuration. Switch to a material/nozzle combination that can use this quality type."
+msgstr "Увага! Профіль не відображається, оскільки його тип якості {0} недоступний для поточної конфігурації. Виберіть комбінацію матеріалу та сопла, яким підходить цей тип якості."
+
+msgctxt "@text:window"
+msgid "We have found one or more G-Code files within the files you have selected. You can only open one G-Code file at a time. If you want to open a G-Code file, please just select only one."
+msgstr "Серед вибраних файлів ми знайшли кілька файлів із G-кодом. Ви можете відкрити лише один файл за один раз. Змініть свій вибір, будь ласка."
+
+msgctxt "@text:window"
+msgid "We have found one or more project file(s) within the files you have selected. You can open only one project file at a time. We suggest to only import models from those files. Would you like to proceed?"
+msgstr "Ми виявили один або більше проектних файлів серед вибраних вами. Ви можете відкрити лише один файл проекту. Ми пропонуємо імпортувати тільки моделі цих файлів. Бажаєте продовжити?"
+
+msgctxt "@info"
+msgid "Webcam feeds for cloud printers cannot be viewed from UltiMaker Cura. Click \"Manage printer\" to visit Ultimaker Digital Factory and view this webcam."
+msgstr "Канали веб-камери для хмарних принтерів не можна переглянути з UltiMaker Cura. Натисніть кнопку «Керування принтером», щоб переглянути цю веб-камеру на веб-сайті Ultimaker Digital Factory."
+
+msgctxt "@button"
+msgid "Website"
+msgstr "Веб-сайт"
+
+msgctxt "@label"
+msgid "What printer would you like to setup?"
+msgstr "Який принтер ви бажаєте налаштувати?"
+
+msgctxt "@info:tooltip"
+msgid "What type of camera rendering should be used?"
+msgstr "Рендеринг камери якого типу слід використовувати?"
+
+msgctxt "@action:inmenu menubar:help"
+msgid "What's New"
+msgstr "Що нового"
+
+msgctxt "@label"
+msgid "What's New"
+msgstr "Що нового"
+
+msgctxt "@title:window"
+msgid "What's New"
+msgstr "Що нового"
+
+msgctxt "@info:tooltip"
+msgid "When checking for updates, check for both stable and for beta releases."
+msgstr "Під час перевірки оновлень перевіряйте як стабільні, так і бета-версії."
+
+msgctxt "@info:tooltip"
+msgid "When checking for updates, only check for stable releases."
+msgstr "Під час перевірки оновлень перевіряйте лише стабільні версії."
+
+msgctxt "@info:tooltip"
+msgid "When you have made changes to a profile and switched to a different one, a dialog will be shown asking whether you want to keep your modifications or not, or you can choose a default behaviour and never show that dialog again."
+msgstr "При внесенні змін у профіль та перемиканні на інший, буде показаний діалог, який запитує ваше рішення про збереження ваших змін, або ви можете вказати стандартну поведінку та не показувати такий діалог."
+
+msgctxt "@button"
+msgid "Why do I need to sync material profiles?"
+msgstr "Навіщо синхронізація профілів матеріалів потрібна?"
+
+msgctxt "@action:label"
+msgid "Width (mm)"
+msgstr "Ширина (мм)"
+
+msgctxt "description"
+msgid "Writes g-code to a compressed archive."
+msgstr "Записує G-код у стислий архів."
+
+msgctxt "description"
+msgid "Writes g-code to a file."
+msgstr "Записує G-код  у файл."
+
+msgctxt "@label"
+msgid "X (Width)"
+msgstr "X (Ширина)"
+
+msgctxt "@label"
+msgid "X max"
+msgstr "X максимум"
+
+msgctxt "@label"
+msgid "X min"
+msgstr "X мінімум"
+
+msgctxt "name"
+msgid "X-Ray View"
+msgstr "Перегляд у рентгені"
+
+msgctxt "@item:inlistbox"
+msgid "X-Ray view"
+msgstr "Перегляд у рентгені"
+
+msgctxt "@label"
+msgid "X/Y"
+msgstr "X/Y"
+
+msgctxt "@item:inlistbox"
+msgid "X3D File"
+msgstr "Файл X3D"
+
+msgctxt "name"
+msgid "X3D Reader"
+msgstr "Читання X3D"
+
+msgctxt "@label"
+msgid "Y (Depth)"
+msgstr "Y (Глибина)"
+
+msgctxt "@label"
+msgid "Y max"
+msgstr "Y максимум"
+
+msgctxt "@label"
+msgid "Y min"
+msgstr "Y мінімум"
+
+msgctxt "@info"
+msgid "Yes"
+msgstr "Так"
+
+msgctxt "@label"
+msgid ""
+"You are about to remove all printers from Cura. This action cannot be undone.\n"
+"Are you sure you want to continue?"
+msgstr "Ви видаляєте всі принтери Cura. Цю дію неможливо буде скасувати. Продовжити?"
+
+#, python-brace-format
+msgctxt "@label"
+msgid ""
+"You are about to remove {0} printer from Cura. This action cannot be undone.\n"
+"Are you sure you want to continue?"
+msgid_plural ""
+"You are about to remove {0} printers from Cura. This action cannot be undone.\n"
+"Are you sure you want to continue?"
+msgstr[0] ""
+"Ви видаляєте {0} принтер із Cura. Цю дію неможливо буде скасувати.\n"
+"Продовжити?"
+msgstr[1] ""
+"Ви видаляєте {0} принтер із Cura. Цю дію неможливо буде скасувати.\n"
+"Продовжити?"
+msgstr[2] ""
+"Ви видаляєте {0} принтер із Cura. Цю дію неможливо буде скасувати.\n"
+"Продовжити?"
+
+msgctxt "@info:status"
+msgid "You are attempting to connect to a printer that is not running UltiMaker Connect. Please update the printer to the latest firmware."
+msgstr "Ви намагаєтесь підключитися до принтера, на якому не працює UltiMaker Connect. Поновіть прошивку принтера до останньої версії."
+
+#, python-brace-format
+msgctxt "@info:status"
+msgid "You are attempting to connect to {0} but it is not the host of a group. You can visit the web page to configure it as a group host."
+msgstr "Ви намагаєтесь підключитись до {0}, але це не головний принтер групи. Відкрийте веб-сторінку, щоб налаштувати його як головний принтер групи."
+
+msgctxt "@empty_state"
+msgid "You don't have any backups currently. Use the 'Backup Now' button to create one."
+msgstr "На даний момент у вас відсутні резервні копії. Щоб створити резервну копію, натисніть кнопку «Створити резервну копію»."
+
+msgctxt "@text:window, %1 is a profile name"
+msgid "You have customized some profile settings. Would you like to Keep these changed settings after switching profiles? Alternatively, you can discard the changes to load the defaults from '%1'."
+msgstr ""
+"Ви змінили деякі налаштування профілю.\n"
+"Зберегти змінені установки після перемикання профілів?\n"
+"Зміни можна скасувати та завантажити за замовчуванням з %1."
+
+msgctxt "@label"
+msgid "You need to accept the license to install the package"
+msgstr "Для встановлення пакета необхідно прийняти ліцензію"
+
+msgctxt "@info:generic"
+msgid "You need to quit and restart {} before changes have effect."
+msgstr "Щоб активувати зміни, потрібно завершити роботу програмного забезпечення {} та перезапустити його."
+
+msgctxt "@dialog:info"
+msgid "You will need to restart Cura before your backup is restored. Do you want to close Cura now?"
+msgstr "Вам потрібно буде перезапустити Cura, перш ніж дані будуть відновлені з резервної копії. Ви дійсно хочете, щоб закрити Cura прямо зараз?"
+
+msgctxt "@info:status"
+msgid "You will receive a confirmation via email when the print job is approved"
+msgstr "Ви отримаєте підтвердження електронною поштою після затвердження завдання друку"
+
+msgctxt "@info:backup_status"
+msgid "Your backup has finished uploading."
+msgstr "Заливання резервної копії завершено."
+
+msgctxt "@action:label"
+msgid "Your current settings match the selected profile."
+msgstr "Ваші поточні параметри збігаються з вибраним профілем."
+
+msgctxt "@info"
+msgid "Your new printer will automatically appear in Cura"
+msgstr "Ваш новий принтер автоматично з'явиться у Cura"
+
+#, python-brace-format
+msgctxt "@info:status"
+msgid ""
+"Your printer <b>{printer_name}</b> could be connected via cloud.\n"
+" Manage your print queue and monitor your prints from anywhere connecting your printer to Digital Factory"
+msgstr ""
+"Принтер <b>{printer_name}</b> може бути підключений через хмару.\n"
+"  Керуйте чергою друку та стежте за результатом з будь-якого місця завдяки підключенню принтера до Digital Factory"
+
+msgctxt "@label"
+msgid "Z"
+msgstr "Z"
+
+msgctxt "@label"
+msgid "Z (Height)"
+msgstr "Z (Висота)"
+
+msgctxt "@label Description for application dependency"
+msgid "ZeroConf discovery library"
+msgstr "Бібліотека ZeroConf"
+
+msgctxt "@action:button"
+msgid "Zoom toward mouse direction"
+msgstr "Збільшувати за рухом мишки"
+
+msgctxt "@info:tooltip"
+msgid "Zooming towards the mouse is not supported in the orthographic perspective."
+msgstr "В ортогональній проекції зміна масштабу мишею не підтримується."
+
+msgctxt "@text Placeholder for the username if it has been deleted"
+msgid "deleted user"
+msgstr "віддалений користувач"
+
+msgctxt "@item:inlistbox"
+msgid "glTF Binary"
+msgstr "glTF Binary"
+
+msgctxt "@item:inlistbox"
+msgid "glTF Embedded JSON"
+msgstr "glTF Embedded JSON"
+
+msgctxt "@label"
+msgid "max"
+msgstr "макс"
+
+msgctxt "@label"
+msgid "min"
+msgstr "мін"
+
+msgctxt "@label"
+msgid "mm"
+msgstr "мм"
+
+msgctxt "@info:status"
+msgid "today"
+msgstr "сьогодні"
+
+msgctxt "@info:status"
+msgid "tomorrow"
+msgstr "завтра"
+
+msgctxt "@label"
+msgid "version: %1"
+msgstr "версія: %1"
+
+#, python-brace-format
+msgctxt "@message {printer_name} is replaced with the name of the printer"
+msgid "{printer_name} will be removed until the next account sync."
+msgstr "{printer_name} буде видалено до наступної синхронізації облікового запису."
+
+msgctxt "@info:generic"
+msgid "{} plugins failed to download"
+msgstr "Вбудовані модулі ({} шт.) не завантажені"
+
+#~ msgctxt "@info:status"
+#~ msgid "Cura does not accurately display layers when Wire Printing is enabled."
+#~ msgstr "При печати через кабель Cura отображает слои неточно."
+
+#~ msgctxt "@info:title"
+#~ msgid "Simulation View"
+#~ msgstr "Вид моделирования"

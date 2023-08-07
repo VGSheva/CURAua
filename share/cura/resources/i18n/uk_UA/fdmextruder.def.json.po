@@ -1,0 +1,181 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Uranium json setting files\n"
+"Report-Msgid-Bugs-To: plugins@ultimaker.com\n"
+"POT-Creation-Date: 2023-06-08 16:32+0000\n"
+"PO-Revision-Date: 2023-08-02 04:01+0300\n"
+"Last-Translator: VGSheva <admin@ozp.biz>\n"
+"Language-Team: LANGUAGE\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.3.2\n"
+
+msgctxt "platform_adhesion description"
+msgid "Adhesion"
+msgstr "Прилипання"
+
+msgctxt "material_diameter description"
+msgid "Adjusts the diameter of the filament used. Match this value with the diameter of the used filament."
+msgstr "Вкажіть діаметр нитки, що використовується."
+
+msgctxt "platform_adhesion label"
+msgid "Build Plate Adhesion"
+msgstr "Прилипання до столу"
+
+msgctxt "material_diameter label"
+msgid "Diameter"
+msgstr "Діаметр"
+
+msgctxt "machine_extruder_end_code description"
+msgid "End g-code to execute when switching away from this extruder."
+msgstr "Завершальний G-код, що запускається при перемиканні з екструдера."
+
+msgctxt "extruder_nr label"
+msgid "Extruder"
+msgstr "Екструдер"
+
+msgctxt "machine_extruder_end_code label"
+msgid "Extruder End G-Code"
+msgstr "Завершальний G-код екструдера"
+
+msgctxt "machine_extruder_end_pos_abs label"
+msgid "Extruder End Position Absolute"
+msgstr "Абсолютна кінцева позиція екструдера"
+
+msgctxt "machine_extruder_end_pos_x label"
+msgid "Extruder End Position X"
+msgstr "Кінцева X позиція екструдера"
+
+msgctxt "machine_extruder_end_pos_y label"
+msgid "Extruder End Position Y"
+msgstr "Кінцева Y позиція екструдера"
+
+msgctxt "extruder_prime_pos_x label"
+msgid "Extruder Prime X Position"
+msgstr "Початкова X позиція екструдера"
+
+msgctxt "extruder_prime_pos_y label"
+msgid "Extruder Prime Y Position"
+msgstr "Початкова Y позиція екструдера"
+
+msgctxt "extruder_prime_pos_z label"
+msgid "Extruder Prime Z Position"
+msgstr "Z координата початку друку"
+
+msgctxt "machine_extruder_cooling_fan_number label"
+msgid "Extruder Print Cooling Fan"
+msgstr "Охолоджуючий вентилятор екструдера, який використовується під час друку"
+
+msgctxt "machine_extruder_start_code label"
+msgid "Extruder Start G-Code"
+msgstr "Стартовий G-код екструдера"
+
+msgctxt "machine_extruder_start_pos_abs label"
+msgid "Extruder Start Position Absolute"
+msgstr "Абсолютна стартова позиція екструдера"
+
+msgctxt "machine_extruder_start_pos_x label"
+msgid "Extruder Start Position X"
+msgstr "Стартова X позиція екструдера"
+
+msgctxt "machine_extruder_start_pos_y label"
+msgid "Extruder Start Position Y"
+msgstr "Стартова Y позиція екструдера"
+
+msgctxt "machine_settings label"
+msgid "Machine"
+msgstr "Принтер"
+
+msgctxt "machine_settings description"
+msgid "Machine specific settings"
+msgstr "Параметри, що стосуються принтера"
+
+msgctxt "machine_extruder_end_pos_abs description"
+msgid "Make the extruder ending position absolute rather than relative to the last-known location of the head."
+msgstr "Встановлює абсолютну кінцеву позицію екструдера, а чи не щодо останньої відомої позиції голови."
+
+msgctxt "machine_extruder_start_pos_abs description"
+msgid "Make the extruder starting position absolute rather than relative to the last-known location of the head."
+msgstr "Встановлює абсолютну стартову позицію екструдера, а чи не щодо останньої відомої позиції голови."
+
+msgctxt "material description"
+msgid "Material"
+msgstr "Матеріал"
+
+msgctxt "material label"
+msgid "Material"
+msgstr "Матеріал"
+
+msgctxt "machine_nozzle_size label"
+msgid "Nozzle Diameter"
+msgstr "Діаметр сопла"
+
+msgctxt "machine_nozzle_id label"
+msgid "Nozzle ID"
+msgstr "Ідентифікатор сопла"
+
+msgctxt "machine_nozzle_offset_x label"
+msgid "Nozzle X Offset"
+msgstr "X зміщення сопла"
+
+msgctxt "machine_nozzle_offset_y label"
+msgid "Nozzle Y Offset"
+msgstr "Y зміщення сопла"
+
+msgctxt "machine_extruder_start_code description"
+msgid "Start g-code to execute when switching to this extruder."
+msgstr "Стартовий G-код, що запускається при перемиканні на цей екструдер."
+
+msgctxt "extruder_prime_pos_x description"
+msgid "The X coordinate of the position where the nozzle primes at the start of printing."
+msgstr "X координата позиції, де сопло починає друк."
+
+msgctxt "extruder_prime_pos_y description"
+msgid "The Y coordinate of the position where the nozzle primes at the start of printing."
+msgstr "Y координата позиції, де сопло починає друк."
+
+msgctxt "extruder_prime_pos_z description"
+msgid "The Z coordinate of the position where the nozzle primes at the start of printing."
+msgstr "Позиція кінчика сопла на осі Z під час друку."
+
+msgctxt "extruder_nr description"
+msgid "The extruder train used for printing. This is used in multi-extrusion."
+msgstr "Екструдер, який використовується для друку. Має значення при використанні кількох екструдерів."
+
+msgctxt "machine_nozzle_size description"
+msgid "The inner diameter of the nozzle. Change this setting when using a non-standard nozzle size."
+msgstr "Внутренний диаметр сопла. Измените этот параметр при использовании сопла нестандартного размера."
+
+msgctxt "machine_nozzle_id description"
+msgid "The nozzle ID for an extruder train, such as \"AA 0.4\" and \"BB 0.8\"."
+msgstr "Ідентифікатор сопла для екструдера, наприклад \"AA 0.4\" та \"BB 0.8\"."
+
+msgctxt "machine_extruder_cooling_fan_number description"
+msgid "The number of the print cooling fan associated with this extruder. Only change this from the default value of 0 when you have a different print cooling fan for each extruder."
+msgstr "Номер охолоджуючого вентилятора, що використовується під час друку та асоційованого з цим екструдером. За замовчуванням значення 0 слід змінювати лише за наявності іншого охолоджуючого вентилятора, який використовується під час друку, для кожного екструдера."
+
+msgctxt "machine_extruder_end_pos_x description"
+msgid "The x-coordinate of the ending position when turning the extruder off."
+msgstr "X координати кінцевої позиції при відключенні екструдера."
+
+msgctxt "machine_nozzle_offset_x description"
+msgid "The x-coordinate of the offset of the nozzle."
+msgstr "Зміщення сопла по осі X."
+
+msgctxt "machine_extruder_start_pos_x description"
+msgid "The x-coordinate of the starting position when turning the extruder on."
+msgstr "X координата стартової позиції при включенні екструдера."
+
+msgctxt "machine_extruder_end_pos_y description"
+msgid "The y-coordinate of the ending position when turning the extruder off."
+msgstr "Y координата кінцевої позиції при вимкненні екструдера."
+
+msgctxt "machine_nozzle_offset_y description"
+msgid "The y-coordinate of the offset of the nozzle."
+msgstr "Зміщення сопла по осі Y."
+
+msgctxt "machine_extruder_start_pos_y description"
+msgid "The y-coordinate of the starting position when turning the extruder on."
+msgstr "Y координата стартової позиції при включенні екструдера."

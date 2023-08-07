@@ -1,0 +1,734 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-03 10:52+0000\n"
+"PO-Revision-Date: 2023-08-03 22:10+0300\n"
+"Last-Translator: VGSheva <admin@ozp.biz>\n"
+"Language-Team: \n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Poedit 3.3.2\n"
+
+#, python-brace-format
+msgctxt "@info:version-upgrade"
+msgid "A configuration from an older version of {0} was imported."
+msgstr "Була імпортована конфігурація від старої версії {0}."
+
+msgctxt "@option"
+msgid "Abort"
+msgstr "Зупинити"
+
+msgctxt "@item:inlistbox"
+msgid "All Files (*)"
+msgstr "Все файлы (*)"
+
+#, python-brace-format
+msgctxt "@item:inlistbox"
+msgid "All Supported Types ({0})"
+msgstr "Всі типи, що підтримуються ({0})"
+
+msgctxt "@option"
+msgid "Apply"
+msgstr "Застосувати"
+
+msgctxt "@label (%1 is object name)"
+msgid "Are you sure you wish to remove %1? This cannot be undone!"
+msgstr "Ви впевнені, що хочете видалити %1? Це не можна буде скасувати!"
+
+#, python-format, python-brace-format
+msgctxt "@info:status"
+msgid "Auto scaled model to {0}% of original size"
+msgstr "Автоматичне масштабування моделі до {0}% o від оригінального розміру"
+
+msgctxt "name"
+msgid "Camera Tool"
+msgstr "Інструмент \"Камера\""
+
+msgctxt "@action:button"
+msgid "Cancel"
+msgstr "Відміна"
+
+msgctxt "@option"
+msgid "Cancel"
+msgstr "Відміна"
+
+#, python-brace-format
+msgctxt "@info:status Don't translate the XML tag <filename>!"
+msgid "Cannot open files of the type of <filename>{0}</filename>"
+msgstr "Неможливо відкрити файли типу <filename>{0}</filename>"
+
+msgctxt "@item:inmenu"
+msgid "Check for Updates"
+msgstr "Перевірити оновлення"
+
+msgctxt "description"
+msgid "Checks for updates of the software."
+msgstr "Перевіряє наявність оновлень програмного забезпечення."
+
+msgctxt "@option"
+msgid "Close"
+msgstr "Закрити"
+
+msgctxt "@info:title"
+msgid "Configuration errors"
+msgstr "Помилки конфігурації"
+
+msgctxt "@title:window"
+msgid "Confirm Remove"
+msgstr "Підтвердьте видалення"
+
+msgctxt "name"
+msgid "Console Logger"
+msgstr "Консольний журнал"
+
+#, python-brace-format
+msgctxt "@info:status Don't translate the XML tags <filename> or <message>!"
+msgid "Could not save to <filename>{0}</filename>: <message>{1}</message>"
+msgstr "Не можу записати <filename>{0}</filename>: <message>{1}</message>"
+
+msgctxt "Critical OpenGL Extensions Missing"
+msgid "Critical OpenGL extensions are missing. This program requires support for Framebuffer Objects. Please check your video card drivers."
+msgstr "Важливих додатків OpenGL немає. Ця програма вимагає підтримки для об'єктів фреймбуфера. Перевірте драйвер своєї відеокарти."
+
+msgctxt "@option"
+msgid "Discard"
+msgstr "Скинути"
+
+msgctxt "@action:button"
+msgid "Dismiss"
+msgstr "Відхилити"
+
+msgctxt "@action:button"
+msgid "Download"
+msgstr "Завантажити"
+
+msgctxt "@option:check"
+msgid "Drop Down Model"
+msgstr "Модель нависань"
+
+msgctxt "description"
+msgid "Enables saving to local files."
+msgstr "Дозволяє збереження локальних файлів."
+
+msgctxt "@info:title"
+msgid "Error"
+msgstr "Помилка"
+
+msgctxt "@message"
+msgid "Failed to Initialize OpenGL"
+msgstr "Не вдалося ініціалізувати OpenGL"
+
+#, python-brace-format
+msgctxt "@info:status Don't translate the XML tag <filename>!"
+msgid "Failed to load <filename>{0}</filename>. The file could be corrupt or inaccessible."
+msgstr "<filename>{0}</filename> не завантажено. Файл може бути пошкоджений або недоступний."
+
+#, python-brace-format
+msgctxt "@info:status Don't translate the XML tag <filename>!"
+msgid "Failed to load <filename>{0}</filename>. The file could be corrupt, inaccessible or it did not contain any models."
+msgstr "Не вдалося завантажити <filename>{0}</filename>. Можливо, файл пошкоджений, недоступний або не містить моделей."
+
+msgctxt "@title:window"
+msgid "File Already Exists"
+msgstr "Файл вже існує"
+
+msgctxt "name"
+msgid "File Logger"
+msgstr "Запис журналу у файл"
+
+msgctxt "@info:title"
+msgid "File Saved"
+msgstr "Файл збережено"
+
+msgctxt "@info:title"
+msgid "File has been modified"
+msgstr "Файл було змінено"
+
+msgctxt "@menu"
+msgid "From Disk"
+msgstr "З диску"
+
+msgctxt "@title:tab"
+msgid "General"
+msgstr "Загальне"
+
+msgctxt "@option"
+msgid "Help"
+msgstr "Довідка"
+
+msgctxt "@option"
+msgid "Ignore"
+msgstr "Ігнорувати"
+
+msgctxt "@info:progress"
+msgid "Initializing package manager..."
+msgstr "Ініціалізація диспетчера пакетів..."
+
+#, python-brace-format
+msgctxt "@info:progress Don't translate {package_id}"
+msgid "Installing plugin {package_id}..."
+msgstr "Встановлення вбудованого модуля {package_id}..."
+
+msgctxt "@info:title"
+msgid "Invalid File"
+msgstr "Не вірний файл"
+
+msgctxt "@action:button"
+msgid "Lay flat"
+msgstr "Покласти плашмя"
+
+msgctxt "@label"
+msgid "Laying object flat on buildplate..."
+msgstr "Плоске горизонтальне розташування об'єкта на столі, що друкує."
+
+msgctxt "@action:button"
+msgid "Learn more"
+msgstr "Взнати більше"
+
+msgctxt "@info:title"
+msgid "Loading"
+msgstr "Завантаження"
+
+msgctxt "@info:progress"
+msgid "Loading UI..."
+msgstr "Завантаження інтерфейсу користувача..."
+
+#, python-brace-format
+msgctxt "@info:progress"
+msgid "Loading plugin {plugin_id}..."
+msgstr "Завантаження вбудованого модуля {plugin_id}..."
+
+msgctxt "@info:progress"
+msgid "Loading plugins..."
+msgstr "Завантаження плагінів..."
+
+msgctxt "@info:progress"
+msgid "Loading preferences..."
+msgstr "Завантаження налаштувань..."
+
+msgctxt "name"
+msgid "Local Container Provider"
+msgstr "Місцевий постачальник контейнерів"
+
+msgctxt "@item:inmenu"
+msgid "Local File"
+msgstr "Локальний файл"
+
+msgctxt "name"
+msgid "Local File Output Device"
+msgstr "Пристрій виведення локальних файлів"
+
+msgctxt "@option:check"
+msgid "Lock Model"
+msgstr "Блокування моделі"
+
+msgctxt "description"
+msgid "Makes it possible to read Wavefront OBJ files."
+msgstr "Дозволяє читати файли Wavefront OBJ."
+
+msgctxt "description"
+msgid "Makes it possible to write Wavefront OBJ files."
+msgstr "Дозволяє записувати файли Wavefront OBJ."
+
+msgctxt "@label"
+msgid "Mirror"
+msgstr "Дзеркало"
+
+msgctxt "@info:tooltip"
+msgid "Mirror Model"
+msgstr "Віддзеркалити модель"
+
+msgctxt "name"
+msgid "Mirror Tool"
+msgstr "Інструмент \"Дзеркало\""
+
+msgctxt "@action:button"
+msgid "Move"
+msgstr "Переміщенния"
+
+msgctxt "@info:tooltip"
+msgid "Move Model"
+msgstr "Переміщення моделі"
+
+msgctxt "name"
+msgid "Move Tool"
+msgstr "Інструмент \"Переміщення\""
+
+msgctxt "@option"
+msgid "No"
+msgstr "Ні"
+
+msgctxt "@info:title"
+msgid "No Models in File"
+msgstr "Немає моделей у файлі"
+
+msgctxt "@info"
+msgid "No new version was found."
+msgstr "Нової версії не знайдено."
+
+msgctxt "@option"
+msgid "No to All"
+msgstr "Ні для всіх"
+
+msgctxt "@error:not supported"
+msgid "OBJWriter does not support non-text mode."
+msgstr "Засіб запису OBJ (OBJWriter) не підтримує нетекстовий режим."
+
+msgctxt "@action:button"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "@option"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "@title"
+msgid "Object Rotation"
+msgstr "Обертання об'єкта"
+
+msgctxt "@option"
+msgid "Open"
+msgstr "Відкрити"
+
+msgctxt "@action:button"
+msgid "Open Folder"
+msgstr "Відкрити каталог"
+
+msgctxt "@info:tooltip"
+msgid "Open the folder containing the file"
+msgstr "Відкрити каталог, який містить цей файл"
+
+msgctxt "description"
+msgid "Outputs log information to a file in your settings folder."
+msgstr "Виводить вміст журналу у файл, який міститься в каталозі з вашими налаштуваннями."
+
+msgctxt "description"
+msgid "Outputs log information to the console."
+msgstr "Виводить вміст журналу на консоль."
+
+#, python-brace-format
+msgctxt "@info:status Don't translate the XML tags <filename>!"
+msgid "Permission denied when trying to save <filename>{0}</filename>"
+msgstr "Недостатньо прав для запису <filename>{0}</filename>"
+
+msgctxt "@info"
+msgid "Please provide a new name."
+msgstr "Вкажіть нове ім'я."
+
+msgctxt "@info:status"
+msgid "Plugin no longer scheduled to be installed."
+msgstr "Встановлення плагіна більше не планується."
+
+msgctxt "@error:untrusted"
+msgid "Plugin {} was not loaded because it could not be verified."
+msgstr "Модуль {}, що підключається, не завантажений, оскільки його неможливо перевірити."
+
+msgctxt "@title:window"
+msgid "Preferences"
+msgstr "Налаштування"
+
+msgctxt "@title:tab"
+msgid "Printers"
+msgstr "Принтери"
+
+msgctxt "description"
+msgid "Provides a simple solid mesh view."
+msgstr "Надає перегляд у вигляді цілого тіла."
+
+msgctxt "description"
+msgid "Provides built-in setting containers that come with the installation of the application."
+msgstr "Формує вбудовані контейнери налаштувань, які надаються під час встановлення програми."
+
+msgctxt "description"
+msgid "Provides support for reading STL files."
+msgstr "Надає підтримку для читання файлів STL."
+
+msgctxt "description"
+msgid "Provides support for writing STL files."
+msgstr "Надає підтримку для запису файлів STL."
+
+msgctxt "description"
+msgid "Provides the Mirror tool."
+msgstr "Надає інструмент \"Дзеркало\"."
+
+msgctxt "description"
+msgid "Provides the Move tool."
+msgstr "Надає інструмент \"Переміщення\"."
+
+msgctxt "description"
+msgid "Provides the Rotate tool."
+msgstr "Надає інструмент \"Обертання\"."
+
+msgctxt "description"
+msgid "Provides the Scale tool."
+msgstr "Надає інструмент \"Масштабування\"."
+
+msgctxt "description"
+msgid "Provides the Selection tool."
+msgstr "Надає інструмент \"Вибір\"."
+
+msgctxt "description"
+msgid "Provides the tool to manipulate the camera."
+msgstr "Надає можливість керувати камерою."
+
+msgctxt "@action:button"
+msgid "Reload"
+msgstr "Перезавантажити"
+
+msgctxt "@action:button"
+msgid "Remove plugin"
+msgstr "Видалити плагін"
+
+msgctxt "@title:window"
+msgid "Rename"
+msgstr "Перейменувати"
+
+msgctxt "@action:button"
+msgid "Reset"
+msgstr "Сброс"
+
+msgctxt "@option"
+msgid "Reset"
+msgstr "Сброс"
+
+msgctxt "@title:window"
+msgid "Reset to factory"
+msgstr "Скидання до заводських налаштувань за замовчуванням"
+
+msgctxt "@label"
+msgid "Reset will remove all your current printers and profiles! Are you sure you want to reset?"
+msgstr "Скидання призведе до видалення всіх поточних принтерів і профілів! Чи справді виконати скидання?"
+
+msgctxt "@option"
+msgid "Restore Defaults"
+msgstr "Відновити значення за замовчуванням"
+
+msgctxt "@option"
+msgid "Retry"
+msgstr "Повторити"
+
+msgctxt "@label"
+msgid "Rotate"
+msgstr "Обертання"
+
+msgctxt "@info:tooltip"
+msgid "Rotate Model"
+msgstr "Обертання моделі"
+
+msgctxt "name"
+msgid "Rotate Tool"
+msgstr "Інструмент \"Обертання\""
+
+msgctxt "@item:inlistbox"
+msgid "STL File"
+msgstr "Файл STL"
+
+msgctxt "@item:inlistbox"
+msgid "STL File (ASCII)"
+msgstr "Файл STL (ASCII)"
+
+msgctxt "@item:inlistbox"
+msgid "STL File (Binary)"
+msgstr "Файл STL (бінарний)"
+
+msgctxt "name"
+msgid "STL Reader"
+msgstr "Читання STL"
+
+msgctxt "name"
+msgid "STL Writer"
+msgstr "Запис STL"
+
+msgctxt "@option"
+msgid "Save"
+msgstr "Зберегти"
+
+msgctxt "@option"
+msgid "Save All"
+msgstr "Зберегти все"
+
+msgctxt "@action:button Preceded by 'Ready to'."
+msgid "Save to Disk"
+msgstr "Зберегти на диск"
+
+msgctxt "@info:tooltip"
+msgid "Save to Disk"
+msgstr "Зберегти на диск"
+
+msgctxt "@title:window"
+msgid "Save to Disk"
+msgstr "Зберегти на диск"
+
+#, python-brace-format
+msgctxt "@info:status Don't translate the XML tags <filename>!"
+msgid "Saved to <filename>{0}</filename>"
+msgstr "Запис в <filename>{0}</filename>"
+
+msgctxt "@info:title"
+msgid "Saving"
+msgstr "Збереження"
+
+#, python-brace-format
+msgctxt "@info:progress Don't translate the XML tags <filename>!"
+msgid "Saving to <filename>{0}</filename>"
+msgstr "Збереження в <filename>{0}</filename>"
+
+msgctxt "@label"
+msgid "Scale"
+msgstr "Масштаб"
+
+msgctxt "@info:tooltip"
+msgid "Scale Model"
+msgstr "Масштабувати модель"
+
+msgctxt "name"
+msgid "Scale Tool"
+msgstr "Інструмент \"Масштабування\""
+
+msgctxt "@info:title"
+msgid "Scaling Object"
+msgstr "Масштабування об'єкту"
+
+msgctxt "@action:button"
+msgid "Select face to align to the build plate"
+msgstr "Виберіть поверхню для вирівнювання з друкарською пластиною"
+
+msgctxt "name"
+msgid "Selection Tool"
+msgstr "Інструмент \"Вибір\""
+
+msgctxt "@title:tab"
+msgid "Settings"
+msgstr "Параметри"
+
+msgctxt "@item:inmenu"
+msgid "Simple"
+msgstr "Звичайний"
+
+msgctxt "name"
+msgid "Simple View"
+msgstr "Звичайний вигляд"
+
+msgctxt "@action:checkbox"
+msgid "Snap Rotation"
+msgstr "Швидке обертання"
+
+msgctxt "@option:check"
+msgid "Snap Scaling"
+msgstr "Швидке масштабування"
+
+#, python-brace-format
+msgctxt "@info:status"
+msgid "Something went wrong saving to <filename>{0}</filename>: <message>{1}</message>"
+msgstr "Помилка збереження в <filename>{0}</filename>: <message>{1}</message>"
+
+#, python-brace-format
+msgctxt "@label Don't translate the XML tag <filename>!"
+msgid "The file <filename>{0}</filename> already exists. Are you sure you want to overwrite it?"
+msgstr "Файл <filename>{0}</filename> вже існує. Ви впевнені, що бажаєте перезаписати його?"
+
+msgctxt "@info:status"
+msgid ""
+"The plugin has been installed.\n"
+"Please re-start the application to activate the plugin."
+msgstr ""
+"Плагін було встановлено\n"
+"Перезапустіть програму для активації плагіна."
+
+#, python-brace-format
+msgctxt "@info:status"
+msgid ""
+"The plugin has been removed.\n"
+"Please restart {0} to finish uninstall."
+msgstr ""
+"Плагін видалено.\n"
+"Перезапустіть {0} для завершення видалення."
+
+msgctxt "@error"
+msgid "The plugin {} could not be loaded. Re-installing the plugin might solve the issue."
+msgstr "Неможливо завантажити плагін {}. Проблему можна спробувати вирішити перевстановленням плагіна."
+
+msgctxt "@info"
+msgid "The version you are using does not support checking for updates."
+msgstr "Версія, що використовується, не підтримує перевірку оновлень."
+
+msgctxt "@info:warning"
+msgid "There are no file types available to write with!"
+msgstr "Жодний тип файлів недоступний для запису!"
+
+msgctxt "@error:no mesh"
+msgid "There is no mesh to write."
+msgstr "Відсутній об'єкт для запису."
+
+#, python-brace-format
+msgctxt "@error:update"
+msgid ""
+"There was an error uninstalling the package {package} before installing new version:\n"
+"{error}.\n"
+"Please try to upgrade again later."
+msgstr ""
+"Виникла помилка при видаленні пакета {package} перед інсталяцією нової версії:\n"
+"{error}.\n"
+"Повторіть спробу оновлення пізніше."
+
+#, python-brace-format
+msgctxt "@error:uninstall"
+msgid "There were some errors uninstalling the following packages: {packages}"
+msgstr ""
+"Виникли деякі помилки при видаленні цих пакетів: \n"
+"{packages}"
+
+#, python-brace-format
+msgctxt "@info:status Don't translate the XML tag <filename>!"
+msgid "There where no models in <filename>{0}</filename>."
+msgstr "Там, де немає моделей у <filename>{0}</filename>."
+
+msgctxt "@action:description"
+msgid "This will trigger the modified files to reload from disk."
+msgstr "Це запустить перезавантаження змінених файлів із диска."
+
+msgctxt "@item:inmenu About saving files to the hard drive"
+msgid "To Disk"
+msgstr "На диск"
+
+#, python-brace-format
+msgctxt "@info:status"
+msgid "Try out the latest BETA version and help us improve {application_name}."
+msgstr "Спробуйте останню бета-версію та допоможіть нам удосконалити програму {application_name}."
+
+msgctxt "@label"
+msgid "Type"
+msgstr "Тип"
+
+msgctxt "@info:title"
+msgid "Unable to Open File"
+msgstr "Неможливо відкрити файл"
+
+msgctxt "@option:check"
+msgid "Uniform Scaling"
+msgstr "Звичайне масштабування"
+
+msgctxt "@info:title"
+msgid "Uninstalling errors"
+msgstr "Помилки видалення"
+
+msgctxt "@error:not supported"
+msgid "Unsupported output mode writing STL to stream."
+msgstr "Режим виведення під час запису STL для потокової передачі не підтримується."
+
+msgctxt "@item:inmenu"
+msgid "Update Checker"
+msgstr "Перевірка оновлень"
+
+msgctxt "name"
+msgid "Update Checker"
+msgstr "Перевірка оновлень"
+
+msgctxt "@info:progress"
+msgid "Updating configuration..."
+msgstr "Оновлення конфігурації..."
+
+msgctxt "@info:title"
+msgid "Updating error"
+msgstr "Помилка під час оновлення"
+
+msgctxt "@info:title"
+msgid "Version Upgrade"
+msgstr "Оновлення версії"
+
+msgctxt "@info:title"
+msgid "Warning"
+msgstr "Увага"
+
+msgctxt "@item:inlistbox"
+msgid "Wavefront OBJ File"
+msgstr "Wavefront OBJ File"
+
+msgctxt "name"
+msgid "Wavefront OBJ Reader"
+msgstr "Читання Wavefront OBJ"
+
+msgctxt "name"
+msgid "Wavefront OBJ Writer"
+msgstr "Запис Wavefront OBJ"
+
+#, python-brace-format
+msgctxt "@info"
+msgid "Would you like to reload {filename}?"
+msgstr "Перезавантажити {filename}?"
+
+msgctxt "@option"
+msgid "Yes"
+msgstr "Да"
+
+msgctxt "@option"
+msgid "Yes to All"
+msgstr "Да для всіх"
+
+msgctxt "@info:status"
+msgid "Your configuration seems to be corrupt."
+msgstr "Ймовірно, дані вашої конфігурації пошкоджені."
+
+#, python-brace-format
+msgctxt "@info:status"
+msgid ""
+"Your configuration seems to be corrupt. Something seems to be wrong with the following profiles:\n"
+"- {profiles}\n"
+" Would you like to reset to factory defaults? Reset will remove all your current printers and profiles."
+msgstr ""
+"Ймовірно, дані вашої конфігурації пошкоджені. Виникли проблеми з такими профілями:\n"
+"- {profiles}\n"
+"Виконати скидання до заводських налаштувань за замовчуванням? Скидання призведе до видалення всіх поточних принтерів і профілів."
+
+#, python-brace-format
+msgctxt "@label Short days-hours-minutes format. {0} is days, {1} is hours, {2} is minutes"
+msgid "{0:0>2}d {1:0>2}h {2:0>2}min"
+msgstr "{0:0>2}д {1:0>2}г {2:0>2}хв"
+
+#, python-brace-format
+msgctxt "@label Short hours-minutes format. {0} is hours, {1} is minutes"
+msgid "{0:0>2}h {1:0>2}min"
+msgstr "{0:0>2}г {1:0>2}хв"
+
+#, python-brace-format
+msgctxt "@label Long duration format. {0} is days"
+msgid "{0} day"
+msgid_plural "{0} days"
+msgstr[0] "{0} день"
+msgstr[1] "{0} дня"
+msgstr[2] "{0} дня"
+
+#, python-brace-format
+msgctxt "@label Long duration format. {0} is hours"
+msgid "{0} hour"
+msgid_plural "{0} hours"
+msgstr[0] "{0} год."
+msgstr[1] "{0} год."
+msgstr[2] "{0} год."
+
+#, python-brace-format
+msgctxt "@label Long duration format. {0} is minutes"
+msgid "{0} minute"
+msgid_plural "{0} minutes"
+msgstr[0] "{0} хв."
+msgstr[1] "{0} хв."
+msgstr[2] "{0} хв."
+
+#, python-brace-format
+msgctxt "@info:status"
+msgid "{application_name} {version_number} is available!"
+msgstr "Доступна версія {application_name} {version_number}!"
+
+#, python-brace-format
+msgctxt "@info:status"
+msgid "{application_name} {version_number} provides a better and more reliable printing experience."
+msgstr "{application_name} {version_number} забезпечує більш якісний та надійний друк."
